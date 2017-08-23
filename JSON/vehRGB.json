@@ -1,0 +1,655 @@
+{
+  "smoke": [
+    {
+      "menuName": "Default",
+      "data": {
+        "action": "18 17 16"
+      }
+    },
+    {
+      "menuName": "Black",
+      "data": {
+        "action": "8 8 8"
+      }
+    },
+    {
+      "menuName": "Graphite",
+      "data": {
+        "action": "15 15 15"
+      }
+    },
+    {
+      "menuName": "Anthracite Black",
+      "data": {
+        "action": "18 17 16"
+      }
+    },
+    {
+      "menuName": "Black Steel",
+      "data": {
+        "action": "28 30 33"
+      }
+    },
+    {
+      "menuName": "Dark Silver",
+      "data": {
+        "action": "41 44 46"
+      }
+    },
+    {
+      "menuName": "Silver",
+      "data": {
+        "action": "90 94 102"
+      }
+    },
+    {
+      "menuName": "Blue Silver",
+      "data": {
+        "action": "119 124 135"
+      }
+    },
+    {
+      "menuName": "Rolled Steel",
+      "data": {
+        "action": "81 84 89"
+      }
+    },
+    {
+      "menuName": "Shadow Silver",
+      "data": {
+        "action": "50 59 71"
+      }
+    },
+    {
+      "menuName": "Stone Silver",
+      "data": {
+        "action": "51 51 51"
+      }
+    },
+    {
+      "menuName": "Midnight Silver",
+      "data": {
+        "action": "31 34 38"
+      }
+    },
+    {
+      "menuName": "Cast Iron Silver",
+      "data": {
+        "action": "35 41 46"
+      }
+    },
+    {
+      "menuName": "Red",
+      "data": {
+        "action": "105 0 0"
+      }
+    },
+    {
+      "menuName": "Torino Red",
+      "data": {
+        "action": "138 11 0"
+      }
+    },
+    {
+      "menuName": "Formula Red",
+      "data": {
+        "action": "107 0 0"
+      }
+    },
+    {
+      "menuName": "Lava Red",
+      "data": {
+        "action": "107 11 0"
+      }
+    },
+    {
+      "menuName": "Blaze Red",
+      "data": {
+        "action": "97 16 9"
+      }
+    },
+    {
+      "menuName": "Grace Red",
+      "data": {
+        "action": "74 10 10"
+      }
+    },
+    {
+      "menuName": "Garnet Red",
+      "data": {
+        "action": "71 14 14"
+      }
+    },
+    {
+      "menuName": "Sunset Red",
+      "data": {
+        "action": "56 12 0"
+      }
+    },
+    {
+      "menuName": "Cabernet Red",
+      "data": {
+        "action": "38 3 11"
+      }
+    },
+    {
+      "menuName": "Wine Red",
+      "data": {
+        "action": "8 0 0"
+      }
+    },
+    {
+      "menuName": "Candy Red",
+      "data": {
+        "action": "99 0 18"
+      }
+    },
+    {
+      "menuName": "Hot Pink",
+      "data": {
+        "action": "176 18 89"
+      }
+    },
+    {
+      "menuName": "Pink",
+      "data": {
+        "action": "143 47 85"
+      }
+    },
+    {
+      "menuName": "Salmon Pink",
+      "data": {
+        "action": "246 151 153"
+      }
+    },
+    {
+      "menuName": "Sunrise Orange",
+      "data": {
+        "action": "128 40 0"
+      }
+    },
+    {
+      "menuName": "Bright Orange",
+      "data": {
+        "action": "194 102 16"
+      }
+    },
+    {
+      "menuName": "Gold",
+      "data": {
+        "action": "94 83 67"
+      }
+    },
+    {
+      "menuName": "Bronze",
+      "data": {
+        "action": "74 52 27"
+      }
+    },
+    {
+      "menuName": "Yellow",
+      "data": {
+        "action": "245 137 15"
+      }
+    },
+    {
+      "menuName": "Flur Yellow",
+      "data": {
+        "action": "162 168 39"
+      }
+    },
+    {
+      "menuName": "Dark Green",
+      "data": {
+        "action": "0 18 7"
+      }
+    },
+    {
+      "menuName": "Sea Green",
+      "data": {
+        "action": "0 33 30"
+      }
+    },
+    {
+      "menuName": "Olive Green",
+      "data": {
+        "action": "31 38 30"
+      }
+    },
+    {
+      "menuName": "Bright Green",
+      "data": {
+        "action": "0 56 5"
+      }
+    },
+    {
+      "menuName": "Petrol Green",
+      "data": {
+        "action": "11 65 69"
+      }
+    },
+    {
+      "menuName": "Lime Green",
+      "data": {
+        "action": "86 143 0"
+      }
+    },
+    {
+      "menuName": "Midnight Blue",
+      "data": {
+        "action": "0 1 8"
+      }
+    },
+    {
+      "menuName": "Galaxy Blue",
+      "data": {
+        "action": "0 13 20"
+      }
+    },
+    {
+      "menuName": "Dark Blue",
+      "data": {
+        "action": "0 16 41"
+      }
+    },
+    {
+      "menuName": "Saxon Blue",
+      "data": {
+        "action": "28 47 79"
+      }
+    },
+    {
+      "menuName": "Blue",
+      "data": {
+        "action": "0 27 87"
+      }
+    },
+    {
+      "menuName": "Mariner Blue",
+      "data": {
+        "action": "59 78 120"
+      }
+    },
+    {
+      "menuName": "Harbor Blue",
+      "data": {
+        "action": "39 45 59"
+      }
+    },
+    {
+      "menuName": "Diamond Blue",
+      "data": {
+        "action": "149 178 219"
+      }
+    },
+    {
+      "menuName": "Surf Blue",
+      "data": {
+        "action": "62 98 122"
+      }
+    },
+    {
+      "menuName": "Nautical Blue",
+      "data": {
+        "action": "28 49 64"
+      }
+    },
+    {
+      "menuName": "Racing Blue",
+      "data": {
+        "action": "14 49 109"
+      }
+    },
+    {
+      "menuName": "Light Blue",
+      "data": {
+        "action": "57 90 131"
+      }
+    },
+    {
+      "menuName": "Bison Brown",
+      "data": {
+        "action": "34 25 24"
+      }
+    },
+    {
+      "menuName": "Creek Brown",
+      "data": {
+        "action": "38 33 23"
+      }
+    },
+    {
+      "menuName": "Umber Brown",
+      "data": {
+        "action": "41 27 6"
+      }
+    },
+    {
+      "menuName": "Maple Brown",
+      "data": {
+        "action": "51 33 17"
+      }
+    },
+    {
+      "menuName": "Beechwood Brown",
+      "data": {
+        "action": "36 19 9"
+      }
+    },
+    {
+      "menuName": "Sienna Brown",
+      "data": {
+        "action": "59 23 0"
+      }
+    },
+    {
+      "menuName": "Saddle Brown",
+      "data": {
+        "action": "61 48 35"
+      }
+    },
+    {
+      "menuName": "Moss Brown",
+      "data": {
+        "action": "55 56 43"
+      }
+    },
+    {
+      "menuName": "Woodbeech Brown",
+      "data": {
+        "action": "87 80 54"
+      }
+    },
+    {
+      "menuName": "Straw Brown",
+      "data": {
+        "action": "94 83 67"
+      }
+    },
+    {
+      "menuName": "Sandy Brown",
+      "data": {
+        "action": "110 98 70"
+      }
+    },
+    {
+      "menuName": "Bleeched Brown",
+      "data": {
+        "action": "153 141 115"
+      }
+    },
+    {
+      "menuName": "Purple",
+      "data": {
+        "action": "26 24 46"
+      }
+    },
+    {
+      "menuName": "Spin Purple",
+      "data": {
+        "action": "22 22 41"
+      }
+    },
+    {
+      "menuName": "Might Purple",
+      "data": {
+        "action": "5 0 8"
+      }
+    },
+    {
+      "menuName": "Bright Purple",
+      "data": {
+        "action": "50 6 66"
+      }
+    },
+    {
+      "menuName": "Cream",
+      "data": {
+        "action": "207 192 165"
+      }
+    },
+    {
+      "menuName": "Frost White",
+      "data": {
+        "action": "179 185 201"
+      }
+    }
+  ],
+  "neon": [
+    {
+      "menuName": "White",
+      "data": {
+        "action": "222 222 255"
+      }
+    },
+    {
+      "menuName": "Cream",
+      "data": {
+        "action": "207 192 165"
+      }
+    },
+    {
+      "menuName": "Red",
+      "data": {
+        "action": "255 1 1"
+      }
+    },
+    {
+      "menuName": "Lava Red",
+      "data": {
+        "action": "105 0 0"
+      }
+    },
+    {
+      "menuName": "Grace Red",
+      "data": {
+        "action": "74 10 10"
+      }
+    },
+    {
+      "menuName": "Garnet Red",
+      "data": {
+        "action": "71 14 14"
+      }
+    },
+    {
+      "menuName": "Wine Red",
+      "data": {
+        "action": "8 0 0"
+      }
+    },
+    {
+      "menuName": "Pony Pink",
+      "data": {
+        "action": "255 50 100"
+      }
+    },
+    {
+      "menuName": "Fluorescent Pink",
+      "data": {
+        "action": "255 5 190"
+      }
+    },
+    {
+      "menuName": "Light Pink",
+      "data": {
+        "action": "38 3 11"
+      }
+    },
+    {
+      "menuName": "Hot Pink",
+      "data": {
+        "action": "99 0 18"
+      }
+    },
+    {
+      "menuName": "Pink",
+      "data": {
+        "action": "176 18 89"
+      }
+    },
+    {
+      "menuName": "Salmon Pink",
+      "data": {
+        "action": "143 47 85"
+      }
+    },
+    {
+      "menuName": "Orange",
+      "data": {
+        "action": "138 11 0"
+      }
+    },
+    {
+      "menuName": "Light Orange",
+      "data": {
+        "action": "107 11 0"
+      }
+    },
+    {
+      "menuName": "Gold",
+      "data": {
+        "action": "255 62 0"
+      }
+    },
+    {
+      "menuName": "Light Gold",
+      "data": {
+        "action": "194 102 16"
+      }
+    },
+    {
+      "menuName": "Golden Shower",
+      "data": {
+        "action": "255 150 5"
+      }
+    },
+    {
+      "menuName": "Bronze",
+      "data": {
+        "action": "74 52 27"
+      }
+    },
+    {
+      "menuName": "Yellow",
+      "data": {
+        "action": "245 137 15"
+      }
+    },
+    {
+      "menuName": "Flur Yellow",
+      "data": {
+        "action": "162 168 39"
+      }
+    },
+    {
+      "menuName": "Flurorescent Yellow",
+      "data": {
+        "action": "255 255 0"
+      }
+    },
+    {
+      "menuName": "Mint Green",
+      "data": {
+        "action": "0 255 140"
+      }
+    },
+    {
+      "menuName": "Fluorescent Green",
+      "data": {
+        "action": "94 255 1"
+      }
+    },
+    {
+      "menuName": "Dark Green",
+      "data": {
+        "action": "0 18 7"
+      }
+    },
+    {
+      "menuName": "Sea Green",
+      "data": {
+        "action": "0 33 30"
+      }
+    },
+    {
+      "menuName": "Bright Green",
+      "data": {
+        "action": "0 56 5"
+      }
+    },
+    {
+      "menuName": "Petrol Green",
+      "data": {
+        "action": "11 65 69"
+      }
+    },
+    {
+      "menuName": "Electric Blue",
+      "data": {
+        "action": "3 83 255"
+      }
+    },
+    {
+      "menuName": "Midnight Blue",
+      "data": {
+        "action": "0 1 8"
+      }
+    },
+    {
+      "menuName": "Galaxy Blue",
+      "data": {
+        "action": "0 13 20"
+      }
+    },
+    {
+      "menuName": "Dark Blue",
+      "data": {
+        "action": "0 16 41"
+      }
+    },
+    {
+      "menuName": "Blue",
+      "data": {
+        "action": "0 27 87"
+      }
+    },
+    {
+      "menuName": "Racing Blue",
+      "data": {
+        "action": "14 49 109"
+      }
+    },
+    {
+      "menuName": "Purple",
+      "data": {
+        "action": "35 1 255"
+      }
+    },
+    {
+      "menuName": "Spin Purple",
+      "data": {
+        "action": "26 24 46"
+      }
+    },
+    {
+      "menuName": "Might Purple",
+      "data": {
+        "action": "5 0 8"
+      }
+    },
+    {
+      "menuName": "Bright Purple",
+      "data": {
+        "action": "50 6 66"
+      }
+    },
+    {
+      "menuName": "Blacklight",
+      "data": {
+        "action": "15 3 255"
+      }
+    }
+  ]
+}
+
