@@ -89,7 +89,7 @@ function appendAllElements(myarray){
 
 
 $(document).ready(function(){
-	var vehJSON = $.getJSON("JSON/vehicles.json", function( data ) {
+	var vehJSON = $.getJSON("/JSON/vehicles.json", function( data ) {
 		var items = [];
 
 
