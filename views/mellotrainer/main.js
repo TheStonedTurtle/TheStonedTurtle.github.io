@@ -90,8 +90,9 @@ function appendAllElements(myarray){
 
 $(document).ready(function(){
 	var vehJSON = $.getJSON("/JSON/vehicles.json", function( data ) {
-		var items = [];
+		//alphabetizeJSON(data)
 
+		var items = [];
 
 		$.each( data, function(key, objectArray){
 			var myDiv = $("<div></div>")
@@ -101,6 +102,8 @@ $(document).ready(function(){
 			var containDiv = $("<div></div>")
 			containDiv.attr("id",key+"container")
 			containDiv.addClass("hidden")
+
+
 
 			// Loop over each object in the array
 			for(var index=0; index < objectArray.length; index++){
@@ -139,3 +142,22 @@ function CreateMenuFromJSON(JSONObject){
 
 	return htmlEles
 }
+
+
+function sortJSONObjects(a, b) {
+    var textA = a.menuName.toUpperCase();
+    var textB = b.menuName.toUpperCase();
+    return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
+}
+
+function alphabetizeJSON(JSON){
+	var newJSON = {}
+	$.each(JSON, function(key, data){ 
+		data.sort(sortJSONObjects)
+		newJSON[key] = data
+	})
+	console.log(JSON.stringify(newJSON))
+	return newJSON
+}
+
+//alphabetizeJSON(x)

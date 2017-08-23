@@ -1,2244 +1,3108 @@
-{ 
-	"vehicle_sports": [{
-		"menuName": "Albany Alpha",
-		"data": {
-			"action": "ALPHA"
-		}
-	}, {
-		"menuName": "Annis Elegy RH8",
-		"data": {
-			"action": "ELEGY2"
-		}
-	}, {
-		"menuName": "Benefactor Feltzer",
-		"data": {
-			"action": "FELTZER2"
-		}
-	}, {
-		"menuName": "Benefactor Schwarzer",
-		"data": {
-			"action": "SCHWARZER"
-		}
-	}, {
-		"menuName": "Benefactor Surano",
-		"data": {
-			"action": "SURANO"
-		}
-	}, {
-		"menuName": "BF Raptor",
-		"data": {
-			"action": "RAPTOR"
-		}
-	}, {
-		"menuName": "Bravado Banshee",
-		"data": {
-			"action": "BANSHEE"
-		}
-	}, {
-		"menuName": "Bravado Buffalo",
-		"data": {
-			"action": "BUFFALO"
-		}
-	}, {
-		"menuName": "Bravado Buffalo S",
-		"data": {
-			"action": "BUFFALO2"
-		}
-	}, {
-		"menuName": "Bravado Buffalo S (Race)",
-		"data": {
-			"action": "BUFFALO3"
-		}
-	}, {
-		"menuName": "Bravado Verlierer",
-		"data": {
-			"action": "VERLIERER2"
-		}
-	}, {
-		"menuName": "Declasse Drift Tampa",
-		"data": {
-			"action": "TAMPA2"
-		}
-	}, {
-		"menuName": "Dewbauchee Massacro",
-		"data": {
-			"action": "MASSACRO"
-		}
-	}, {
-		"menuName": "Dewbauchee Massacro (Race)",
-		"data": {
-			"action": "MASSACRO2"
-		}
-	}, {
-		"menuName": "Dewbauchee Rapid GT",
-		"data": {
-			"action": "RAPIDGT"
-		}
-	}, {
-		"menuName": "Dewbauchee Rapid GT Cabrio",
-		"data": {
-			"action": "RAPIDGT2"
-		}
-	}, {
-		"menuName": "Dewbauchee Seven-70",
-		"data": {
-			"action": "SEVEN70"
-		}
-	}, {
-		"menuName": "Dinka Blista Compact",
-		"data": {
-			"action": "BLISTA2"
-		}
-	}, {
-		"menuName": "Dinka Blista Compact (Race)",
-		"data": {
-			"action": "BLISTA3"
-		}
-	}, {
-		"menuName": "Dinka Jester",
-		"data": {
-			"action": "JESTER"
-		}
-	}, {
-		"menuName": "Dinka Jester (Race)",
-		"data": {
-			"action": "JESTER2"
-		}
-	}, {
-		"menuName": "Grotti Bestia GTS",
-		"data": {
-			"action": "BESTIAGTS"
-		}
-	}, {
-		"menuName": "Grotti Carbonizzare",
-		"data": {
-			"action": "CARBONIZZARE"
-		}
-	}, {
-		"menuName": "Hijak Khamelion",
-		"data": {
-			"action": "KHAMELION"
-		}
-	}, {
-		"menuName": "Invetero Coquette",
-		"data": {
-			"action": "COQUETTE"
-		}
-	}, {
-		"menuName": "Karin Futo",
-		"data": {
-			"action": "FUTO"
-		}
-	}, {
-		"menuName": "Karin Kuruma",
-		"data": {
-			"action": "KURUMA"
-		}
-	}, {
-		"menuName": "Karin Kuruma (Armoured)",
-		"data": {
-			"action": "KURUMA2"
-		}
-	}, {
-		"menuName": "Karin Sultan",
-		"data": {
-			"action": "SULTAN"
-		}
-	}, {
-		"menuName": "Lampadati Furore GT",
-		"data": {
-			"action": "FUROREGT"
-		}
-	}, {
-		"menuName": "Lampadati Tropos Rallye",
-		"data": {
-			"action": "TROPOS"
-		}
-	}, {
-		"menuName": "Maibatsu Penumbra",
-		"data": {
-			"action": "PENUMBRA"
-		}
-	}, {
-		"menuName": "Obey 9F",
-		"data": {
-			"action": "NINEF"
-		}
-	}, {
-		"menuName": "Obey 9F Cabrio",
-		"data": {
-			"action": "NINEF2"
-		}
-	}, {
-		"menuName": "Obey Omnis",
-		"data": {
-			"action": "OMNIS"
-		}
-	}, {
-		"menuName": "Ocelot Lynx",
-		"data": {
-			"action": "LYNX"
-		}
-	}, {
-		"menuName": "Phister Comet",
-		"data": {
-			"action": "COMET2"
-		}
-	}, {
-		"menuName": "Schyster Fusilade",
-		"data": {
-			"action": "FUSILADE"
-		}
-	}],
-	"vehicle_sportsclassics": [{
-		"menuName": "Albany Manana",
-		"data": {
-			"action": "MANANA"
-		}
-	}, {
-		"menuName": "Albany Roosevelt 1",
-		"data": {
-			"action": "BTYPE"
-		}
-	}, {
-		"menuName": "Albany Roosevelt 2",
-		"data": {
-			"action": "BTYPE3"
-		}
-	}, {
-		"menuName": "Benefactor Stirling GT",
-		"data": {
-			"action": "FELTZER3"
-		}
-	}, {
-		"menuName": "Declasse Tornado",
-		"data": {
-			"action": "TORNADO"
-		}
-	}, {
-		"menuName": "Declasse Tornado (Rusty)",
-		"data": {
-			"action": "TORNADO2"
-		}
-	}, {
-		"menuName": "Declasse Tornado Cabrio",
-		"data": {
-			"action": "TORNADO3"
-		}
-	}, {
-		"menuName": "Declasse Tornado Cabrio (Rusty)",
-		"data": {
-			"action": "TORNADO4"
-		}
-	}, {
-		"menuName": "Declasse Tornado Rat Rod",
-		"data": {
-			"action": "TORNADO6"
-		}
-	}, {
-		"menuName": "Dewbauchee JB 700",
-		"data": {
-			"action": "JB700"
-		}
-	}, {
-		"menuName": "Grotti Stinger",
-		"data": {
-			"action": "STINGER"
-		}
-	}, {
-		"menuName": "Grotti Stinger GT",
-		"data": {
-			"action": "STINGERGT"
-		}
-	}, {
-		"menuName": "Invetero Coquette Classic",
-		"data": {
-			"action": "COQUETTE2"
-		}
-	}, {
-		"menuName": "Lampadati Casco",
-		"data": {
-			"action": "CASCO"
-		}
-	}, {
-		"menuName": "Lampadati Pigalle",
-		"data": {
-			"action": "PIGALLE"
-		}
-	}, {
-		"menuName": "Pegassi Monroe",
-		"data": {
-			"action": "MONROE"
-		}
-	}, {
-		"menuName": "Truffade Z-Type",
-		"data": {
-			"action": "ZTYPE"
-		}
-	}, {
-		"menuName": "Vapid Peyote",
-		"data": {
-			"action": "PEYOTE"
-		}
-	}],
-	"vehicle_muscle": [{
-		"menuName": "Albany Buccaneer",
-		"data": {
-			"action": "BUCCANEER"
-		}
-	}, {
-		"menuName": "Albany Franken Strange",
-		"data": {
-			"action": "BTYPE2"
-		}
-	}, {
-		"menuName": "Albany Lurcher",
-		"data": {
-			"action": "LURCHER"
-		}
-	}, {
-		"menuName": "Albany Virgo",
-		"data": {
-			"action": "VIRGO"
-		}
-	}, {
-		"menuName": "Bravado Gauntlet",
-		"data": {
-			"action": "GAUNTLET"
-		}
-	}, {
-		"menuName": "Bravado Gauntlet (Race)",
-		"data": {
-			"action": "GAUNTLET2"
-		}
-	}, {
-		"menuName": "Cheval Picador",
-		"data": {
-			"action": "PICADOR"
-		}
-	}, {
-		"menuName": "Declasse Mamba",
-		"data": {
-			"action": "MAMBA"
-		}
-	}, {
-		"menuName": "Declasse Tampa",
-		"data": {
-			"action": "TAMPA"
-		}
-	}, {
-		"menuName": "Declasse Sabre Turbo",
-		"data": {
-			"action": "SABREGT"
-		}
-	}, {
-		"menuName": "Declasse Stallion",
-		"data": {
-			"action": "STALION"
-		}
-	}, {
-		"menuName": "Declasse Staillion (Race)",
-		"data": {
-			"action": "STALION2"
-		}
-	}, {
-		"menuName": "Declasse Vigero",
-		"data": {
-			"action": "VIGERO"
-		}
-	}, {
-		"menuName": "Declasse Voodoo",
-		"data": {
-			"action": "VOODOO2"
-		}
-	}, {
-		"menuName": "Dundreary Virgo Classic",
-		"data": {
-			"action": "VIRGO"
-		}
-	}, {
-		"menuName": "Imponte Duke O' Death",
-		"data": {
-			"action": "DUKES2"
-		}
-	}, {
-		"menuName": "Imponte Dukes",
-		"data": {
-			"action": "DUKES"
-		}
-	}, {
-		"menuName": "Imponte Nightshade",
-		"data": {
-			"action": "NIGHTSHADE"
-		}
-	}, {
-		"menuName": "Imponte Pheonix",
-		"data": {
-			"action": "PHOENIX"
-		}
-	}, {
-		"menuName": "Imponte Ruiner",
-		"data": {
-			"action": "RUINER"
-		}
-	}, {
-		"menuName": "Invetero Coquette BlackFin",
-		"data": {
-			"action": "COQUETTE3"
-		}
-	}, {
-		"menuName": "Vapid Blade",
-		"data": {
-			"action": "BLADE"
-		}
-	}, {
-		"menuName": "Vapid Chino",
-		"data": {
-			"action": "CHINO"
-		}
-	}, {
-		"menuName": "Vapid Dominator",
-		"data": {
-			"action": "DOMINATOR"
-		}
-	}, {
-		"menuName": "Vapid Dominator (Race)",
-		"data": {
-			"action": "DOMINATOR2"
-		}
-	}, {
-		"menuName": "Vapid Hotknife",
-		"data": {
-			"action": "HOTKNIFE"
-		}
-	}, {
-		"menuName": "Vapid Slamvan",
-		"data": {
-			"action": "SLAMVAN"
-		}
-	}, {
-		"menuName": "Vapid Slamvan (Lost MC)",
-		"data": {
-			"action": "SLAMVAN2"
-		}
-	}, {
-		"menuName": "Willard Faction",
-		"data": {
-			"action": "FACTION"
-		}
-	}],
-	"vehicle_lowriders": [{
-		"menuName": "Albany Buccaneer",
-		"data": {
-			"action": "BUCCANEER"
-		}
-	}, {
-		"menuName": "Albany Primo",
-		"data": {
-			"action": "PRIMO"
-		}
-	}, {
-		"menuName": "Declasse Moonbeam",
-		"data": {
-			"action": "MOONBEAM"
-		}
-	}, {
-		"menuName": "Declasse Sabre Turbo",
-		"data": {
-			"action": "SABREGT"
-		}
-	}, {
-		"menuName": "Declasse Tornado",
-		"data": {
-			"action": "TORNADO"
-		}
-	}, {
-		"menuName": "Declasse Voodoo",
-		"data": {
-			"action": "VOODOO2"
-		}
-	}, {
-		"menuName": "Dundreary Virgo Classic",
-		"data": {
-			"action": "VIRGO3"
-		}
-	}, {
-		"menuName": "Vapid Chino",
-		"data": {
-			"action": "CHINO2"
-		}
-	}, {
-		"menuName": "Vapid Minivan",
-		"data": {
-			"action": "MINIVAN"
-		}
-	}, {
-		"menuName": "Vapid Slamvan",
-		"data": {
-			"action": "SLAMVAN"
-		}
-	}, {
-		"menuName": "Willard Faction",
-		"data": {
-			"action": "FACTION2"
-		}
-	}, {
-		"menuName": "Willard Faction Donk",
-		"data": {
-			"action": "FACTION3"
-		}
-	}],
-	"vehicle_coupes": [{
-		"menuName": "Dewbauchee Exemplar",
-		"data": {
-			"action": "EXEMPLAR"
-		}
-	}, {
-		"menuName": "Enus Cognoscenti Cabrio",
-		"data": {
-			"action": "COGCABRIO"
-		}
-	}, {
-		"menuName": "Enus Windsor",
-		"data": {
-			"action": "WINDSOR"
-		}
-	}, {
-		"menuName": "Enus Windsor Drop",
-		"data": {
-			"action": "WINDSOR2"
-		}
-	}, {
-		"menuName": "Lampadati Felon",
-		"data": {
-			"action": "FELON"
-		}
-	}, {
-		"menuName": "Lampadati Felon GT",
-		"data": {
-			"action": "FELON2"
-		}
-	}, {
-		"menuName": "Ocelot F620",
-		"data": {
-			"action": "F620"
-		}
-	}, {
-		"menuName": "Ocelot Jackal",
-		"data": {
-			"action": "JACKAL"
-		}
-	}, {
-		"menuName": "Ubermacht Sentinel",
-		"data": {
-			"action": "SENTINEL"
-		}
-	}, {
-		"menuName": "Ubermacht Sentinel XS",
-		"data": {
-			"action": "SENTINEL2"
-		}
-	}, {
-		"menuName": "Ubermacht Zion",
-		"data": {
-			"action": "ORACLE"
-		}
-	}, {
-		"menuName": "Ubermacht Zion Cabrio",
-		"data": {
-			"action": "ORACLE2"
-		}
-	}],
-	"vehicle_sedans": [{
-		"menuName": "Albany Emperor",
-		"data": {
-			"action": "EMPEROR"
-		}
-	}, {
-		"menuName": "Albany Emperor (Rusty)",
-		"data": {
-			"action": "EMPEROR2"
-		}
-	}, {
-		"menuName": "Albany Emperor (Snow)",
-		"data": {
-			"action": "EMPEROR3"
-		}
-	}, {
-		"menuName": "Albany Primo",
-		"data": {
-			"action": "PRIMO"
-		}
-	}, {
-		"menuName": "Albany Washington",
-		"data": {
-			"action": "WASHINGTON"
-		}
-	}, {
-		"menuName": "Benefactor Glendale",
-		"data": {
-			"action": "GLENDALE"
-		}
-	}, {
-		"menuName": "Benefactor Schafter",
-		"data": {
-			"action": "SCHAFTER2"
-		}
-	}, {
-		"menuName": "Chariot Romero Hearse",
-		"data": {
-			"action": "ROMERO"
-		}
-	}, {
-		"menuName": "Cheval Fugitive",
-		"data": {
-			"action": "FUGITIVE"
-		}
-	}, {
-		"menuName": "Cheval Surge",
-		"data": {
-			"action": "SURGE"
-		}
-	}, {
-		"menuName": "Declasse Asea",
-		"data": {
-			"action": "ASEA"
-		}
-	}, {
-		"menuName": "Declasse Asea (snow)",
-		"data": {
-			"action": "ASEA2"
-		}
-	}, {
-		"menuName": "Declasse Premier",
-		"data": {
-			"action": "PREMIER"
-		}
-	}, {
-		"menuName": "Dundreary Regina",
-		"data": {
-			"action": "REGINA"
-		}
-	}, {
-		"menuName": "Dundreary Stretch",
-		"data": {
-			"action": "STRETCH"
-		}
-	}, {
-		"menuName": "Enus Super Diamond",
-		"data": {
-			"action": "SUPERD"
-		}
-	}, {
-		"menuName": "Karin Asterope",
-		"data": {
-			"action": "ASTEROPE"
-		}
-	}, {
-		"menuName": "Karin Intruder",
-		"data": {
-			"action": "INTRUDER"
-		}
-	}, {
-		"menuName": "Obey Tailgater",
-		"data": {
-			"action": "TAILGATER"
-		}
-	}, {
-		"menuName": "Ubermacht Oracle",
-		"data": {
-			"action": "ORACLE"
-		}
-	}, {
-		"menuName": "Ubermacht Oracle Mk2",
-		"data": {
-			"action": "ORACLE2"
-		}
-	}, {
-		"menuName": "Vapid Stanier",
-		"data": {
-			"action": "STANIER"
-		}
-	}, {
-		"menuName": "Vapid Stanier (Taxi)",
-		"data": {
-			"action": "TAXI"
-		}
-	}, {
-		"menuName": "Vulcan Ingot",
-		"data": {
-			"action": "INGOT"
-		}
-	}, {
-		"menuName": "Vulcar Warrener",
-		"data": {
-			"action": "WARRENER"
-		}
-	}, {
-		"menuName": "Zirconium Stratum",
-		"data": {
-			"action": "STRATUM"
-		}
-	}],
-	"vehicle_compacts": [{
-		"menuName": "Benefactor Panto",
-		"data": {
-			"action": "PANTO"
-		}
-	}, {
-		"menuName": "Bollokan Prairie",
-		"data": {
-			"action": "PRAIRIE"
-		}
-	}, {
-		"menuName": "Declasse Rhapsody",
-		"data": {
-			"action": "RHAPSODY"
-		}
-	}, {
-		"menuName": "Dinka Blista",
-		"data": {
-			"action": "BLISTA"
-		}
-	}, {
-		"menuName": "Grotti Brioso R/A",
-		"data": {
-			"action": "BRIOSO"
-		}
-	}, {
-		"menuName": "Karin Dilettante",
-		"data": {
-			"action": "DILETTANTE"
-		}
-	}, {
-		"menuName": "Karin Dilettante (FlyUS)",
-		"data": {
-			"action": "DILETTANTE2"
-		}
-	}, {
-		"menuName": "Weeny Issi",
-		"data": {
-			"action": "ISSI2"
-		}
-	}],
-	"vehicle_suvs": [{
-		"menuName": "Albany Cavalcade",
-		"data": {
-			"action": "CAVALCADE"
-		}
-	}, {
-		"menuName": "Albany Cavalcade Mk2",
-		"data": {
-			"action": "CAVALCADE2"
-		}
-	}, {
-		"menuName": "Benefactor Dubsta",
-		"data": {
-			"action": "DUBSTA"
-		}
-	}, {
-		"menuName": "Benefactor Dubsta (Flat Black)",
-		"data": {
-			"action": "DUBSTA2"
-		}
-	}, {
-		"menuName": "Benefactor Serrano",
-		"data": {
-			"action": "SERRANO"
-		}
-	}, {
-		"menuName": "Bravado Gresley",
-		"data": {
-			"action": "GRESLEY"
-		}
-	}, {
-		"menuName": "Canis Mesa",
-		"data": {
-			"action": "MESA"
-		}
-	}, {
-		"menuName": "Canis Mesa (Snow)",
-		"data": {
-			"action": "MESA2"
-		}
-	}, {
-		"menuName": "Canis Seminole",
-		"data": {
-			"action": "SEMINOLE"
-		}
-	}, {
-		"menuName": "Declasse Granger",
-		"data": {
-			"action": "GRANGER"
-		}
-	}, {
-		"menuName": "Dundreary Landstalker",
-		"data": {
-			"action": "LANDSTALKER"
-		}
-	}, {
-		"menuName": "Emperor Habanero",
-		"data": {
-			"action": "HABANERO"
-		}
-	}, {
-		"menuName": "Enus Huntley S",
-		"data": {
-			"action": "HUNTLEY"
-		}
-	}, {
-		"menuName": "Fathom FQ 2",
-		"data": {
-			"action": "FQ2"
-		}
-	}, {
-		"menuName": "Gallivanter Baller (Large)",
-		"data": {
-			"action": "BALLER"
-		}
-	}, {
-		"menuName": "Gallivanter Baller (Small)",
-		"data": {
-			"action": "BALLER2"
-		}
-	}, {
-		"menuName": "Karin BeeJay XL",
-		"data": {
-			"action": "BJXL"
-		}
-	}, {
-		"menuName": "Mammoth Patriot",
-		"data": {
-			"action": "PATRIOT"
-		}
-	}, {
-		"menuName": "Obey Rocoto",
-		"data": {
-			"action": "ROCOTO"
-		}
-	}, {
-		"menuName": "Vapid Contender",
-		"data": {
-			"action": "CONTENDER"
-		}
-	}, {
-		"menuName": "Vapid Radius",
-		"data": {
-			"action": "RADI"
-		}
-	}],
-	"vehicle_offroad": [{
-		"menuName": "Benefactor Dubsta 6x6",
-		"data": {
-			"action": "DUBSTA3"
-		}
-	}, {
-		"menuName": "BF Bifta",
-		"data": {
-			"action": "BIFTA"
-		}
-	}, {
-		"menuName": "BF Injection",
-		"data": {
-			"action": "BFINJECTION"
-		}
-	}, {
-		"menuName": "Bravado Dune",
-		"data": {
-			"action": "DUNE"
-		}
-	}, {
-		"menuName": "Bravado Duneloader",
-		"data": {
-			"action": "DLOADER"
-		}
-	}, {
-		"menuName": "Bravado Space Docker",
-		"data": {
-			"action": "DUNE2"
-		}
-	}, {
-		"menuName": "Canis Bodhi",
-		"data": {
-			"action": "BODHI2"
-		}
-	}, {
-		"menuName": "Canis Kalahari",
-		"data": {
-			"action": "KALAHARI"
-		}
-	}, {
-		"menuName": "Canis Mesa (Off-Road)",
-		"data": {
-			"action": "MESA3"
-		}
-	}, {
-		"menuName": "Cheval Marshall",
-		"data": {
-			"action": "MARSHALL"
-		}
-	}, {
-		"menuName": "Coil Brawler",
-		"data": {
-			"action": "BRAWLER"
-		}
-	}, {
-		"menuName": "Declasse Rancher XL",
-		"data": {
-			"action": "RANCHERXL"
-		}
-	}, {
-		"menuName": "Declasse Rancher XL (Snow)",
-		"data": {
-			"action": "RANCHERXL2"
-		}
-	}, {
-		"menuName": "Insurgent",
-		"data": {
-			"action": "INSURGENT"
-		}
-	}, {
-		"menuName": "Insurgent (Gun Mount)",
-		"data": {
-			"action": "INSURGENT2"
-		}
-	}, {
-		"menuName": "Karin Rebel",
-		"data": {
-			"action": "REBEL"
-		}
-	}, {
-		"menuName": "Karin Rebel (Rusty)",
-		"data": {
-			"action": "REBEL2"
-		}
-	}, {
-		"menuName": "Karin Technical",
-		"data": {
-			"action": "TECHNICAL"
-		}
-	}, {
-		"menuName": "Nagasaki Blazer",
-		"data": {
-			"action": "BLAZER"
-		}
-	}, {
-		"menuName": "Nagasaki Blazer (Hot Rod)",
-		"data": {
-			"action": "BLAZER3"
-		}
-	}, {
-		"menuName": "Nagasaki Blazer (Lifeguard)",
-		"data": {
-			"action": "BLAZER2"
-		}
-	}, {
-		"menuName": "Nagasaki Blazer (Street)",
-		"data": {
-			"action": "BLAZER4"
-		}
-	}, {
-		"menuName": "Vapid Desert Raid",
-		"data": {
-			"action": "TROPHYTRUCK2"
-		}
-	}, {
-		"menuName": "Vapid Guardian",
-		"data": {
-			"action": "GUARDIAN"
-		}
-	}, {
-		"menuName": "Vapid Liberator",
-		"data": {
-			"action": "MONSTER"
-		}
-	}, {
-		"menuName": "Vapid Sandking",
-		"data": {
-			"action": "SANDKING2"
-		}
-	}, {
-		"menuName": "Vapid Sandking XL",
-		"data": {
-			"action": "SANDKING"
-		}
-	}, {
-		"menuName": "Vapid Trophy Truck",
-		"data": {
-			"action": "TROPHYTRUCK"
-		}
-	}],
-	"vehicle_vip": [{
-		"menuName": "Benefactor Schafter V12",
-		"data": {
-			"action": "SCHAFTER3"
-		}
-	}, {
-		"menuName": "Benefactor Schafter V12 (Armored)",
-		"data": {
-			"action": "SCHAFTER5"
-		}
-	}, {
-		"menuName": "Benefactor Schafter LWB",
-		"data": {
-			"action": "SCHAFTER4"
-		}
-	}, {
-		"menuName": "Benefactor Schafter LWB (Armored)",
-		"data": {
-			"action": "SCHAFTER6"
-		}
-	}, {
-		"menuName": "Benefactor Turreted Limo",
-		"data": {
-			"action": "LIMO2"
-		}
-	}, {
-		"menuName": "Benefactor XLS",
-		"data": {
-			"action": "XLS"
-		}
-	}, {
-		"menuName": "Benefactor XLS (Armored)",
-		"data": {
-			"action": "XLS2"
-		}
-	}, {
-		"menuName": "Enus Cognoscenti",
-		"data": {
-			"action": "COGNOSCENTI"
-		}
-	}, {
-		"menuName": "Enus Cognoscenti (Armored)",
-		"data": {
-			"action": "COGNOSCENTI2"
-		}
-	}, {
-		"menuName": "Enus Cognoscenti 55",
-		"data": {
-			"action": "COG552"
-		}
-	}, {
-		"menuName": "Enus Cognoscenti 55 (Armored)",
-		"data": {
-			"action": "COG552"
-		}
-	}, {
-		"menuName": "Gallivanter Baller LE",
-		"data": {
-			"action": "BALLER3"
-		}
-	}, {
-		"menuName": "Gallivanter Baller LE (Armored)",
-		"data": {
-			"action": "BALLER5"
-		}
-	}, {
-		"menuName": "Gallivanter Baller LE LWB",
-		"data": {
-			"action": "BALLER4"
-		}
-	}, {
-		"menuName": "Gallivanter Baller LE LWB (Armored)",
-		"data": {
-			"action": "BALLER6"
-		}
-	}],
-	"vehicle_pickups": [{
-		"menuName": "Bravado Bison",
-		"data": {
-			"action": "BISON"
-		}
-	}, {
-		"menuName": "Bravado Bison (Backrack)",
-		"data": {
-			"action": "BISON2"
-		}
-	}, {
-		"menuName": "Bravado Bison (Construction)",
-		"data": {
-			"action": "BISON3"
-		}
-	}, {
-		"menuName": "Bravado Ratloader",
-		"data": {
-			"action": "RATLOADER2"
-		}
-	}, {
-		"menuName": "Bravado Ratloader (Rusty)",
-		"data": {
-			"action": "RATLOADER"
-		}
-	}, {
-		"menuName": "Vapid Bobcat",
-		"data": {
-			"action": "BOBCATXL"
-		}
-	}, {
-		"menuName": "Vapid Sadler",
-		"data": {
-			"action": "SADLER"
-		}
-	}, {
-		"menuName": "Vapid Sadler (Snow)",
-		"data": {
-			"action": "SADLER2"
-		}
-	}],
-	"vehicle_vans": [{
-		"menuName": "BF Surfer",
-		"data": {
-			"action": "SURFER"
-		}
-	}, {
-		"menuName": "BF Surfer (Rusty)",
-		"data": {
-			"action": "SURFER2"
-		}
-	}, {
-		"menuName": "Bravado Paradise",
-		"data": {
-			"action": "PARADISE"
-		}
-	}, {
-		"menuName": "Bravado Rumpo Custom",
-		"data": {
-			"action": "RUMPO3"
-		}
-	}, {
-		"menuName": "Bravado Rumpo (Deludamol)",
-		"data": {
-			"action": "RUMPO2"
-		}
-	}, {
-		"menuName": "Bravado Rumpo (Weazel News)",
-		"data": {
-			"action": "RUMPO"
-		}
-	}, {
-		"menuName": "Bravado Youga",
-		"data": {
-			"action": "YOUGA"
-		}
-	}, {
-		"menuName": "Bravado Youga Classic",
-		"data": {
-			"action": "YOUGA2"
-		}
-	}, {
-		"menuName": "Brute Camper",
-		"data": {
-			"action": "CAMPER"
-		}
-	}, {
-		"menuName": "Brute Pony (Business)",
-		"data": {
-			"action": "PONY"
-		}
-	}, {
-		"menuName": "Brute Pony (Cannibus Shop)",
-		"data": {
-			"action": "PONY2"
-		}
-	}, {
-		"menuName": "Brute Taco Van",
-		"data": {
-			"action": "TACO"
-		}
-	}, {
-		"menuName": "Declasse Burrito",
-		"data": {
-			"action": "BURRITO3"
-		}
-	}, {
-		"menuName": "Declasse Burrito (Bug Stars)",
-		"data": {
-			"action": "BURRITO2"
-		}
-	}, {
-		"menuName": "Declasse Burrito (Construction)",
-		"data": {
-			"action": "BURRITO4"
-		}
-	}, {
-		"menuName": "Declasse Burrito (Gang)",
-		"data": {
-			"action": "GBURRITO2"
-		}
-	}, {
-		"menuName": "Declasse Burrito (Graphics)",
-		"data": {
-			"action": "BURRITO"
-		}
-	}, {
-		"menuName": "Declasse Burrito (Snow)",
-		"data": {
-			"action": "BURRITO5"
-		}
-	}, {
-		"menuName": "Declasse Burrito (The Lost)",
-		"data": {
-			"action": "GBURRITO"
-		}
-	}, {
-		"menuName": "Declasse Moonbeam",
-		"data": {
-			"action": "MOONBEAM"
-		}
-	}, {
-		"menuName": "Vapid Minivan",
-		"data": {
-			"action": "MINIVAN"
-		}
-	}, {
-		"menuName": "Vapid Speedo",
-		"data": {
-			"action": "SPEEDO"
-		}
-	}, {
-		"menuName": "Vapid Speedo (Clown)",
-		"data": {
-			"action": "SPEEDO2"
-		}
-	}, {
-		"menuName": "Zirconium Journey",
-		"data": {
-			"action": "JOURNEY"
-		}
-	}],
-	"vehicle_trucks": [{
-		"menuName": "Brute Boxville (Go Postal)",
-		"data": {
-			"action": "BOXVILLE2"
-		}
-	}, {
-		"menuName": "Brute Boxville (Humane Labs)",
-		"data": {
-			"action": "BOXVILLE3"
-		}
-	}, {
-		"menuName": "Brute Boxville (Post OP)",
-		"data": {
-			"action": "BOXVILLE4"
-		}
-	}, {
-		"menuName": "Brute Boxville (Water & Power)",
-		"data": {
-			"action": "BOXVILLE"
-		}
-	}, {
-		"menuName": "Brute Stockade",
-		"data": {
-			"action": "STOCKADE"
-		}
-	}, {
-		"menuName": "Brute Stockade (Snow)",
-		"data": {
-			"action": "STOCKADE3"
-		}
-	}, {
-		"menuName": "Brute Tipper (2 Axle)",
-		"data": {
-			"action": "TIPTRUCK"
-		}
-	}, {
-		"menuName": "Brute Tipper (3 Axle)",
-		"data": {
-			"action": "TIPTRUCK2"
-		}
-	}, {
-		"menuName": "Cutter",
-		"data": {
-			"action": "CUTTER"
-		}
-	}, {
-		"menuName": "Dock Handler",
-		"data": {
-			"action": "HANDLER"
-		}
-	}, {
-		"menuName": "Dock Tug",
-		"data": {
-			"action": "DOCKTUG"
-		}
-	}, {
-		"menuName": "Dump Truck",
-		"data": {
-			"action": "DUMP"
-		}
-	}, {
-		"menuName": "HVY Biff",
-		"data": {
-			"action": "BIFF"
-		}
-	}, {
-		"menuName": "Jobuilt Hauler",
-		"data": {
-			"action": "HAULER"
-		}
-	}, {
-		"menuName": "Jobuilt Phantom",
-		"data": {
-			"action": "PHANTOM"
-		}
-	}, {
-		"menuName": "Jobuilt Rubble",
-		"data": {
-			"action": "RUBBLE"
-		}
-	}, {
-		"menuName": "Maibatsu Mule (Graphics 1)",
-		"data": {
-			"action": "MULE"
-		}
-	}, {
-		"menuName": "Maibatsu Mule (Graphics 2)",
-		"data": {
-			"action": "MULE2"
-		}
-	}, {
-		"menuName": "Maibatsu Mule (Plain)",
-		"data": {
-			"action": "MULE3"
-		}
-	}, {
-		"menuName": "Mixer",
-		"data": {
-			"action": "MIXER"
-		}
-	}, {
-		"menuName": "Mixer (Support Wheel)",
-		"data": {
-			"action": "MIXER2"
-		}
-	}, {
-		"menuName": "MTL Flatbed Truck",
-		"data": {
-			"action": "FLATBED"
-		}
-	}, {
-		"menuName": "MTL Packer",
-		"data": {
-			"action": "PACKER"
-		}
-	}, {
-		"menuName": "MTL Pounder",
-		"data": {
-			"action": "POUNDER"
-		}
-	}, {
-		"menuName": "Vapid Benson",
-		"data": {
-			"action": "BENSON"
-		}
-	}, {
-		"menuName": "Vapid Scrap Truck",
-		"data": {
-			"action": "SCRAP"
-		}
-	}, {
-		"menuName": "Vapid Tow Truck",
-		"data": {
-			"action": "TOWTRUCK"
-		}
-	}, {
-		"menuName": "Vapid Tow Truck (Old)",
-		"data": {
-			"action": "TOWTRUCK2"
-		}
-	}],
-	"vehicle_service": [{
-		"menuName": "Airtug",
-		"data": {
-			"action": "AIRTUG"
-		}
-	}, {
-		"menuName": "Brute Airport Bus",
-		"data": {
-			"action": "AIRBUS"
-		}
-	}, {
-		"menuName": "Brute Bus (City Bus)",
-		"data": {
-			"action": "BUS"
-		}
-	}, {
-		"menuName": "Brute Rental Shuttle Bus",
-		"data": {
-			"action": "RENTALBUS"
-		}
-	}, {
-		"menuName": "Brute Tourbus",
-		"data": {
-			"action": "TOURBUS"
-		}
-	}, {
-		"menuName": "Cable Car (Mt. Chilliad)",
-		"data": {
-			"action": "CABLECAR"
-		}
-	}, {
-		"menuName": "Dashound Coach Bus",
-		"data": {
-			"action": "COACH"
-		}
-	}, {
-		"menuName": "Dozer",
-		"data": {
-			"action": "BULLDOZER"
-		}
-	}, {
-		"menuName": "Forklift",
-		"data": {
-			"action": "FORKLIFT"
-		}
-	}, {
-		"menuName": "HVY Brickade",
-		"data": {
-			"action": "BRICKADE"
-		}
-	}, {
-		"menuName": "Jobuilt Trashmaster",
-		"data": {
-			"action": "TRASH"
-		}
-	}, {
-		"menuName": "Jobuilt Trashmaster (Rusty)",
-		"data": {
-			"action": "TRASH2"
-		}
-	}, {
-		"menuName": "MTL Dune",
-		"data": {
-			"action": "DUNE"
-		}
-	}, {
-		"menuName": "Nagasaki Caddy",
-		"data": {
-			"action": "CADDY"
-		}
-	}, {
-		"menuName": "Nagasaki Caddy (Golf)",
-		"data": {
-			"action": "CADDY2"
-		}
-	}, {
-		"menuName": "Ripley (Airpot Tug)",
-		"data": {
-			"action": "RIPLEY"
-		}
-	}, {
-		"menuName": "Stanley Fieldmaster Tractor",
-		"data": {
-			"action": "TRACTOR2"
-		}
-	}, {
-		"menuName": "Stanley Fieldmaster Tractor (Snow)",
-		"data": {
-			"action": "TRACTOR3"
-		}
-	}, {
-		"menuName": "Stanley Lawn Mower",
-		"data": {
-			"action": "MOWER"
-		}
-	}, {
-		"menuName": "Stanley Tractor (Rusty)",
-		"data": {
-			"action": "tractor"
-		}
-	}, {
-		"menuName": "Vapid Pickup Utility",
-		"data": {
-			"action": "UTILLITRUCK"
-		}
-	}, {
-		"menuName": "Vapid Plumbing Utility",
-		"data": {
-			"action": "UTILLITRUCK2"
-		}
-	}, {
-		"menuName": "Vapid Telephone Utlity",
-		"data": {
-			"action": "UTILLITRUCK3"
-		}
-	}],
-	"vehicle_trailers": [{
-		"menuName": "Army Flatbed Trailer",
-		"data": {
-			"action": "ARMYTRAILER"
-		}
-	}, {
-		"menuName": "Army Flatbed Trailer (with Drill)",
-		"data": {
-			"action": "ARMYTRAILER2"
-		}
-	}, {
-		"menuName": "Army Fuel Tanker",
-		"data": {
-			"action": "ARMYTANKER"
-		}
-	}, {
-		"menuName": "Boat trailer (small)",
-		"data": {
-			"action": "BOATTRAILER"
-		}
-	}, {
-		"menuName": "Boat Trailer (With Boat)",
-		"data": {
-			"action": "TR3"
-		}
-	}, {
-		"menuName": "Car Tranport Trailer",
-		"data": {
-			"action": "TR4"
-		}
-	}, {
-		"menuName": "Car Tranport Trailer (Empty)",
-		"data": {
-			"action": "TR2"
-		}
-	}, {
-		"menuName": "Commercial Trailer (Graphics 1)",
-		"data": {
-			"action": "TRAILERS2"
-		}
-	}, {
-		"menuName": "Commercial Trailer (Graphics 2)",
-		"data": {
-			"action": "TRAILERS3"
-		}
-	}, {
-		"menuName": "Container Trailer",
-		"data": {
-			"action": "DOCKTRAILER"
-		}
-	}, {
-		"menuName": "Fame or Shame Trailer",
-		"data": {
-			"action": "TVTRAILER"
-		}
-	}, {
-		"menuName": "Flatbed Trailer",
-		"data": {
-			"action": "TRFLAT"
-		}
-	}, {
-		"menuName": "Flatbed Trailer",
-		"data": {
-			"action": "FREIGHTTRAILER"
-		}
-	}, {
-		"menuName": "Grain Trailer",
-		"data": {
-			"action": "GRAINTRAILER"
-		}
-	}, {
-		"menuName": "Hay Bale Trailer",
-		"data": {
-			"action": "BALETRAILER"
-		}
-	}, {
-		"menuName": "Logging Trailer",
-		"data": {
-			"action": "TRAILERLOGS"
-		}
-	}, {
-		"menuName": "Meth Lab Trailer",
-		"data": {
-			"action": "PROPTRAILER"
-		}
-	}, {
-		"menuName": "Petrol Tanker Trailer (Plain)",
-		"data": {
-			"action": "TANKER2"
-		}
-	}, {
-		"menuName": "Petrol Tanker Trailer (Ron)",
-		"data": {
-			"action": "TANKER"
-		}
-	}, {
-		"menuName": "Plain Trailer",
-		"data": {
-			"action": "TRAILERS"
-		}
-	}, {
-		"menuName": "Rake Trailer",
-		"data": {
-			"action": "RAKETRAILER"
-		}
-	}, {
-		"menuName": "Small Trailer",
-		"data": {
-			"action": "TRAILERSMALL"
-		}
-	}],
-	"vehicle_trains": [{
-		"menuName": "Container Car 1",
-		"data": {
-			"action": "FREIGHTCONT1"
-		}
-	}, {
-		"menuName": "Container Car 2",
-		"data": {
-			"action": "FREIGHTCONT2"
-		}
-	}, {
-		"menuName": "Flatbed Car",
-		"data": {
-			"action": "FREIGHTCAR"
-		}
-	}, {
-		"menuName": "Freight Train Cab",
-		"data": {
-			"action": "FREIGHT"
-		}
-	}, {
-		"menuName": "Grain Car",
-		"data": {
-			"action": "FREIGHTGRAIN"
-		}
-	}, {
-		"menuName": "Metro Train (Half)",
-		"data": {
-			"action": "METROTRAIN"
-		}
-	}, {
-		"menuName": "Oil Tanker Car",
-		"data": {
-			"action": "TANKERCAR"
-		}
-	}],
-	"vehicle_emergency": [{
-		"menuName": "Albany Police Roadcruiser (Snow)",
-		"data": {
-			"action": "POLICEOLD2"
-		}
-	}, {
-		"menuName": "Ambulance",
-		"data": {
-			"action": "AMBULANCE"
-		}
-	}, {
-		"menuName": "Army Barracks Truck",
-		"data": {
-			"action": "BARRACKS"
-		}
-	}, {
-		"menuName": "Army Truck Cab",
-		"data": {
-			"action": "BARRACKS2"
-		}
-	}, {
-		"menuName": "Bravado Buffalo (FIB)",
-		"data": {
-			"action": "FBI"
-		}
-	}, {
-		"menuName": "Brute Police Riot Van",
-		"data": {
-			"action": "RIOT"
-		}
-	}, {
-		"menuName": "Canis Crusader (Army Mesa)",
-		"data": {
-			"action": "CRUSADER"
-		}
-	}, {
-		"menuName": "Declasse Granger (FIB)",
-		"data": {
-			"action": "FBI2"
-		}
-	}, {
-		"menuName": "Declasse Lifeguard",
-		"data": {
-			"action": "LGUARD"
-		}
-	}, {
-		"menuName": "Declasse Park Ranger",
-		"data": {
-			"action": "PRANGER"
-		}
-	}, {
-		"menuName": "Declasse Police Rancher (Snow)",
-		"data": {
-			"action": "POLICEOLD1"
-		}
-	}, {
-		"menuName": "Declasse Police Transporter",
-		"data": {
-			"action": "POLICET"
-		}
-	}, {
-		"menuName": "Declasse Sheriff SUV",
-		"data": {
-			"action": "SHERIFF2"
-		}
-	}, {
-		"menuName": "Firetruck",
-		"data": {
-			"action": "FIRETRUK"
-		}
-	}, {
-		"menuName": "Prison Bus",
-		"data": {
-			"action": "PBUS"
-		}
-	}, {
-		"menuName": "Rhino Tank",
-		"data": {
-			"action": "RHINO"
-		}
-	}, {
-		"menuName": "Vapid Police Buffalo",
-		"data": {
-			"action": "POLICE2"
-		}
-	}, {
-		"menuName": "Vapid Police Cruiser",
-		"data": {
-			"action": "POLICE"
-		}
-	}, {
-		"menuName": "Vapid Police Interceptor",
-		"data": {
-			"action": "POLICE3"
-		}
-	}, {
-		"menuName": "Vapid Sheriff Cruiser",
-		"data": {
-			"action": "SHERIFF"
-		}
-	}, {
-		"menuName": "Vapid Unmarked Police Cruiser",
-		"data": {
-			"action": "POLICE4"
-		}
-	}, {
-		"menuName": "Western Police Bike",
-		"data": {
-			"action": "POLICEB"
-		}
-	}],
-	"vehicle_motorcycles": [{
-		"menuName": "Dinka Akuma",
-		"data": {
-			"action": "AKUMA"
-		}
-	}, {
-		"menuName": "Dinka Double-T",
-		"data": {
-			"action": "DOUBLE"
-		}
-	}, {
-		"menuName": "Dinka Enduro",
-		"data": {
-			"action": "ENDURO"
-		}
-	}, {
-		"menuName": "Dinka Thrust",
-		"data": {
-			"action": "THRUST"
-		}
-	}, {
-		"menuName": "Dinka Vindicator",
-		"data": {
-			"action": "VINDICATOR"
-		}
-	}, {
-		"menuName": "LLC Avarus",
-		"data": {
-			"action": "AVARUS"
-		}
-	}, {
-		"menuName": "LLC Hexer",
-		"data": {
-			"action": "HEXER"
-		}
-	}, {
-		"menuName": "LLC Innovation",
-		"data": {
-			"action": "INNOVATION"
-		}
-	}, {
-		"menuName": "LLC Sanctus",
-		"data": {
-			"action": "SANCTUS"
-		}
-	}, {
-		"menuName": "Maibatsu Carbon RS",
-		"data": {
-			"action": "CARBONRS"
-		}
-	}, {
-		"menuName": "Maibatsu Chimera",
-		"data": {
-			"action": "CHIMERA"
-		}
-	}, {
-		"menuName": "Maibatsu Manchez",
-		"data": {
-			"action": "MANCHEZ"
-		}
-	}, {
-		"menuName": "Maibatsu Sanchez",
-		"data": {
-			"action": "SANCHEZ"
-		}
-	}, {
-		"menuName": "Maibatsu Sanchez (Graphics)",
-		"data": {
-			"action": "SANCHEZ2"
-		}
-	}, {
-		"menuName": "Maibatsu Shotaro",
-		"data": {
-			"action": "SHOTARO"
-		}
-	}, {
-		"menuName": "Pegassi Bati",
-		"data": {
-			"action": "BATI"
-		}
-	}, {
-		"menuName": "Pegassi Bati(Race)",
-		"data": {
-			"action": "BATI2"
-		}
-	}, {
-		"menuName": "Pegassi Esskey",
-		"data": {
-			"action": "ESSKEY"
-		}
-	}, {
-		"menuName": "Pegassi Faggio",
-		"data": {
-			"action": "FAGGIO"
-		}
-	}, {
-		"menuName": "Pegassi Faggio Mod",
-		"data": {
-			"action": "FAGGIO3"
-		}
-	}, {
-		"menuName": "Pegassi Faggio Sport",
-		"data": {
-			"action": "FAGGIO2"
-		}
-	}, {
-		"menuName": "Pegassi Ruffian",
-		"data": {
-			"action": "RUFFIAN"
-		}
-	}, {
-		"menuName": "Pegassi Vortex",
-		"data": {
-			"action": "VORTEX"
-		}
-	}, {
-		"menuName": "Principe Lectro",
-		"data": {
-			"action": "LECTRO"
-		}
-	}, {
-		"menuName": "Principe Nemesis",
-		"data": {
-			"action": "NEMESIS"
-		}
-	}, {
-		"menuName": "Shitzu Defiler",
-		"data": {
-			"action": "DEFILER"
-		}
-	}, {
-		"menuName": "Shitzu Hakuchou",
-		"data": {
-			"action": "HAKUCHOU"
-		}
-	}, {
-		"menuName": "Shitzu Hakuchou Drag",
-		"data": {
-			"action": "HAKUCHOU2"
-		}
-	}, {
-		"menuName": "Shitzu PCJ 600",
-		"data": {
-			"action": "PCJ"
-		}
-	}, {
-		"menuName": "Shitzu Vader",
-		"data": {
-			"action": "VADER"
-		}
-	}, {
-		"menuName": "Western Bagger",
-		"data": {
-			"action": "BAGGER"
-		}
-	}, {
-		"menuName": "Western Cliffhanger",
-		"data": {
-			"action": "CLIFFHANGER"
-		}
-	}, {
-		"menuName": "Western Daemon",
-		"data": {
-			"action": "DAEMON2"
-		}
-	}, {
-		"menuName": "Western Daemon Custom",
-		"data": {
-			"action": "DAEMON"
-		}
-	}, {
-		"menuName": "Western Gargoyle",
-		"data": {
-			"action": "GARGOYLE"
-		}
-	}, {
-		"menuName": "Western Nightblade",
-		"data": {
-			"action": "NIGHTBLADE"
-		}
-	}, {
-		"menuName": "Western Rat Bike",
-		"data": {
-			"action": "RATBIKE"
-		}
-	}, {
-		"menuName": "Western Sovereign",
-		"data": {
-			"action": "SOVEREIGN"
-		}
-	}, {
-		"menuName": "Western Wolfsbane",
-		"data": {
-			"action": "WOLFSBANE"
-		}
-	}, {
-		"menuName": "Western Zombie Bobber",
-		"data": {
-			"action": "ZOMBIEA"
-		}
-	}, {
-		"menuName": "Western Zombie Chopper",
-		"data": {
-			"action": "ZOMBIEB"
-		}
-	}],
-	"vehicle_planes": [{
-		"menuName": "Buckingham Cargo Plane (An-225)",
-		"data": {
-			"action": "CARGOPLANE"
-		}
-	}, {
-		"menuName": "Buckingham Jet (B747)",
-		"data": {
-			"action": "JET"
-		}
-	}, {
-		"menuName": "Buckingham Luxor",
-		"data": {
-			"action": "LUXOR"
-		}
-	}, {
-		"menuName": "Buckingham Luxor Deluxe",
-		"data": {
-			"action": "LUXOR2"
-		}
-	}, {
-		"menuName": "Buckingham Miljet",
-		"data": {
-			"action": "MILJET"
-		}
-	}, {
-		"menuName": "Buckingham Nimbus",
-		"data": {
-			"action": "NIMBUS"
-		}
-	}, {
-		"menuName": "Buckingham Shamal",
-		"data": {
-			"action": "SHAMAL"
-		}
-	}, {
-		"menuName": "Buckingham Vestra",
-		"data": {
-			"action": "VESTRA"
-		}
-	}, {
-		"menuName": "Jobuilt Mammatus",
-		"data": {
-			"action": "MAMMATUS"
-		}
-	}, {
-		"menuName": "Jobuilt P-996 Lazer",
-		"data": {
-			"action": "LAZER"
-		}
-	}, {
-		"menuName": "Jobuilt Velum (4 Seater)",
-		"data": {
-			"action": "VELUM"
-		}
-	}, {
-		"menuName": "Jobuilt Velum (5 Seater)",
-		"data": {
-			"action": "VELUM2"
-		}
-	}, {
-		"menuName": "Mammoth Dodo",
-		"data": {
-			"action": "DODO"
-		}
-	}, {
-		"menuName": "Mammoth Hydra",
-		"data": {
-			"action": "HYDRA"
-		}
-	}, {
-		"menuName": "Mammoth Titan",
-		"data": {
-			"action": "TITAN"
-		}
-	}, {
-		"menuName": "Western Besra",
-		"data": {
-			"action": "BESRA"
-		}
-	}, {
-		"menuName": "Western Cuban 800",
-		"data": {
-			"action": "CUBAN800"
-		}
-	}, {
-		"menuName": "Western Duster",
-		"data": {
-			"action": "DUSTER"
-		}
-	}, {
-		"menuName": "Western Mallard Stunt Plane",
-		"data": {
-			"action": "STUNT"
-		}
-	}],
-	"vehicle_helicopters": [{
-		"menuName": "Blimp (Atomic)",
-		"data": {
-			"action": "BLIMP"
-		}
-	}, {
-		"menuName": "Blimp (Xero Gas)",
-		"data": {
-			"action": "BLIMP2"
-		}
-	}, {
-		"menuName": "Buckingham Savage",
-		"data": {
-			"action": "SAVAGE"
-		}
-	}, {
-		"menuName": "Buckingham SuperVolito",
-		"data": {
-			"action": "SUPERVOLITO"
-		}
-	}, {
-		"menuName": "Buckingham SuperVolito Carbon",
-		"data": {
-			"action": "SUPERVOLITO2"
-		}
-	}, {
-		"menuName": "Buckingham Swift",
-		"data": {
-			"action": "SWIFT"
-		}
-	}, {
-		"menuName": "Buckingham Swift Deluxe",
-		"data": {
-			"action": "SWIFT2"
-		}
-	}, {
-		"menuName": "Buckingham Valkyrie",
-		"data": {
-			"action": "VALKYRIE"
-		}
-	}, {
-		"menuName": "Buckingham Volatus",
-		"data": {
-			"action": "VOLATUS"
-		}
-	}, {
-		"menuName": "HVT Skylift",
-		"data": {
-			"action": "SKYLIFT"
-		}
-	}, {
-		"menuName": "Maibatsu Frogger",
-		"data": {
-			"action": "FROGGER"
-		}
-	}, {
-		"menuName": "Maibatsu Frogger (TPE/FIB)",
-		"data": {
-			"action": "FROGGER2"
-		}
-	}, {
-		"menuName": "Nagasaki Buzzard (Unarmed)",
-		"data": {
-			"action": "BUZZARD"
-		}
-	}, {
-		"menuName": "Nagasaki Buzzard (Attack Chopper)",
-		"data": {
-			"action": "BUZZARD2"
-		}
-	}, {
-		"menuName": "Western Annihilator",
-		"data": {
-			"action": "ANNIHILATOR"
-		}
-	}, {
-		"menuName": "Western Cargobob (Desert Camo)",
-		"data": {
-			"action": "CARGOBOB"
-		}
-	}, {
-		"menuName": "Western Cargobob (Jetsam)",
-		"data": {
-			"action": "CARGOBOB2"
-		}
-	}, {
-		"menuName": "Western Cargobob (TPE)",
-		"data": {
-			"action": "CARGOBOB3"
-		}
-	}, {
-		"menuName": "Western Mavrick",
-		"data": {
-			"action": "MAVERICK"
-		}
-	}, {
-		"menuName": "Western Mavrick (Police)",
-		"data": {
-			"action": "POLMAV"
-		}
-	}],
-	"vehicle_boats": [{
-		"menuName": "Buckingham Tug",
-		"data": {
-			"action": "TUG"
-		}
-	}, {
-		"menuName": "Dinka Marquis",
-		"data": {
-			"action": "MARQUIS"
-		}
-	}, {
-		"menuName": "Lampadati Toro",
-		"data": {
-			"action": "TORO"
-		}
-	}, {
-		"menuName": "Nagasaki Dinghy (2 Seater)",
-		"data": {
-			"action": "DINGHY2"
-		}
-	}, {
-		"menuName": "Nagasaki Dinghy (4 Seater Black)",
-		"data": {
-			"action": "DINGHY3"
-		}
-	}, {
-		"menuName": "Nagasaki Dinghy (4 Seater Red)",
-		"data": {
-			"action": "DINGHY"
-		}
-	}, {
-		"menuName": "Pegassi Speeder",
-		"data": {
-			"action": "SPEEDER"
-		}
-	}, {
-		"menuName": "Shitzu Jetmax",
-		"data": {
-			"action": "SUNTRAP"
-		}
-	}, {
-		"menuName": "Shitzu Predator (Police)",
-		"data": {
-			"action": "PREDATOR"
-		}
-	}, {
-		"menuName": "Shitzu Squalo",
-		"data": {
-			"action": "SQUALO"
-		}
-	}, {
-		"menuName": "Shitzu Suntrap",
-		"data": {
-			"action": "SUNTRAP"
-		}
-	}, {
-		"menuName": "Shitzu Tropic",
-		"data": {
-			"action": "TROPIC"
-		}
-	}, {
-		"menuName": "Speedophile Seashark",
-		"data": {
-			"action": "SEASHARK"
-		}
-	}, {
-		"menuName": "Speedophile Seashark (Lifeguard)",
-		"data": {
-			"action": "SEASHARK2"
-		}
-	}, {
-		"menuName": "Submersible",
-		"data": {
-			"action": "SUBMERSIBLE"
-		}
-	}, {
-		"menuName": "Submersible (Kraken)",
-		"data": {
-			"action": "SUBMERSIBLE2"
-		}
-	}],
-	"vehicle_bicycles": [{
-		"menuName": "BMX",
-		"data": {
-			"action": "BMX"
-		}
-	}, {
-		"menuName": "Cruiser",
-		"data": {
-			"action": "CRUISER"
-		}
-	}, {
-		"menuName": "Endurex Race",
-		"data": {
-			"action": "TRIBIKE2"
-		}
-	}, {
-		"menuName": "Fixter",
-		"data": {
-			"action": "FIXTER"
-		}
-	}, {
-		"menuName": "Scorcher",
-		"data": {
-			"action": "SCORCHER"
-		}
-	}, {
-		"menuName": "Tri-Cycles Race",
-		"data": {
-			"action": "TRIBIKE3"
-		}
-	}, {
-		"menuName": "Whippet Race",
-		"data": {
-			"action": "TRIBIKE"
-		}
-	}]
+{
+  "vehicle_supercars": [
+    {
+      "menuName": "Annis RE-7B",
+      "data": {
+        "action": "LE7B"
+      }
+    },
+    {
+      "menuName": "Bravado Banshee 900R",
+      "data": {
+        "action": "BANSHEE2"
+      }
+    },
+    {
+      "menuName": "Coil Rocket Voltic",
+      "data": {
+        "action": "VOLTIC2"
+      }
+    },
+    {
+      "menuName": "Coil Voltic",
+      "data": {
+        "action": "VOLTIC"
+      }
+    },
+    {
+      "menuName": "Dewbauchee Vagner",
+      "data": {
+        "action": "VAGNER"
+      }
+    },
+    {
+      "menuName": "Emperor ETR1",
+      "data": {
+        "action": "SHEAVA"
+      }
+    },
+    {
+      "menuName": "Grotti Cheetah",
+      "data": {
+        "action": "CHEETAH"
+      }
+    },
+    {
+      "menuName": "Grotti Turismo R",
+      "data": {
+        "action": "TURISMOR"
+      }
+    },
+    {
+      "menuName": "Grotti X80 Proto",
+      "data": {
+        "action": "PROTOTIPO"
+      }
+    },
+    {
+      "menuName": "Karin Sultan RS",
+      "data": {
+        "action": "SULTANRS"
+      }
+    },
+    {
+      "menuName": "Ocelot Penetrator",
+      "data": {
+        "action": "PENETRATOR"
+      }
+    },
+    {
+      "menuName": "Ocelot XA-21",
+      "data": {
+        "action": "XA21"
+      }
+    },
+    {
+      "menuName": "Overflod Entity XF",
+      "data": {
+        "action": "ENTITYXF"
+      }
+    },
+    {
+      "menuName": "Pegassi Infernus",
+      "data": {
+        "action": "INFERNUS"
+      }
+    },
+    {
+      "menuName": "Pegassi Osiris",
+      "data": {
+        "action": "OSIRIS"
+      }
+    },
+    {
+      "menuName": "Pegassi Reaper",
+      "data": {
+        "action": "REAPER"
+      }
+    },
+    {
+      "menuName": "Pegassi Tempesta",
+      "data": {
+        "action": "TEMPESTA"
+      }
+    },
+    {
+      "menuName": "Pegassi Vacca",
+      "data": {
+        "action": "VACCA"
+      }
+    },
+    {
+      "menuName": "Pegassi Zentorno",
+      "data": {
+        "action": "ZENTORNO"
+      }
+    },
+    {
+      "menuName": "Pfister 811",
+      "data": {
+        "action": "PFISTER811"
+      }
+    },
+    {
+      "menuName": "Progen GP1",
+      "data": {
+        "action": "GP1"
+      }
+    },
+    {
+      "menuName": "Progen Itali GTB",
+      "data": {
+        "action": "ITALIGTB"
+      }
+    },
+    {
+      "menuName": "Progen Itali GTB Custom",
+      "data": {
+        "action": "ITALIGTB2"
+      }
+    },
+    {
+      "menuName": "Progen T20",
+      "data": {
+        "action": "T20"
+      }
+    },
+    {
+      "menuName": "Progen Tyrus",
+      "data": {
+        "action": "TYRUS"
+      }
+    },
+    {
+      "menuName": "Truffade Adder",
+      "data": {
+        "action": "ADDER"
+      }
+    },
+    {
+      "menuName": "Truffade Nero",
+      "data": {
+        "action": "NERO"
+      }
+    },
+    {
+      "menuName": "Truffade Nero Custom",
+      "data": {
+        "action": "NERO2"
+      }
+    },
+    {
+      "menuName": "Vapid Bullet",
+      "data": {
+        "action": "BULLET"
+      }
+    },
+    {
+      "menuName": "Vapid FMJ",
+      "data": {
+        "action": "FMJ"
+      }
+    }
+  ],
+  "vehicle_sports": [
+    {
+      "menuName": "Albany Alpha",
+      "data": {
+        "action": "ALPHA"
+      }
+    },
+    {
+      "menuName": "Annis Elegy Retro Custom",
+      "data": {
+        "action": "ELEGY"
+      }
+    },
+    {
+      "menuName": "Annis Elegy RH8",
+      "data": {
+        "action": "ELEGY2"
+      }
+    },
+    {
+      "menuName": "Benefactor Feltzer",
+      "data": {
+        "action": "FELTZER2"
+      }
+    },
+    {
+      "menuName": "Benefactor Schwarzer",
+      "data": {
+        "action": "SCHWARZER"
+      }
+    },
+    {
+      "menuName": "Benefactor Surano",
+      "data": {
+        "action": "SURANO"
+      }
+    },
+    {
+      "menuName": "BF Raptor",
+      "data": {
+        "action": "RAPTOR"
+      }
+    },
+    {
+      "menuName": "Bravado Banshee",
+      "data": {
+        "action": "BANSHEE"
+      }
+    },
+    {
+      "menuName": "Bravado Buffalo",
+      "data": {
+        "action": "BUFFALO"
+      }
+    },
+    {
+      "menuName": "Bravado Buffalo S",
+      "data": {
+        "action": "BUFFALO2"
+      }
+    },
+    {
+      "menuName": "Bravado Buffalo S (Race)",
+      "data": {
+        "action": "BUFFALO3"
+      }
+    },
+    {
+      "menuName": "Bravado Verlierer",
+      "data": {
+        "action": "VERLIERER2"
+      }
+    },
+    {
+      "menuName": "Declasse Drift Tampa",
+      "data": {
+        "action": "TAMPA2"
+      }
+    },
+    {
+      "menuName": "Dewbauchee Massacro",
+      "data": {
+        "action": "MASSACRO"
+      }
+    },
+    {
+      "menuName": "Dewbauchee Massacro (Race)",
+      "data": {
+        "action": "MASSACRO2"
+      }
+    },
+    {
+      "menuName": "Dewbauchee Rapid GT",
+      "data": {
+        "action": "RAPIDGT"
+      }
+    },
+    {
+      "menuName": "Dewbauchee Rapid GT Cabrio",
+      "data": {
+        "action": "RAPIDGT2"
+      }
+    },
+    {
+      "menuName": "Dewbauchee Seven-70",
+      "data": {
+        "action": "SEVEN70"
+      }
+    },
+    {
+      "menuName": "Dewbauchee Specter",
+      "data": {
+        "action": "SPECTER"
+      }
+    },
+    {
+      "menuName": "Dewbauchee Specter Custom",
+      "data": {
+        "action": "SPECTER2"
+      }
+    },
+    {
+      "menuName": "Dinka Blista Compact",
+      "data": {
+        "action": "BLISTA2"
+      }
+    },
+    {
+      "menuName": "Dinka Blista Compact (Race)",
+      "data": {
+        "action": "BLISTA3"
+      }
+    },
+    {
+      "menuName": "Dinka Jester",
+      "data": {
+        "action": "JESTER"
+      }
+    },
+    {
+      "menuName": "Dinka Jester (Race)",
+      "data": {
+        "action": "JESTER2"
+      }
+    },
+    {
+      "menuName": "Grotti Bestia GTS",
+      "data": {
+        "action": "BESTIAGTS"
+      }
+    },
+    {
+      "menuName": "Grotti Carbonizzare",
+      "data": {
+        "action": "CARBONIZZARE"
+      }
+    },
+    {
+      "menuName": "Hijak Khamelion",
+      "data": {
+        "action": "KHAMELION"
+      }
+    },
+    {
+      "menuName": "Hijak Ruston",
+      "data": {
+        "action": "RUSTON"
+      }
+    },
+    {
+      "menuName": "Invetero Coquette",
+      "data": {
+        "action": "COQUETTE"
+      }
+    },
+    {
+      "menuName": "Karin Futo",
+      "data": {
+        "action": "FUTO"
+      }
+    },
+    {
+      "menuName": "Karin Kuruma",
+      "data": {
+        "action": "KURUMA"
+      }
+    },
+    {
+      "menuName": "Karin Kuruma (Armoured)",
+      "data": {
+        "action": "KURUMA2"
+      }
+    },
+    {
+      "menuName": "Karin Sultan",
+      "data": {
+        "action": "SULTAN"
+      }
+    },
+    {
+      "menuName": "Lampadati Furore GT",
+      "data": {
+        "action": "FUROREGT"
+      }
+    },
+    {
+      "menuName": "Lampadati Tropos Rallye",
+      "data": {
+        "action": "TROPOS"
+      }
+    },
+    {
+      "menuName": "Maibatsu Penumbra",
+      "data": {
+        "action": "PENUMBRA"
+      }
+    },
+    {
+      "menuName": "Obey 9F",
+      "data": {
+        "action": "NINEF"
+      }
+    },
+    {
+      "menuName": "Obey 9F Cabrio",
+      "data": {
+        "action": "NINEF2"
+      }
+    },
+    {
+      "menuName": "Obey Omnis",
+      "data": {
+        "action": "OMNIS"
+      }
+    },
+    {
+      "menuName": "Ocelot Lynx",
+      "data": {
+        "action": "LYNX"
+      }
+    },
+    {
+      "menuName": "Pfister Comet Retro Custom",
+      "data": {
+        "action": "COMET3"
+      }
+    },
+    {
+      "menuName": "Phister Comet",
+      "data": {
+        "action": "COMET2"
+      }
+    },
+    {
+      "menuName": "Schyster Fusilade",
+      "data": {
+        "action": "FUSILADE"
+      }
+    }
+  ],
+  "vehicle_sportsclassics": [
+    {
+      "menuName": "Albany Manana",
+      "data": {
+        "action": "MANANA"
+      }
+    },
+    {
+      "menuName": "Albany Roosevelt 1",
+      "data": {
+        "action": "BTYPE"
+      }
+    },
+    {
+      "menuName": "Albany Roosevelt 2",
+      "data": {
+        "action": "BTYPE3"
+      }
+    },
+    {
+      "menuName": "Benefactor Stirling GT",
+      "data": {
+        "action": "FELTZER3"
+      }
+    },
+    {
+      "menuName": "Declasse Tornado",
+      "data": {
+        "action": "TORNADO"
+      }
+    },
+    {
+      "menuName": "Declasse Tornado (Rusty)",
+      "data": {
+        "action": "TORNADO2"
+      }
+    },
+    {
+      "menuName": "Declasse Tornado Cabrio",
+      "data": {
+        "action": "TORNADO3"
+      }
+    },
+    {
+      "menuName": "Declasse Tornado Cabrio (Rusty)",
+      "data": {
+        "action": "TORNADO4"
+      }
+    },
+    {
+      "menuName": "Declasse Tornado Rat Rod",
+      "data": {
+        "action": "TORNADO6"
+      }
+    },
+    {
+      "menuName": "Dewbauchee JB 700",
+      "data": {
+        "action": "JB700"
+      }
+    },
+    {
+      "menuName": "Grotti Cheetah Classic",
+      "data": {
+        "action": "CHEETAH2"
+      }
+    },
+    {
+      "menuName": "Grotti Stinger",
+      "data": {
+        "action": "STINGER"
+      }
+    },
+    {
+      "menuName": "Grotti Stinger GT",
+      "data": {
+        "action": "STINGERGT"
+      }
+    },
+    {
+      "menuName": "Grotti Turismo Classic",
+      "data": {
+        "action": "TURISMO2"
+      }
+    },
+    {
+      "menuName": "Invetero Coquette Classic",
+      "data": {
+        "action": "COQUETTE2"
+      }
+    },
+    {
+      "menuName": "Lampadati Casco",
+      "data": {
+        "action": "CASCO"
+      }
+    },
+    {
+      "menuName": "Lampadati Pigalle",
+      "data": {
+        "action": "PIGALLE"
+      }
+    },
+    {
+      "menuName": "Ocelot Ardent",
+      "data": {
+        "action": "ARDENT"
+      }
+    },
+    {
+      "menuName": "Pegassi Infernus Classic",
+      "data": {
+        "action": "INFERNUS2"
+      }
+    },
+    {
+      "menuName": "Pegassi Monroe",
+      "data": {
+        "action": "MONROE"
+      }
+    },
+    {
+      "menuName": "Pegassi Torero",
+      "data": {
+        "action": "TORERO"
+      }
+    },
+    {
+      "menuName": "Truffade Z-Type",
+      "data": {
+        "action": "ZTYPE"
+      }
+    },
+    {
+      "menuName": "Vapid Peyote",
+      "data": {
+        "action": "PEYOTE"
+      }
+    }
+  ],
+  "vehicle_muscle": [
+    {
+      "menuName": "Albany Buccaneer",
+      "data": {
+        "action": "BUCCANEER"
+      }
+    },
+    {
+      "menuName": "Albany Franken Strange",
+      "data": {
+        "action": "BTYPE2"
+      }
+    },
+    {
+      "menuName": "Albany Lurcher",
+      "data": {
+        "action": "LURCHER"
+      }
+    },
+    {
+      "menuName": "Albany Virgo",
+      "data": {
+        "action": "VIRGO"
+      }
+    },
+    {
+      "menuName": "Bravado Gauntlet",
+      "data": {
+        "action": "GAUNTLET"
+      }
+    },
+    {
+      "menuName": "Bravado Gauntlet (Race)",
+      "data": {
+        "action": "GAUNTLET2"
+      }
+    },
+    {
+      "menuName": "Cheval Picador",
+      "data": {
+        "action": "PICADOR"
+      }
+    },
+    {
+      "menuName": "Declasse Mamba",
+      "data": {
+        "action": "MAMBA"
+      }
+    },
+    {
+      "menuName": "Declasse Sabre Turbo",
+      "data": {
+        "action": "SABREGT"
+      }
+    },
+    {
+      "menuName": "Declasse Staillion (Race)",
+      "data": {
+        "action": "STALION2"
+      }
+    },
+    {
+      "menuName": "Declasse Stallion",
+      "data": {
+        "action": "STALION"
+      }
+    },
+    {
+      "menuName": "Declasse Tampa",
+      "data": {
+        "action": "TAMPA"
+      }
+    },
+    {
+      "menuName": "Declasse Vigero",
+      "data": {
+        "action": "VIGERO"
+      }
+    },
+    {
+      "menuName": "Declasse Voodoo",
+      "data": {
+        "action": "VOODOO2"
+      }
+    },
+    {
+      "menuName": "Declasse Weaponized Tampa",
+      "data": {
+        "action": "TAMPA3"
+      }
+    },
+    {
+      "menuName": "Dundreary Virgo Classic",
+      "data": {
+        "action": "VIRGO"
+      }
+    },
+    {
+      "menuName": "Imponte Duke O' Death",
+      "data": {
+        "action": "DUKES2"
+      }
+    },
+    {
+      "menuName": "Imponte Dukes",
+      "data": {
+        "action": "DUKES"
+      }
+    },
+    {
+      "menuName": "Imponte Nightshade",
+      "data": {
+        "action": "NIGHTSHADE"
+      }
+    },
+    {
+      "menuName": "Imponte Pheonix",
+      "data": {
+        "action": "PHOENIX"
+      }
+    },
+    {
+      "menuName": "Imponte Ruiner",
+      "data": {
+        "action": "RUINER"
+      }
+    },
+    {
+      "menuName": "Imponte Ruiner 2000",
+      "data": {
+        "action": "RUINER2"
+      }
+    },
+    {
+      "menuName": "Invetero Coquette BlackFin",
+      "data": {
+        "action": "COQUETTE3"
+      }
+    },
+    {
+      "menuName": "Vapid Blade",
+      "data": {
+        "action": "BLADE"
+      }
+    },
+    {
+      "menuName": "Vapid Chino",
+      "data": {
+        "action": "CHINO"
+      }
+    },
+    {
+      "menuName": "Vapid Dominator",
+      "data": {
+        "action": "DOMINATOR"
+      }
+    },
+    {
+      "menuName": "Vapid Dominator (Race)",
+      "data": {
+        "action": "DOMINATOR2"
+      }
+    },
+    {
+      "menuName": "Vapid Hotknife",
+      "data": {
+        "action": "HOTKNIFE"
+      }
+    },
+    {
+      "menuName": "Vapid Slamvan",
+      "data": {
+        "action": "SLAMVAN"
+      }
+    },
+    {
+      "menuName": "Vapid Slamvan (Lost MC)",
+      "data": {
+        "action": "SLAMVAN2"
+      }
+    },
+    {
+      "menuName": "Willard Faction",
+      "data": {
+        "action": "FACTION"
+      }
+    }
+  ],
+  "vehicle_lowriders": [
+    {
+      "menuName": "Albany Buccaneer",
+      "data": {
+        "action": "BUCCANEER"
+      }
+    },
+    {
+      "menuName": "Albany Primo",
+      "data": {
+        "action": "PRIMO"
+      }
+    },
+    {
+      "menuName": "Declasse Moonbeam",
+      "data": {
+        "action": "MOONBEAM"
+      }
+    },
+    {
+      "menuName": "Declasse Sabre Turbo",
+      "data": {
+        "action": "SABREGT"
+      }
+    },
+    {
+      "menuName": "Declasse Tornado",
+      "data": {
+        "action": "TORNADO"
+      }
+    },
+    {
+      "menuName": "Declasse Voodoo",
+      "data": {
+        "action": "VOODOO2"
+      }
+    },
+    {
+      "menuName": "Dundreary Virgo Classic",
+      "data": {
+        "action": "VIRGO3"
+      }
+    },
+    {
+      "menuName": "Vapid Chino",
+      "data": {
+        "action": "CHINO2"
+      }
+    },
+    {
+      "menuName": "Vapid Minivan",
+      "data": {
+        "action": "MINIVAN"
+      }
+    },
+    {
+      "menuName": "Vapid Slamvan",
+      "data": {
+        "action": "SLAMVAN"
+      }
+    },
+    {
+      "menuName": "Willard Faction",
+      "data": {
+        "action": "FACTION2"
+      }
+    },
+    {
+      "menuName": "Willard Faction Donk",
+      "data": {
+        "action": "FACTION3"
+      }
+    }
+  ],
+  "vehicle_coupes": [
+    {
+      "menuName": "Dewbauchee Exemplar",
+      "data": {
+        "action": "EXEMPLAR"
+      }
+    },
+    {
+      "menuName": "Enus Cognoscenti Cabrio",
+      "data": {
+        "action": "COGCABRIO"
+      }
+    },
+    {
+      "menuName": "Enus Windsor",
+      "data": {
+        "action": "WINDSOR"
+      }
+    },
+    {
+      "menuName": "Enus Windsor Drop",
+      "data": {
+        "action": "WINDSOR2"
+      }
+    },
+    {
+      "menuName": "Lampadati Felon",
+      "data": {
+        "action": "FELON"
+      }
+    },
+    {
+      "menuName": "Lampadati Felon GT",
+      "data": {
+        "action": "FELON2"
+      }
+    },
+    {
+      "menuName": "Ocelot F620",
+      "data": {
+        "action": "F620"
+      }
+    },
+    {
+      "menuName": "Ocelot Jackal",
+      "data": {
+        "action": "JACKAL"
+      }
+    },
+    {
+      "menuName": "Ubermacht Sentinel",
+      "data": {
+        "action": "SENTINEL"
+      }
+    },
+    {
+      "menuName": "Ubermacht Sentinel XS",
+      "data": {
+        "action": "SENTINEL2"
+      }
+    },
+    {
+      "menuName": "Ubermacht Zion",
+      "data": {
+        "action": "ORACLE"
+      }
+    },
+    {
+      "menuName": "Ubermacht Zion Cabrio",
+      "data": {
+        "action": "ORACLE2"
+      }
+    }
+  ],
+  "vehicle_sedans": [
+    {
+      "menuName": "Albany Emperor",
+      "data": {
+        "action": "EMPEROR"
+      }
+    },
+    {
+      "menuName": "Albany Emperor (Rusty)",
+      "data": {
+        "action": "EMPEROR2"
+      }
+    },
+    {
+      "menuName": "Albany Emperor (Snow)",
+      "data": {
+        "action": "EMPEROR3"
+      }
+    },
+    {
+      "menuName": "Albany Primo",
+      "data": {
+        "action": "PRIMO"
+      }
+    },
+    {
+      "menuName": "Albany Washington",
+      "data": {
+        "action": "WASHINGTON"
+      }
+    },
+    {
+      "menuName": "Benefactor Glendale",
+      "data": {
+        "action": "GLENDALE"
+      }
+    },
+    {
+      "menuName": "Benefactor Schafter",
+      "data": {
+        "action": "SCHAFTER2"
+      }
+    },
+    {
+      "menuName": "Chariot Romero Hearse",
+      "data": {
+        "action": "ROMERO"
+      }
+    },
+    {
+      "menuName": "Cheval Fugitive",
+      "data": {
+        "action": "FUGITIVE"
+      }
+    },
+    {
+      "menuName": "Cheval Surge",
+      "data": {
+        "action": "SURGE"
+      }
+    },
+    {
+      "menuName": "Declasse Asea",
+      "data": {
+        "action": "ASEA"
+      }
+    },
+    {
+      "menuName": "Declasse Asea (snow)",
+      "data": {
+        "action": "ASEA2"
+      }
+    },
+    {
+      "menuName": "Declasse Premier",
+      "data": {
+        "action": "PREMIER"
+      }
+    },
+    {
+      "menuName": "Dundreary Regina",
+      "data": {
+        "action": "REGINA"
+      }
+    },
+    {
+      "menuName": "Dundreary Stretch",
+      "data": {
+        "action": "STRETCH"
+      }
+    },
+    {
+      "menuName": "Enus Super Diamond",
+      "data": {
+        "action": "SUPERD"
+      }
+    },
+    {
+      "menuName": "Karin Asterope",
+      "data": {
+        "action": "ASTEROPE"
+      }
+    },
+    {
+      "menuName": "Karin Intruder",
+      "data": {
+        "action": "INTRUDER"
+      }
+    },
+    {
+      "menuName": "Obey Tailgater",
+      "data": {
+        "action": "TAILGATER"
+      }
+    },
+    {
+      "menuName": "Ubermacht Oracle",
+      "data": {
+        "action": "ORACLE"
+      }
+    },
+    {
+      "menuName": "Ubermacht Oracle Mk2",
+      "data": {
+        "action": "ORACLE2"
+      }
+    },
+    {
+      "menuName": "Vapid Stanier",
+      "data": {
+        "action": "STANIER"
+      }
+    },
+    {
+      "menuName": "Vapid Stanier (Taxi)",
+      "data": {
+        "action": "TAXI"
+      }
+    },
+    {
+      "menuName": "Vulcan Ingot",
+      "data": {
+        "action": "INGOT"
+      }
+    },
+    {
+      "menuName": "Vulcar Warrener",
+      "data": {
+        "action": "WARRENER"
+      }
+    },
+    {
+      "menuName": "Zirconium Stratum",
+      "data": {
+        "action": "STRATUM"
+      }
+    }
+  ],
+  "vehicle_compacts": [
+    {
+      "menuName": "Benefactor Panto",
+      "data": {
+        "action": "PANTO"
+      }
+    },
+    {
+      "menuName": "Bollokan Prairie",
+      "data": {
+        "action": "PRAIRIE"
+      }
+    },
+    {
+      "menuName": "Declasse Rhapsody",
+      "data": {
+        "action": "RHAPSODY"
+      }
+    },
+    {
+      "menuName": "Dinka Blista",
+      "data": {
+        "action": "BLISTA"
+      }
+    },
+    {
+      "menuName": "Grotti Brioso R\/A",
+      "data": {
+        "action": "BRIOSO"
+      }
+    },
+    {
+      "menuName": "Karin Dilettante",
+      "data": {
+        "action": "DILETTANTE"
+      }
+    },
+    {
+      "menuName": "Karin Dilettante (FlyUS)",
+      "data": {
+        "action": "DILETTANTE2"
+      }
+    },
+    {
+      "menuName": "Weeny Issi",
+      "data": {
+        "action": "ISSI2"
+      }
+    }
+  ],
+  "vehicle_suvs": [
+    {
+      "menuName": "Albany Cavalcade",
+      "data": {
+        "action": "CAVALCADE"
+      }
+    },
+    {
+      "menuName": "Albany Cavalcade Mk2",
+      "data": {
+        "action": "CAVALCADE2"
+      }
+    },
+    {
+      "menuName": "Benefactor Dubsta",
+      "data": {
+        "action": "DUBSTA"
+      }
+    },
+    {
+      "menuName": "Benefactor Dubsta (Flat Black)",
+      "data": {
+        "action": "DUBSTA2"
+      }
+    },
+    {
+      "menuName": "Benefactor Serrano",
+      "data": {
+        "action": "SERRANO"
+      }
+    },
+    {
+      "menuName": "Bravado Gresley",
+      "data": {
+        "action": "GRESLEY"
+      }
+    },
+    {
+      "menuName": "Canis Mesa",
+      "data": {
+        "action": "MESA"
+      }
+    },
+    {
+      "menuName": "Canis Mesa (Snow)",
+      "data": {
+        "action": "MESA2"
+      }
+    },
+    {
+      "menuName": "Canis Seminole",
+      "data": {
+        "action": "SEMINOLE"
+      }
+    },
+    {
+      "menuName": "Declasse Granger",
+      "data": {
+        "action": "GRANGER"
+      }
+    },
+    {
+      "menuName": "Dundreary Landstalker",
+      "data": {
+        "action": "LANDSTALKER"
+      }
+    },
+    {
+      "menuName": "Emperor Habanero",
+      "data": {
+        "action": "HABANERO"
+      }
+    },
+    {
+      "menuName": "Enus Huntley S",
+      "data": {
+        "action": "HUNTLEY"
+      }
+    },
+    {
+      "menuName": "Fathom FQ 2",
+      "data": {
+        "action": "FQ2"
+      }
+    },
+    {
+      "menuName": "Gallivanter Baller (Large)",
+      "data": {
+        "action": "BALLER"
+      }
+    },
+    {
+      "menuName": "Gallivanter Baller (Small)",
+      "data": {
+        "action": "BALLER2"
+      }
+    },
+    {
+      "menuName": "Karin BeeJay XL",
+      "data": {
+        "action": "BJXL"
+      }
+    },
+    {
+      "menuName": "Mammoth Patriot",
+      "data": {
+        "action": "PATRIOT"
+      }
+    },
+    {
+      "menuName": "Obey Rocoto",
+      "data": {
+        "action": "ROCOTO"
+      }
+    },
+    {
+      "menuName": "Vapid Contender",
+      "data": {
+        "action": "CONTENDER"
+      }
+    },
+    {
+      "menuName": "Vapid Radius",
+      "data": {
+        "action": "RADI"
+      }
+    }
+  ],
+  "vehicle_offroad": [
+    {
+      "menuName": "Benefactor Dubsta 6x6",
+      "data": {
+        "action": "DUBSTA3"
+      }
+    },
+    {
+      "menuName": "BF Bifta",
+      "data": {
+        "action": "BIFTA"
+      }
+    },
+    {
+      "menuName": "BF Dune FAV",
+      "data": {
+        "action": "DUNE3"
+      }
+    },
+    {
+      "menuName": "BF Injection",
+      "data": {
+        "action": "BFINJECTION"
+      }
+    },
+    {
+      "menuName": "BF Ramp Buggy",
+      "data": {
+        "action": "DUNE5"
+      }
+    },
+    {
+      "menuName": "BF Ramp Buggy (Spoiler)",
+      "data": {
+        "action": "DUNE4"
+      }
+    },
+    {
+      "menuName": "Bravado Dune",
+      "data": {
+        "action": "DUNE"
+      }
+    },
+    {
+      "menuName": "Bravado Duneloader",
+      "data": {
+        "action": "DLOADER"
+      }
+    },
+    {
+      "menuName": "Bravado Space Docker",
+      "data": {
+        "action": "DUNE2"
+      }
+    },
+    {
+      "menuName": "Canis Bodhi",
+      "data": {
+        "action": "BODHI2"
+      }
+    },
+    {
+      "menuName": "Canis Kalahari",
+      "data": {
+        "action": "KALAHARI"
+      }
+    },
+    {
+      "menuName": "Canis Mesa (Off-Road)",
+      "data": {
+        "action": "MESA3"
+      }
+    },
+    {
+      "menuName": "Cheval Marshall",
+      "data": {
+        "action": "MARSHALL"
+      }
+    },
+    {
+      "menuName": "Coil Brawler",
+      "data": {
+        "action": "BRAWLER"
+      }
+    },
+    {
+      "menuName": "Declasse Rancher XL",
+      "data": {
+        "action": "RANCHERXL"
+      }
+    },
+    {
+      "menuName": "Declasse Rancher XL (Snow)",
+      "data": {
+        "action": "RANCHERXL2"
+      }
+    },
+    {
+      "menuName": "HVY Insurgent Pick-Up Custom",
+      "data": {
+        "action": "INSURGENT3"
+      }
+    },
+    {
+      "menuName": "HVY Nightshark",
+      "data": {
+        "action": "NIGHTSHARK"
+      }
+    },
+    {
+      "menuName": "Insurgent",
+      "data": {
+        "action": "INSURGENT"
+      }
+    },
+    {
+      "menuName": "Insurgent (Gun Mount)",
+      "data": {
+        "action": "INSURGENT2"
+      }
+    },
+    {
+      "menuName": "Karin Rebel",
+      "data": {
+        "action": "REBEL"
+      }
+    },
+    {
+      "menuName": "Karin Rebel (Rusty)",
+      "data": {
+        "action": "REBEL2"
+      }
+    },
+    {
+      "menuName": "Karin Technical",
+      "data": {
+        "action": "TECHNICAL"
+      }
+    },
+    {
+      "menuName": "Karin Technical Aqua",
+      "data": {
+        "action": "TECHNICAL2"
+      }
+    },
+    {
+      "menuName": "Karin Technical Custom",
+      "data": {
+        "action": "TECHNICAL3"
+      }
+    },
+    {
+      "menuName": "Nagasaki Blazer",
+      "data": {
+        "action": "BLAZER"
+      }
+    },
+    {
+      "menuName": "Nagasaki Blazer (Hot Rod)",
+      "data": {
+        "action": "BLAZER3"
+      }
+    },
+    {
+      "menuName": "Nagasaki Blazer (Lifeguard)",
+      "data": {
+        "action": "BLAZER2"
+      }
+    },
+    {
+      "menuName": "Nagasaki Blazer (Street)",
+      "data": {
+        "action": "BLAZER4"
+      }
+    },
+    {
+      "menuName": "Nagasaki Blazer Aqua",
+      "data": {
+        "action": "BLAZER5"
+      }
+    },
+    {
+      "menuName": "Vapid Desert Raid",
+      "data": {
+        "action": "TROPHYTRUCK2"
+      }
+    },
+    {
+      "menuName": "Vapid Guardian",
+      "data": {
+        "action": "GUARDIAN"
+      }
+    },
+    {
+      "menuName": "Vapid Liberator",
+      "data": {
+        "action": "MONSTER"
+      }
+    },
+    {
+      "menuName": "Vapid Sandking",
+      "data": {
+        "action": "SANDKING2"
+      }
+    },
+    {
+      "menuName": "Vapid Sandking XL",
+      "data": {
+        "action": "SANDKING"
+      }
+    },
+    {
+      "menuName": "Vapid Trophy Truck",
+      "data": {
+        "action": "TROPHYTRUCK"
+      }
+    }
+  ],
+  "vehicle_vip": [
+    {
+      "menuName": "Benefactor Schafter LWB",
+      "data": {
+        "action": "SCHAFTER4"
+      }
+    },
+    {
+      "menuName": "Benefactor Schafter LWB (Armored)",
+      "data": {
+        "action": "SCHAFTER6"
+      }
+    },
+    {
+      "menuName": "Benefactor Schafter V12",
+      "data": {
+        "action": "SCHAFTER3"
+      }
+    },
+    {
+      "menuName": "Benefactor Schafter V12 (Armored)",
+      "data": {
+        "action": "SCHAFTER5"
+      }
+    },
+    {
+      "menuName": "Benefactor Turreted Limo",
+      "data": {
+        "action": "LIMO2"
+      }
+    },
+    {
+      "menuName": "Benefactor XLS",
+      "data": {
+        "action": "XLS"
+      }
+    },
+    {
+      "menuName": "Benefactor XLS (Armored)",
+      "data": {
+        "action": "XLS2"
+      }
+    },
+    {
+      "menuName": "Enus Cognoscenti",
+      "data": {
+        "action": "COGNOSCENTI"
+      }
+    },
+    {
+      "menuName": "Enus Cognoscenti (Armored)",
+      "data": {
+        "action": "COGNOSCENTI2"
+      }
+    },
+    {
+      "menuName": "Enus Cognoscenti 55",
+      "data": {
+        "action": "COG552"
+      }
+    },
+    {
+      "menuName": "Enus Cognoscenti 55 (Armored)",
+      "data": {
+        "action": "COG552"
+      }
+    },
+    {
+      "menuName": "Gallivanter Baller LE",
+      "data": {
+        "action": "BALLER3"
+      }
+    },
+    {
+      "menuName": "Gallivanter Baller LE (Armored)",
+      "data": {
+        "action": "BALLER5"
+      }
+    },
+    {
+      "menuName": "Gallivanter Baller LE LWB",
+      "data": {
+        "action": "BALLER4"
+      }
+    },
+    {
+      "menuName": "Gallivanter Baller LE LWB (Armored)",
+      "data": {
+        "action": "BALLER6"
+      }
+    }
+  ],
+  "vehicle_pickups": [
+    {
+      "menuName": "Bravado Bison",
+      "data": {
+        "action": "BISON"
+      }
+    },
+    {
+      "menuName": "Bravado Bison (Backrack)",
+      "data": {
+        "action": "BISON2"
+      }
+    },
+    {
+      "menuName": "Bravado Bison (Construction)",
+      "data": {
+        "action": "BISON3"
+      }
+    },
+    {
+      "menuName": "Bravado Ratloader",
+      "data": {
+        "action": "RATLOADER2"
+      }
+    },
+    {
+      "menuName": "Bravado Ratloader (Rusty)",
+      "data": {
+        "action": "RATLOADER"
+      }
+    },
+    {
+      "menuName": "Vapid Bobcat",
+      "data": {
+        "action": "BOBCATXL"
+      }
+    },
+    {
+      "menuName": "Vapid Sadler",
+      "data": {
+        "action": "SADLER"
+      }
+    },
+    {
+      "menuName": "Vapid Sadler (Snow)",
+      "data": {
+        "action": "SADLER2"
+      }
+    }
+  ],
+  "vehicle_vans": [
+    {
+      "menuName": "BF Surfer",
+      "data": {
+        "action": "SURFER"
+      }
+    },
+    {
+      "menuName": "BF Surfer (Rusty)",
+      "data": {
+        "action": "SURFER2"
+      }
+    },
+    {
+      "menuName": "Bravado Paradise",
+      "data": {
+        "action": "PARADISE"
+      }
+    },
+    {
+      "menuName": "Bravado Rumpo (Deludamol)",
+      "data": {
+        "action": "RUMPO2"
+      }
+    },
+    {
+      "menuName": "Bravado Rumpo (Weazel News)",
+      "data": {
+        "action": "RUMPO"
+      }
+    },
+    {
+      "menuName": "Bravado Rumpo Custom",
+      "data": {
+        "action": "RUMPO3"
+      }
+    },
+    {
+      "menuName": "Bravado Youga",
+      "data": {
+        "action": "YOUGA"
+      }
+    },
+    {
+      "menuName": "Bravado Youga Classic",
+      "data": {
+        "action": "YOUGA2"
+      }
+    },
+    {
+      "menuName": "Brute Camper",
+      "data": {
+        "action": "CAMPER"
+      }
+    },
+    {
+      "menuName": "Brute Pony (Business)",
+      "data": {
+        "action": "PONY"
+      }
+    },
+    {
+      "menuName": "Brute Pony (Cannibus Shop)",
+      "data": {
+        "action": "PONY2"
+      }
+    },
+    {
+      "menuName": "Brute Taco Van",
+      "data": {
+        "action": "TACO"
+      }
+    },
+    {
+      "menuName": "Declasse Burrito",
+      "data": {
+        "action": "BURRITO3"
+      }
+    },
+    {
+      "menuName": "Declasse Burrito (Bug Stars)",
+      "data": {
+        "action": "BURRITO2"
+      }
+    },
+    {
+      "menuName": "Declasse Burrito (Construction)",
+      "data": {
+        "action": "BURRITO4"
+      }
+    },
+    {
+      "menuName": "Declasse Burrito (Gang)",
+      "data": {
+        "action": "GBURRITO2"
+      }
+    },
+    {
+      "menuName": "Declasse Burrito (Graphics)",
+      "data": {
+        "action": "BURRITO"
+      }
+    },
+    {
+      "menuName": "Declasse Burrito (Snow)",
+      "data": {
+        "action": "BURRITO5"
+      }
+    },
+    {
+      "menuName": "Declasse Burrito (The Lost)",
+      "data": {
+        "action": "GBURRITO"
+      }
+    },
+    {
+      "menuName": "Declasse Moonbeam",
+      "data": {
+        "action": "MOONBEAM"
+      }
+    },
+    {
+      "menuName": "Vapid Minivan",
+      "data": {
+        "action": "MINIVAN"
+      }
+    },
+    {
+      "menuName": "Vapid Speedo",
+      "data": {
+        "action": "SPEEDO"
+      }
+    },
+    {
+      "menuName": "Vapid Speedo (Clown)",
+      "data": {
+        "action": "SPEEDO2"
+      }
+    },
+    {
+      "menuName": "Zirconium Journey",
+      "data": {
+        "action": "JOURNEY"
+      }
+    }
+  ],
+  "vehicle_trucks": [
+    {
+      "menuName": "Brute Armored Boxville",
+      "data": {
+        "action": "BOXVILLE5"
+      }
+    },
+    {
+      "menuName": "Brute Boxville (Go Postal)",
+      "data": {
+        "action": "BOXVILLE2"
+      }
+    },
+    {
+      "menuName": "Brute Boxville (Humane Labs)",
+      "data": {
+        "action": "BOXVILLE3"
+      }
+    },
+    {
+      "menuName": "Brute Boxville (Post OP)",
+      "data": {
+        "action": "BOXVILLE4"
+      }
+    },
+    {
+      "menuName": "Brute Boxville (Water & Power)",
+      "data": {
+        "action": "BOXVILLE"
+      }
+    },
+    {
+      "menuName": "Brute Stockade",
+      "data": {
+        "action": "STOCKADE"
+      }
+    },
+    {
+      "menuName": "Brute Stockade (Snow)",
+      "data": {
+        "action": "STOCKADE3"
+      }
+    },
+    {
+      "menuName": "Brute Tipper (2 Axle)",
+      "data": {
+        "action": "TIPTRUCK"
+      }
+    },
+    {
+      "menuName": "Brute Tipper (3 Axle)",
+      "data": {
+        "action": "TIPTRUCK2"
+      }
+    },
+    {
+      "menuName": "Cutter",
+      "data": {
+        "action": "CUTTER"
+      }
+    },
+    {
+      "menuName": "Dock Handler",
+      "data": {
+        "action": "HANDLER"
+      }
+    },
+    {
+      "menuName": "Dock Tug",
+      "data": {
+        "action": "DOCKTUG"
+      }
+    },
+    {
+      "menuName": "Dump Truck",
+      "data": {
+        "action": "DUMP"
+      }
+    },
+    {
+      "menuName": "HVY Biff",
+      "data": {
+        "action": "BIFF"
+      }
+    },
+    {
+      "menuName": "Jobuilt Hauler",
+      "data": {
+        "action": "HAULER"
+      }
+    },
+    {
+      "menuName": "Jobuilt Hauler Custom",
+      "data": {
+        "action": "HAULER2"
+      }
+    },
+    {
+      "menuName": "Jobuilt Phantom",
+      "data": {
+        "action": "PHANTOM"
+      }
+    },
+    {
+      "menuName": "Jobuilt Phantom Custom",
+      "data": {
+        "action": "PHANTOM3"
+      }
+    },
+    {
+      "menuName": "Jobuilt Phantom Wedge",
+      "data": {
+        "action": "PHANTOM2"
+      }
+    },
+    {
+      "menuName": "Jobuilt Rubble",
+      "data": {
+        "action": "RUBBLE"
+      }
+    },
+    {
+      "menuName": "Maibatsu Mule (Graphics 1)",
+      "data": {
+        "action": "MULE"
+      }
+    },
+    {
+      "menuName": "Maibatsu Mule (Graphics 2)",
+      "data": {
+        "action": "MULE2"
+      }
+    },
+    {
+      "menuName": "Maibatsu Mule (Plain)",
+      "data": {
+        "action": "MULE3"
+      }
+    },
+    {
+      "menuName": "Mixer",
+      "data": {
+        "action": "MIXER"
+      }
+    },
+    {
+      "menuName": "Mixer (Support Wheel)",
+      "data": {
+        "action": "MIXER2"
+      }
+    },
+    {
+      "menuName": "MTL Flatbed Truck",
+      "data": {
+        "action": "FLATBED"
+      }
+    },
+    {
+      "menuName": "MTL Packer",
+      "data": {
+        "action": "PACKER"
+      }
+    },
+    {
+      "menuName": "MTL Pounder",
+      "data": {
+        "action": "POUNDER"
+      }
+    },
+    {
+      "menuName": "MTL Wastelander",
+      "data": {
+        "action": "WASTELANDER"
+      }
+    },
+    {
+      "menuName": "Vapid Benson",
+      "data": {
+        "action": "BENSON"
+      }
+    },
+    {
+      "menuName": "Vapid Scrap Truck",
+      "data": {
+        "action": "SCRAP"
+      }
+    },
+    {
+      "menuName": "Vapid Tow Truck",
+      "data": {
+        "action": "TOWTRUCK"
+      }
+    },
+    {
+      "menuName": "Vapid Tow Truck (Old)",
+      "data": {
+        "action": "TOWTRUCK2"
+      }
+    }
+  ],
+  "vehicle_service": [
+    {
+      "menuName": "Airtug",
+      "data": {
+        "action": "AIRTUG"
+      }
+    },
+    {
+      "menuName": "Brute Airport Bus",
+      "data": {
+        "action": "AIRBUS"
+      }
+    },
+    {
+      "menuName": "Brute Bus (City Bus)",
+      "data": {
+        "action": "BUS"
+      }
+    },
+    {
+      "menuName": "Brute Rental Shuttle Bus",
+      "data": {
+        "action": "RENTALBUS"
+      }
+    },
+    {
+      "menuName": "Brute Tourbus",
+      "data": {
+        "action": "TOURBUS"
+      }
+    },
+    {
+      "menuName": "Cable Car (Mt. Chilliad)",
+      "data": {
+        "action": "CABLECAR"
+      }
+    },
+    {
+      "menuName": "Dashound Coach Bus",
+      "data": {
+        "action": "COACH"
+      }
+    },
+    {
+      "menuName": "Dozer",
+      "data": {
+        "action": "BULLDOZER"
+      }
+    },
+    {
+      "menuName": "Forklift",
+      "data": {
+        "action": "FORKLIFT"
+      }
+    },
+    {
+      "menuName": "HVY Brickade",
+      "data": {
+        "action": "BRICKADE"
+      }
+    },
+    {
+      "menuName": "Jobuilt Trashmaster",
+      "data": {
+        "action": "TRASH"
+      }
+    },
+    {
+      "menuName": "Jobuilt Trashmaster (Rusty)",
+      "data": {
+        "action": "TRASH2"
+      }
+    },
+    {
+      "menuName": "MTL Dune",
+      "data": {
+        "action": "DUNE"
+      }
+    },
+    {
+      "menuName": "Nagasaki Caddy",
+      "data": {
+        "action": "CADDY"
+      }
+    },
+    {
+      "menuName": "Nagasaki Caddy (Bunker)",
+      "data": {
+        "action": "CADDY3"
+      }
+    },
+    {
+      "menuName": "Nagasaki Caddy (Golf)",
+      "data": {
+        "action": "CADDY2"
+      }
+    },
+    {
+      "menuName": "Ripley (Airpot Tug)",
+      "data": {
+        "action": "RIPLEY"
+      }
+    },
+    {
+      "menuName": "Stanley Fieldmaster Tractor",
+      "data": {
+        "action": "TRACTOR2"
+      }
+    },
+    {
+      "menuName": "Stanley Fieldmaster Tractor (Snow)",
+      "data": {
+        "action": "TRACTOR3"
+      }
+    },
+    {
+      "menuName": "Stanley Lawn Mower",
+      "data": {
+        "action": "MOWER"
+      }
+    },
+    {
+      "menuName": "Stanley Tractor (Rusty)",
+      "data": {
+        "action": "tractor"
+      }
+    },
+    {
+      "menuName": "Vapid Pickup Utility",
+      "data": {
+        "action": "UTILLITRUCK"
+      }
+    },
+    {
+      "menuName": "Vapid Plumbing Utility",
+      "data": {
+        "action": "UTILLITRUCK2"
+      }
+    },
+    {
+      "menuName": "Vapid Telephone Utlity",
+      "data": {
+        "action": "UTILLITRUCK3"
+      }
+    }
+  ],
+  "vehicle_trailers": [
+    {
+      "menuName": "Army Flatbed Trailer",
+      "data": {
+        "action": "ARMYTRAILER"
+      }
+    },
+    {
+      "menuName": "Army Flatbed Trailer (with Drill)",
+      "data": {
+        "action": "ARMYTRAILER2"
+      }
+    },
+    {
+      "menuName": "Army Fuel Tanker",
+      "data": {
+        "action": "ARMYTANKER"
+      }
+    },
+    {
+      "menuName": "Boat trailer (small)",
+      "data": {
+        "action": "BOATTRAILER"
+      }
+    },
+    {
+      "menuName": "Boat Trailer (With Boat)",
+      "data": {
+        "action": "TR3"
+      }
+    },
+    {
+      "menuName": "Car Tranport Trailer",
+      "data": {
+        "action": "TR4"
+      }
+    },
+    {
+      "menuName": "Car Tranport Trailer (Empty)",
+      "data": {
+        "action": "TR2"
+      }
+    },
+    {
+      "menuName": "Commercial Trailer (Graphics 1)",
+      "data": {
+        "action": "TRAILERS2"
+      }
+    },
+    {
+      "menuName": "Commercial Trailer (Graphics 2)",
+      "data": {
+        "action": "TRAILERS3"
+      }
+    },
+    {
+      "menuName": "Container Trailer",
+      "data": {
+        "action": "DOCKTRAILER"
+      }
+    },
+    {
+      "menuName": "Container Trailer (Gunrunning)",
+      "data": {
+        "action": "TRAILERS4"
+      }
+    },
+    {
+      "menuName": "Fame or Shame Trailer",
+      "data": {
+        "action": "TVTRAILER"
+      }
+    },
+    {
+      "menuName": "Flatbed Trailer",
+      "data": {
+        "action": "TRFLAT"
+      }
+    },
+    {
+      "menuName": "Flatbed Trailer",
+      "data": {
+        "action": "FREIGHTTRAILER"
+      }
+    },
+    {
+      "menuName": "Grain Trailer",
+      "data": {
+        "action": "GRAINTRAILER"
+      }
+    },
+    {
+      "menuName": "Hay Bale Trailer",
+      "data": {
+        "action": "BALETRAILER"
+      }
+    },
+    {
+      "menuName": "Logging Trailer",
+      "data": {
+        "action": "TRAILERLOGS"
+      }
+    },
+    {
+      "menuName": "Meth Lab Trailer",
+      "data": {
+        "action": "PROPTRAILER"
+      }
+    },
+    {
+      "menuName": "Mobile Operations Center (Non-Functional)",
+      "data": {
+        "action": "TRAILERLARGE"
+      }
+    },
+    {
+      "menuName": "Petrol Tanker Trailer (Plain)",
+      "data": {
+        "action": "TANKER2"
+      }
+    },
+    {
+      "menuName": "Petrol Tanker Trailer (Ron)",
+      "data": {
+        "action": "TANKER"
+      }
+    },
+    {
+      "menuName": "Plain Trailer",
+      "data": {
+        "action": "TRAILERS"
+      }
+    },
+    {
+      "menuName": "Rake Trailer",
+      "data": {
+        "action": "RAKETRAILER"
+      }
+    },
+    {
+      "menuName": "Small Trailer",
+      "data": {
+        "action": "TRAILERSMALL"
+      }
+    },
+    {
+      "menuName": "Vom Feuer Anti-Aircraft Trailer",
+      "data": {
+        "action": "TRAILERSMALL2"
+      }
+    }
+  ],
+  "vehicle_trains": [
+    {
+      "menuName": "Container Car 1",
+      "data": {
+        "action": "FREIGHTCONT1"
+      }
+    },
+    {
+      "menuName": "Container Car 2",
+      "data": {
+        "action": "FREIGHTCONT2"
+      }
+    },
+    {
+      "menuName": "Flatbed Car",
+      "data": {
+        "action": "FREIGHTCAR"
+      }
+    },
+    {
+      "menuName": "Freight Train Cab",
+      "data": {
+        "action": "FREIGHT"
+      }
+    },
+    {
+      "menuName": "Grain Car",
+      "data": {
+        "action": "FREIGHTGRAIN"
+      }
+    },
+    {
+      "menuName": "Metro Train (Half)",
+      "data": {
+        "action": "METROTRAIN"
+      }
+    },
+    {
+      "menuName": "Oil Tanker Car",
+      "data": {
+        "action": "TANKERCAR"
+      }
+    }
+  ],
+  "vehicle_emergency": [
+    {
+      "menuName": "Albany Police Roadcruiser (Snow)",
+      "data": {
+        "action": "POLICEOLD2"
+      }
+    },
+    {
+      "menuName": "Ambulance",
+      "data": {
+        "action": "AMBULANCE"
+      }
+    },
+    {
+      "menuName": "Army Barracks Truck",
+      "data": {
+        "action": "BARRACKS"
+      }
+    },
+    {
+      "menuName": "Army Truck Cab",
+      "data": {
+        "action": "BARRACKS2"
+      }
+    },
+    {
+      "menuName": "Bravado Buffalo (FIB)",
+      "data": {
+        "action": "FBI"
+      }
+    },
+    {
+      "menuName": "Bravado Half-track",
+      "data": {
+        "action": "HALFTRACK"
+      }
+    },
+    {
+      "menuName": "Brute Police Riot Van",
+      "data": {
+        "action": "RIOT"
+      }
+    },
+    {
+      "menuName": "Canis Crusader (Army Mesa)",
+      "data": {
+        "action": "CRUSADER"
+      }
+    },
+    {
+      "menuName": "Declasse Granger (FIB)",
+      "data": {
+        "action": "FBI2"
+      }
+    },
+    {
+      "menuName": "Declasse Lifeguard",
+      "data": {
+        "action": "LGUARD"
+      }
+    },
+    {
+      "menuName": "Declasse Park Ranger",
+      "data": {
+        "action": "PRANGER"
+      }
+    },
+    {
+      "menuName": "Declasse Police Rancher (Snow)",
+      "data": {
+        "action": "POLICEOLD1"
+      }
+    },
+    {
+      "menuName": "Declasse Police Transporter",
+      "data": {
+        "action": "POLICET"
+      }
+    },
+    {
+      "menuName": "Declasse Sheriff SUV",
+      "data": {
+        "action": "SHERIFF2"
+      }
+    },
+    {
+      "menuName": "Firetruck",
+      "data": {
+        "action": "FIRETRUK"
+      }
+    },
+    {
+      "menuName": "HVY APC",
+      "data": {
+        "action": "APC"
+      }
+    },
+    {
+      "menuName": "Prison Bus",
+      "data": {
+        "action": "PBUS"
+      }
+    },
+    {
+      "menuName": "Rhino Tank",
+      "data": {
+        "action": "RHINO"
+      }
+    },
+    {
+      "menuName": "Vapid Police Buffalo",
+      "data": {
+        "action": "POLICE2"
+      }
+    },
+    {
+      "menuName": "Vapid Police Cruiser",
+      "data": {
+        "action": "POLICE"
+      }
+    },
+    {
+      "menuName": "Vapid Police Interceptor",
+      "data": {
+        "action": "POLICE3"
+      }
+    },
+    {
+      "menuName": "Vapid Sheriff Cruiser",
+      "data": {
+        "action": "SHERIFF"
+      }
+    },
+    {
+      "menuName": "Vapid Unmarked Police Cruiser",
+      "data": {
+        "action": "POLICE4"
+      }
+    },
+    {
+      "menuName": "Western Police Bike",
+      "data": {
+        "action": "POLICEB"
+      }
+    }
+  ],
+  "vehicle_motorcycles": [
+    {
+      "menuName": "Dinka Akuma",
+      "data": {
+        "action": "AKUMA"
+      }
+    },
+    {
+      "menuName": "Dinka Double-T",
+      "data": {
+        "action": "DOUBLE"
+      }
+    },
+    {
+      "menuName": "Dinka Enduro",
+      "data": {
+        "action": "ENDURO"
+      }
+    },
+    {
+      "menuName": "Dinka Thrust",
+      "data": {
+        "action": "THRUST"
+      }
+    },
+    {
+      "menuName": "Dinka Vindicator",
+      "data": {
+        "action": "VINDICATOR"
+      }
+    },
+    {
+      "menuName": "LLC Avarus",
+      "data": {
+        "action": "AVARUS"
+      }
+    },
+    {
+      "menuName": "LLC Hexer",
+      "data": {
+        "action": "HEXER"
+      }
+    },
+    {
+      "menuName": "LLC Innovation",
+      "data": {
+        "action": "INNOVATION"
+      }
+    },
+    {
+      "menuName": "LLC Sanctus",
+      "data": {
+        "action": "SANCTUS"
+      }
+    },
+    {
+      "menuName": "Maibatsu Carbon RS",
+      "data": {
+        "action": "CARBONRS"
+      }
+    },
+    {
+      "menuName": "Maibatsu Chimera",
+      "data": {
+        "action": "CHIMERA"
+      }
+    },
+    {
+      "menuName": "Maibatsu Manchez",
+      "data": {
+        "action": "MANCHEZ"
+      }
+    },
+    {
+      "menuName": "Maibatsu Sanchez",
+      "data": {
+        "action": "SANCHEZ"
+      }
+    },
+    {
+      "menuName": "Maibatsu Sanchez (Graphics)",
+      "data": {
+        "action": "SANCHEZ2"
+      }
+    },
+    {
+      "menuName": "Maibatsu Shotaro",
+      "data": {
+        "action": "SHOTARO"
+      }
+    },
+    {
+      "menuName": "Pegassi Bati",
+      "data": {
+        "action": "BATI"
+      }
+    },
+    {
+      "menuName": "Pegassi Bati(Race)",
+      "data": {
+        "action": "BATI2"
+      }
+    },
+    {
+      "menuName": "Pegassi Esskey",
+      "data": {
+        "action": "ESSKEY"
+      }
+    },
+    {
+      "menuName": "Pegassi Faggio",
+      "data": {
+        "action": "FAGGIO"
+      }
+    },
+    {
+      "menuName": "Pegassi Faggio Mod",
+      "data": {
+        "action": "FAGGIO3"
+      }
+    },
+    {
+      "menuName": "Pegassi Faggio Sport",
+      "data": {
+        "action": "FAGGIO2"
+      }
+    },
+    {
+      "menuName": "Pegassi FCR 1000",
+      "data": {
+        "action": "FCR"
+      }
+    },
+    {
+      "menuName": "Pegassi FCR 1000 Custom",
+      "data": {
+        "action": "FCR2"
+      }
+    },
+    {
+      "menuName": "Pegassi Oppressor",
+      "data": {
+        "action": "OPPRESSOR"
+      }
+    },
+    {
+      "menuName": "Pegassi Ruffian",
+      "data": {
+        "action": "RUFFIAN"
+      }
+    },
+    {
+      "menuName": "Pegassi Vortex",
+      "data": {
+        "action": "VORTEX"
+      }
+    },
+    {
+      "menuName": "Princepe Diabolus",
+      "data": {
+        "action": "DIABOLUS"
+      }
+    },
+    {
+      "menuName": "Princepe Diabolus Custom",
+      "data": {
+        "action": "DIABOLUS2"
+      }
+    },
+    {
+      "menuName": "Principe Lectro",
+      "data": {
+        "action": "LECTRO"
+      }
+    },
+    {
+      "menuName": "Principe Nemesis",
+      "data": {
+        "action": "NEMESIS"
+      }
+    },
+    {
+      "menuName": "Shitzu Defiler",
+      "data": {
+        "action": "DEFILER"
+      }
+    },
+    {
+      "menuName": "Shitzu Hakuchou",
+      "data": {
+        "action": "HAKUCHOU"
+      }
+    },
+    {
+      "menuName": "Shitzu Hakuchou Drag",
+      "data": {
+        "action": "HAKUCHOU2"
+      }
+    },
+    {
+      "menuName": "Shitzu PCJ 600",
+      "data": {
+        "action": "PCJ"
+      }
+    },
+    {
+      "menuName": "Shitzu Vader",
+      "data": {
+        "action": "VADER"
+      }
+    },
+    {
+      "menuName": "Western Bagger",
+      "data": {
+        "action": "BAGGER"
+      }
+    },
+    {
+      "menuName": "Western Cliffhanger",
+      "data": {
+        "action": "CLIFFHANGER"
+      }
+    },
+    {
+      "menuName": "Western Daemon",
+      "data": {
+        "action": "DAEMON2"
+      }
+    },
+    {
+      "menuName": "Western Daemon Custom",
+      "data": {
+        "action": "DAEMON"
+      }
+    },
+    {
+      "menuName": "Western Gargoyle",
+      "data": {
+        "action": "GARGOYLE"
+      }
+    },
+    {
+      "menuName": "Western Nightblade",
+      "data": {
+        "action": "NIGHTBLADE"
+      }
+    },
+    {
+      "menuName": "Western Rat Bike",
+      "data": {
+        "action": "RATBIKE"
+      }
+    },
+    {
+      "menuName": "Western Sovereign",
+      "data": {
+        "action": "SOVEREIGN"
+      }
+    },
+    {
+      "menuName": "Western Wolfsbane",
+      "data": {
+        "action": "WOLFSBANE"
+      }
+    },
+    {
+      "menuName": "Western Zombie Bobber",
+      "data": {
+        "action": "ZOMBIEA"
+      }
+    },
+    {
+      "menuName": "Western Zombie Chopper",
+      "data": {
+        "action": "ZOMBIEB"
+      }
+    }
+  ],
+  "vehicle_planes": [
+    {
+      "menuName": "Buckingham Cargo Plane (An-225)",
+      "data": {
+        "action": "CARGOPLANE"
+      }
+    },
+    {
+      "menuName": "Buckingham Jet (B747)",
+      "data": {
+        "action": "JET"
+      }
+    },
+    {
+      "menuName": "Buckingham Luxor",
+      "data": {
+        "action": "LUXOR"
+      }
+    },
+    {
+      "menuName": "Buckingham Luxor Deluxe",
+      "data": {
+        "action": "LUXOR2"
+      }
+    },
+    {
+      "menuName": "Buckingham Miljet",
+      "data": {
+        "action": "MILJET"
+      }
+    },
+    {
+      "menuName": "Buckingham Nimbus",
+      "data": {
+        "action": "NIMBUS"
+      }
+    },
+    {
+      "menuName": "Buckingham Shamal",
+      "data": {
+        "action": "SHAMAL"
+      }
+    },
+    {
+      "menuName": "Buckingham Vestra",
+      "data": {
+        "action": "VESTRA"
+      }
+    },
+    {
+      "menuName": "Jobuilt Mammatus",
+      "data": {
+        "action": "MAMMATUS"
+      }
+    },
+    {
+      "menuName": "Jobuilt P-996 Lazer",
+      "data": {
+        "action": "LAZER"
+      }
+    },
+    {
+      "menuName": "Jobuilt Velum (4 Seater)",
+      "data": {
+        "action": "VELUM"
+      }
+    },
+    {
+      "menuName": "Jobuilt Velum (5 Seater)",
+      "data": {
+        "action": "VELUM2"
+      }
+    },
+    {
+      "menuName": "Mammoth Dodo",
+      "data": {
+        "action": "DODO"
+      }
+    },
+    {
+      "menuName": "Mammoth Hydra",
+      "data": {
+        "action": "HYDRA"
+      }
+    },
+    {
+      "menuName": "Mammoth Titan",
+      "data": {
+        "action": "TITAN"
+      }
+    },
+    {
+      "menuName": "Western Besra",
+      "data": {
+        "action": "BESRA"
+      }
+    },
+    {
+      "menuName": "Western Cuban 800",
+      "data": {
+        "action": "CUBAN800"
+      }
+    },
+    {
+      "menuName": "Western Duster",
+      "data": {
+        "action": "DUSTER"
+      }
+    },
+    {
+      "menuName": "Western Mallard Stunt Plane",
+      "data": {
+        "action": "STUNT"
+      }
+    }
+  ],
+  "vehicle_helicopters": [
+    {
+      "menuName": "Blimp (Atomic)",
+      "data": {
+        "action": "BLIMP"
+      }
+    },
+    {
+      "menuName": "Blimp (Xero Gas)",
+      "data": {
+        "action": "BLIMP2"
+      }
+    },
+    {
+      "menuName": "Buckingham Savage",
+      "data": {
+        "action": "SAVAGE"
+      }
+    },
+    {
+      "menuName": "Buckingham SuperVolito",
+      "data": {
+        "action": "SUPERVOLITO"
+      }
+    },
+    {
+      "menuName": "Buckingham SuperVolito Carbon",
+      "data": {
+        "action": "SUPERVOLITO2"
+      }
+    },
+    {
+      "menuName": "Buckingham Swift",
+      "data": {
+        "action": "SWIFT"
+      }
+    },
+    {
+      "menuName": "Buckingham Swift Deluxe",
+      "data": {
+        "action": "SWIFT2"
+      }
+    },
+    {
+      "menuName": "Buckingham Valkyrie",
+      "data": {
+        "action": "VALKYRIE"
+      }
+    },
+    {
+      "menuName": "Buckingham Volatus",
+      "data": {
+        "action": "VOLATUS"
+      }
+    },
+    {
+      "menuName": "HVT Skylift",
+      "data": {
+        "action": "SKYLIFT"
+      }
+    },
+    {
+      "menuName": "Maibatsu Frogger",
+      "data": {
+        "action": "FROGGER"
+      }
+    },
+    {
+      "menuName": "Maibatsu Frogger (TPE\/FIB)",
+      "data": {
+        "action": "FROGGER2"
+      }
+    },
+    {
+      "menuName": "Nagasaki Buzzard (Attack Chopper)",
+      "data": {
+        "action": "BUZZARD2"
+      }
+    },
+    {
+      "menuName": "Nagasaki Buzzard (Unarmed)",
+      "data": {
+        "action": "BUZZARD"
+      }
+    },
+    {
+      "menuName": "Western Annihilator",
+      "data": {
+        "action": "ANNIHILATOR"
+      }
+    },
+    {
+      "menuName": "Western Cargobob (Desert Camo)",
+      "data": {
+        "action": "CARGOBOB"
+      }
+    },
+    {
+      "menuName": "Western Cargobob (Jetsam)",
+      "data": {
+        "action": "CARGOBOB2"
+      }
+    },
+    {
+      "menuName": "Western Cargobob (TPE)",
+      "data": {
+        "action": "CARGOBOB3"
+      }
+    },
+    {
+      "menuName": "Western Mavrick",
+      "data": {
+        "action": "MAVERICK"
+      }
+    },
+    {
+      "menuName": "Western Mavrick (Police)",
+      "data": {
+        "action": "POLMAV"
+      }
+    }
+  ],
+  "vehicle_boats": [
+    {
+      "menuName": "Buckingham Tug",
+      "data": {
+        "action": "TUG"
+      }
+    },
+    {
+      "menuName": "Dinka Marquis",
+      "data": {
+        "action": "MARQUIS"
+      }
+    },
+    {
+      "menuName": "Lampadati Toro",
+      "data": {
+        "action": "TORO"
+      }
+    },
+    {
+      "menuName": "Nagasaki Dinghy (2 Seater)",
+      "data": {
+        "action": "DINGHY2"
+      }
+    },
+    {
+      "menuName": "Nagasaki Dinghy (4 Seater Black)",
+      "data": {
+        "action": "DINGHY3"
+      }
+    },
+    {
+      "menuName": "Nagasaki Dinghy (4 Seater Red)",
+      "data": {
+        "action": "DINGHY"
+      }
+    },
+    {
+      "menuName": "Pegassi Speeder",
+      "data": {
+        "action": "SPEEDER"
+      }
+    },
+    {
+      "menuName": "Shitzu Jetmax",
+      "data": {
+        "action": "SUNTRAP"
+      }
+    },
+    {
+      "menuName": "Shitzu Predator (Police)",
+      "data": {
+        "action": "PREDATOR"
+      }
+    },
+    {
+      "menuName": "Shitzu Squalo",
+      "data": {
+        "action": "SQUALO"
+      }
+    },
+    {
+      "menuName": "Shitzu Suntrap",
+      "data": {
+        "action": "SUNTRAP"
+      }
+    },
+    {
+      "menuName": "Shitzu Tropic",
+      "data": {
+        "action": "TROPIC"
+      }
+    },
+    {
+      "menuName": "Speedophile Seashark",
+      "data": {
+        "action": "SEASHARK"
+      }
+    },
+    {
+      "menuName": "Speedophile Seashark (Lifeguard)",
+      "data": {
+        "action": "SEASHARK2"
+      }
+    },
+    {
+      "menuName": "Submersible",
+      "data": {
+        "action": "SUBMERSIBLE"
+      }
+    },
+    {
+      "menuName": "Submersible (Kraken)",
+      "data": {
+        "action": "SUBMERSIBLE2"
+      }
+    }
+  ],
+  "vehicle_bicycles": [
+    {
+      "menuName": "BMX",
+      "data": {
+        "action": "BMX"
+      }
+    },
+    {
+      "menuName": "Cruiser",
+      "data": {
+        "action": "CRUISER"
+      }
+    },
+    {
+      "menuName": "Endurex Race",
+      "data": {
+        "action": "TRIBIKE2"
+      }
+    },
+    {
+      "menuName": "Fixter",
+      "data": {
+        "action": "FIXTER"
+      }
+    },
+    {
+      "menuName": "Scorcher",
+      "data": {
+        "action": "SCORCHER"
+      }
+    },
+    {
+      "menuName": "Tri-Cycles Race",
+      "data": {
+        "action": "TRIBIKE3"
+      }
+    },
+    {
+      "menuName": "Whippet Race",
+      "data": {
+        "action": "TRIBIKE"
+      }
+    }
+  ]
 }
