@@ -150,9 +150,9 @@ function sortJSONObjects(a, b) {
     return (textA < textB) ? -1 : (textA > textB) ? 1 : 0;
 }
 
-function alphabetizeJSON(JSON){
+function alphabetizeJSON(json){
 	var newJSON = {}
-	$.each(JSON, function(key, data){ 
+	$.each(json, function(key, data){ 
 		data.sort(sortJSONObjects)
 		newJSON[key] = data
 	})

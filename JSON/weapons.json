@@ -1,10 +1,43 @@
 {
   "Melee": [
     {
-      "menuName": "Knife",
-      "weaponName": "WEAPON_KNIFE",
+      "menuName": "Antique Dagger",
+      "weaponName": "WEAPON_DAGGER",
       "data": {
-        "sub": 0
+        "sub": 8
+      },
+      "weapon": true,
+      "submenu": [
+        
+      ]
+    },
+    {
+      "menuName": "Baseball Bat",
+      "weaponName": "WEAPON_BAT",
+      "data": {
+        "sub": 4
+      },
+      "weapon": true,
+      "submenu": [
+        
+      ]
+    },
+    {
+      "menuName": "Battle Axe",
+      "weaponName": "WEAPON_BATTLEAXE",
+      "data": {
+        "sub": 15
+      },
+      "weapon": true,
+      "submenu": [
+        
+      ]
+    },
+    {
+      "menuName": "Bottle",
+      "weaponName": "WEAPON_BOTTLE",
+      "data": {
+        "sub": 7
       },
       "weapon": true,
       "submenu": [
@@ -82,10 +115,10 @@
       ]
     },
     {
-      "menuName": "Nightstick",
-      "weaponName": "WEAPON_NIGHTSTICK",
+      "menuName": "Crowbar",
+      "weaponName": "WEAPON_CROWBAR",
       "data": {
-        "sub": 2
+        "sub": 6
       },
       "weapon": true,
       "submenu": [
@@ -93,21 +126,10 @@
       ]
     },
     {
-      "menuName": "Hammer",
-      "weaponName": "WEAPON_HAMMER",
+      "menuName": "Flashlight",
+      "weaponName": "WEAPON_FLASHLIGHT",
       "data": {
-        "sub": 3
-      },
-      "weapon": true,
-      "submenu": [
-        
-      ]
-    },
-    {
-      "menuName": "Baseball Bat",
-      "weaponName": "WEAPON_BAT",
-      "data": {
-        "sub": 4
+        "sub": 11
       },
       "weapon": true,
       "submenu": [
@@ -126,32 +148,10 @@
       ]
     },
     {
-      "menuName": "Crowbar",
-      "weaponName": "WEAPON_CROWBAR",
+      "menuName": "Hammer",
+      "weaponName": "WEAPON_HAMMER",
       "data": {
-        "sub": 6
-      },
-      "weapon": true,
-      "submenu": [
-        
-      ]
-    },
-    {
-      "menuName": "Bottle",
-      "weaponName": "WEAPON_BOTTLE",
-      "data": {
-        "sub": 7
-      },
-      "weapon": true,
-      "submenu": [
-        
-      ]
-    },
-    {
-      "menuName": "Antique Dagger",
-      "weaponName": "WEAPON_DAGGER",
-      "data": {
-        "sub": 8
+        "sub": 3
       },
       "weapon": true,
       "submenu": [
@@ -170,6 +170,17 @@
       ]
     },
     {
+      "menuName": "Knife",
+      "weaponName": "WEAPON_KNIFE",
+      "data": {
+        "sub": 0
+      },
+      "weapon": true,
+      "submenu": [
+        
+      ]
+    },
+    {
       "menuName": "Machete",
       "weaponName": "WEAPON_MACHETE",
       "data": {
@@ -181,10 +192,32 @@
       ]
     },
     {
-      "menuName": "Flashlight",
-      "weaponName": "WEAPON_FLASHLIGHT",
+      "menuName": "Nightstick",
+      "weaponName": "WEAPON_NIGHTSTICK",
       "data": {
-        "sub": 11
+        "sub": 2
+      },
+      "weapon": true,
+      "submenu": [
+        
+      ]
+    },
+    {
+      "menuName": "Pipe Wrench",
+      "weaponName": "WEAPON_WRENCH",
+      "data": {
+        "sub": 14
+      },
+      "weapon": true,
+      "submenu": [
+        
+      ]
+    },
+    {
+      "menuName": "Pool Cue",
+      "weaponName": "WEAPON_POOLCUE",
+      "data": {
+        "sub": 13
       },
       "weapon": true,
       "submenu": [
@@ -216,10 +249,10 @@
   ],
   "Handguns": [
     {
-      "menuName": "Pistol",
-      "weaponName": "WEAPON_PISTOL",
+      "menuName": "AP Pistol",
+      "weaponName": "WEAPON_APPISTOL",
       "data": {
-        "sub": 0
+        "sub": 2
       },
       "ammo": true,
       "weapon": true,
@@ -227,13 +260,13 @@
         {
           "menuName": "Extended Magazine",
           "data": {
-            "action": "COMPONENT_PISTOL_CLIP_02"
+            "action": "COMPONENT_APPISTOL_CLIP_02"
           }
         },
         {
           "menuName": "Suppressor",
           "data": {
-            "action": "COMPONENT_AT_PI_SUPP_02"
+            "action": "COMPONENT_AT_PI_SUPP"
           }
         },
         {
@@ -243,9 +276,9 @@
           }
         },
         {
-          "menuName": "Yusuf Amir Luxury Finish",
+          "menuName": "Gilded Gun Metal Finish",
           "data": {
-            "action": "COMPONENT_PISTOL_VARMOD_LUXE"
+            "action": "COMPONENT_APPISTOL_VARMOD_LUXE"
           }
         }
       ]
@@ -286,10 +319,22 @@
       ]
     },
     {
-      "menuName": "AP Pistol",
-      "weaponName": "WEAPON_APPISTOL",
+      "menuName": "Flaregun",
+      "weaponName": "WEAPON_FLAREGUN",
       "data": {
-        "sub": 2
+        "sub": 8
+      },
+      "ammo": true,
+      "weapon": true,
+      "submenu": [
+        
+      ]
+    },
+    {
+      "menuName": "Heavy Pistol",
+      "weaponName": "WEAPON_HEAVYPISTOL",
+      "data": {
+        "sub": 5
       },
       "ammo": true,
       "weapon": true,
@@ -297,13 +342,83 @@
         {
           "menuName": "Extended Magazine",
           "data": {
-            "action": "COMPONENT_APPISTOL_CLIP_02"
+            "action": "COMPONENT_HEAVYPISTOL_CLIP_02"
           }
         },
         {
           "menuName": "Suppressor",
           "data": {
+            "action": "COMPONENT_AT_PI_FLSH"
+          }
+        },
+        {
+          "menuName": "Flashlight",
+          "data": {
             "action": "COMPONENT_AT_PI_SUPP"
+          }
+        },
+        {
+          "menuName": "Etched Wood Grip Finish",
+          "data": {
+            "action": "COMPONENT_HEAVYPISTOL_VARMOD_LUXE"
+          }
+        }
+      ]
+    },
+    {
+      "menuName": "Heavy Revolver",
+      "weaponName": "WEAPON_REVOLVER",
+      "data": {
+        "sub": 10
+      },
+      "ammo": true,
+      "weapon": true,
+      "submenu": [
+        
+      ]
+    },
+    {
+      "menuName": "Marksman Pistol",
+      "weaponName": "WEAPON_MARKSMANPISTOL",
+      "data": {
+        "sub": 9
+      },
+      "ammo": true,
+      "weapon": true,
+      "submenu": [
+        {
+          "menuName": "Variation 1",
+          "data": {
+            "action": "COMPONENT_REVOLVER_VARMOD_BOSS"
+          }
+        },
+        {
+          "menuName": "Variation 2",
+          "data": {
+            "action": "COMPONENT_REVOLVER_VARMOD_GOON"
+          }
+        }
+      ]
+    },
+    {
+      "menuName": "Pistol",
+      "weaponName": "WEAPON_PISTOL",
+      "data": {
+        "sub": 0
+      },
+      "ammo": true,
+      "weapon": true,
+      "submenu": [
+        {
+          "menuName": "Extended Magazine",
+          "data": {
+            "action": "COMPONENT_PISTOL_CLIP_02"
+          }
+        },
+        {
+          "menuName": "Suppressor",
+          "data": {
+            "action": "COMPONENT_AT_PI_SUPP_02"
           }
         },
         {
@@ -313,9 +428,9 @@
           }
         },
         {
-          "menuName": "Gilded Gun Metal Finish",
+          "menuName": "Yusuf Amir Luxury Finish",
           "data": {
-            "action": "COMPONENT_APPISTOL_VARMOD_LUXE"
+            "action": "COMPONENT_PISTOL_VARMOD_LUXE"
           }
         }
       ]
@@ -379,38 +494,15 @@
       ]
     },
     {
-      "menuName": "Heavy Pistol",
-      "weaponName": "WEAPON_HEAVYPISTOL",
+      "menuName": "Stungun",
+      "weaponName": "WEAPON_STUNGUN",
       "data": {
-        "sub": 5
+        "sub": 7
       },
       "ammo": true,
       "weapon": true,
       "submenu": [
-        {
-          "menuName": "Extended Magazine",
-          "data": {
-            "action": "COMPONENT_HEAVYPISTOL_CLIP_02"
-          }
-        },
-        {
-          "menuName": "Suppressor",
-          "data": {
-            "action": "COMPONENT_AT_PI_FLSH"
-          }
-        },
-        {
-          "menuName": "Flashlight",
-          "data": {
-            "action": "COMPONENT_AT_PI_SUPP"
-          }
-        },
-        {
-          "menuName": "Etched Wood Grip Finish",
-          "data": {
-            "action": "COMPONENT_HEAVYPISTOL_VARMOD_LUXE"
-          }
-        }
+        
       ]
     },
     {
@@ -435,156 +527,9 @@
           }
         }
       ]
-    },
-    {
-      "menuName": "Stungun",
-      "weaponName": "WEAPON_STUNGUN",
-      "data": {
-        "sub": 7
-      },
-      "ammo": true,
-      "weapon": true,
-      "submenu": [
-        
-      ]
-    },
-    {
-      "menuName": "Flaregun",
-      "weaponName": "WEAPON_FLAREGUN",
-      "data": {
-        "sub": 8
-      },
-      "ammo": true,
-      "weapon": true,
-      "submenu": [
-        
-      ]
-    },
-    {
-      "menuName": "Marksman Pistol",
-      "weaponName": "WEAPON_MARKSMANPISTOL",
-      "data": {
-        "sub": 9
-      },
-      "ammo": true,
-      "weapon": true,
-      "submenu": [
-        {
-          "menuName": "Variation 1",
-          "data": {
-            "action": "COMPONENT_REVOLVER_VARMOD_BOSS"
-          }
-        },
-        {
-          "menuName": "Variation 2",
-          "data": {
-            "action": "COMPONENT_REVOLVER_VARMOD_GOON"
-          }
-        }
-      ]
-    },
-    {
-      "menuName": "Heavy Revolver",
-      "weaponName": "WEAPON_REVOLVER",
-      "data": {
-        "sub": 10
-      },
-      "ammo": true,
-      "weapon": true,
-      "submenu": [
-        
-      ]
     }
   ],
   "Submachine": [
-    {
-      "menuName": "Micro SMG",
-      "weaponName": "WEAPON_MICROSMG",
-      "data": {
-        "sub": 0
-      },
-      "ammo": true,
-      "weapon": true,
-      "submenu": [
-        {
-          "menuName": "Extended Magazine",
-          "data": {
-            "action": "COMPONENT_MICROSMG_CLIP_02"
-          }
-        },
-        {
-          "menuName": "Scope",
-          "data": {
-            "action": "COMPONENT_AT_SCOPE_MACRO"
-          }
-        },
-        {
-          "menuName": "Suppressor",
-          "data": {
-            "action": "COMPONENT_AT_AR_SUPP_02"
-          }
-        },
-        {
-          "menuName": "Flashlight",
-          "data": {
-            "action": "COMPONENT_AT_PI_FLSH"
-          }
-        },
-        {
-          "menuName": "Yusuf Amir Luxury Finish",
-          "data": {
-            "action": "COMPONENT_MICROSMG_VARMOD_LUXE"
-          }
-        }
-      ]
-    },
-    {
-      "menuName": "SMG",
-      "weaponName": "WEAPON_SMG",
-      "data": {
-        "sub": 1
-      },
-      "ammo": true,
-      "weapon": true,
-      "submenu": [
-        {
-          "menuName": "Extended Magazine",
-          "data": {
-            "action": "COMPONENT_SMG_CLIP_02"
-          }
-        },
-        {
-          "menuName": "Drum Magazine",
-          "data": {
-            "action": "COMPONENT_SMG_CLIP_03"
-          }
-        },
-        {
-          "menuName": "Scope",
-          "data": {
-            "action": "COMPONENT_AT_SCOPE_MACRO_02"
-          }
-        },
-        {
-          "menuName": "Suppressor",
-          "data": {
-            "action": "COMPONENT_AT_PI_SUPP"
-          }
-        },
-        {
-          "menuName": "Flashlight",
-          "data": {
-            "action": "COMPONENT_AT_AR_FLSH"
-          }
-        },
-        {
-          "menuName": "Yusuf Amir Luxury Finish",
-          "data": {
-            "action": "COMPONENT_SMG_VARMOD_LUXE"
-          }
-        }
-      ]
-    },
     {
       "menuName": "Assault SMG",
       "weaponName": "WEAPON_ASSAULTSMG",
@@ -622,29 +567,6 @@
           "menuName": "Yusuf Amir Luxury Finish",
           "data": {
             "action": "COMPONENT_ASSAULTSMG_VARMOD_LOWRIDER"
-          }
-        }
-      ]
-    },
-    {
-      "menuName": "MG",
-      "weaponName": "WEAPON_MG",
-      "data": {
-        "sub": 3
-      },
-      "ammo": true,
-      "weapon": true,
-      "submenu": [
-        {
-          "menuName": "Extended Magazine",
-          "data": {
-            "action": "COMPONENT_MG_CLIP_02"
-          }
-        },
-        {
-          "menuName": "Scope",
-          "data": {
-            "action": "COMPONENT_AT_SCOPE_SMALL_02"
           }
         }
       ]
@@ -764,9 +686,178 @@
           }
         }
       ]
+    },
+    {
+      "menuName": "MG",
+      "weaponName": "WEAPON_MG",
+      "data": {
+        "sub": 3
+      },
+      "ammo": true,
+      "weapon": true,
+      "submenu": [
+        {
+          "menuName": "Extended Magazine",
+          "data": {
+            "action": "COMPONENT_MG_CLIP_02"
+          }
+        },
+        {
+          "menuName": "Scope",
+          "data": {
+            "action": "COMPONENT_AT_SCOPE_SMALL_02"
+          }
+        }
+      ]
+    },
+    {
+      "menuName": "Micro SMG",
+      "weaponName": "WEAPON_MICROSMG",
+      "data": {
+        "sub": 0
+      },
+      "ammo": true,
+      "weapon": true,
+      "submenu": [
+        {
+          "menuName": "Extended Magazine",
+          "data": {
+            "action": "COMPONENT_MICROSMG_CLIP_02"
+          }
+        },
+        {
+          "menuName": "Scope",
+          "data": {
+            "action": "COMPONENT_AT_SCOPE_MACRO"
+          }
+        },
+        {
+          "menuName": "Suppressor",
+          "data": {
+            "action": "COMPONENT_AT_AR_SUPP_02"
+          }
+        },
+        {
+          "menuName": "Flashlight",
+          "data": {
+            "action": "COMPONENT_AT_PI_FLSH"
+          }
+        },
+        {
+          "menuName": "Yusuf Amir Luxury Finish",
+          "data": {
+            "action": "COMPONENT_MICROSMG_VARMOD_LUXE"
+          }
+        }
+      ]
+    },
+    {
+      "menuName": "Mini SMG",
+      "weaponName": "WEAPON_MINISMG",
+      "data": {
+        "sub": 8
+      },
+      "ammo": true,
+      "weapon": true,
+      "submenu": [
+        {
+          "menuName": "Extended Magazine",
+          "data": {
+            "action": "COMPONENT_MINISMG_CLIP_02"
+          }
+        }
+      ]
+    },
+    {
+      "menuName": "SMG",
+      "weaponName": "WEAPON_SMG",
+      "data": {
+        "sub": 1
+      },
+      "ammo": true,
+      "weapon": true,
+      "submenu": [
+        {
+          "menuName": "Extended Magazine",
+          "data": {
+            "action": "COMPONENT_SMG_CLIP_02"
+          }
+        },
+        {
+          "menuName": "Drum Magazine",
+          "data": {
+            "action": "COMPONENT_SMG_CLIP_03"
+          }
+        },
+        {
+          "menuName": "Scope",
+          "data": {
+            "action": "COMPONENT_AT_SCOPE_MACRO_02"
+          }
+        },
+        {
+          "menuName": "Suppressor",
+          "data": {
+            "action": "COMPONENT_AT_PI_SUPP"
+          }
+        },
+        {
+          "menuName": "Flashlight",
+          "data": {
+            "action": "COMPONENT_AT_AR_FLSH"
+          }
+        },
+        {
+          "menuName": "Yusuf Amir Luxury Finish",
+          "data": {
+            "action": "COMPONENT_SMG_VARMOD_LUXE"
+          }
+        }
+      ]
     }
   ],
   "Assault": [
+    {
+      "menuName": "Advanced Rifle",
+      "weaponName": "WEAPON_ADVANCEDRIFLE",
+      "data": {
+        "sub": 2
+      },
+      "ammo": true,
+      "weapon": true,
+      "submenu": [
+        {
+          "menuName": "Extended Magazine",
+          "data": {
+            "action": "COMPONENT_ADVANCEDRIFLE_CLIP_02"
+          }
+        },
+        {
+          "menuName": "Scope",
+          "data": {
+            "action": "COMPONENT_AT_SCOPE_SMALL"
+          }
+        },
+        {
+          "menuName": "Suppressor",
+          "data": {
+            "action": "COMPONENT_AT_AR_SUPP"
+          }
+        },
+        {
+          "menuName": "Flashlight",
+          "data": {
+            "action": "COMPONENT_AT_AR_FLSH"
+          }
+        },
+        {
+          "menuName": "Gilded Gun Metal Finish",
+          "data": {
+            "action": "COMPONENT_ADVANCEDRIFLE_VARMOD_LUXE"
+          }
+        }
+      ]
+    },
     {
       "menuName": "Assault Rifle",
       "weaponName": "WEAPON_ASSAULTRIFLE",
@@ -816,6 +907,35 @@
           "menuName": "Yusuf Amir Luxury Finish",
           "data": {
             "action": "COMPONENT_ASSAULTRIFLE_VARMOD_LUXE"
+          }
+        }
+      ]
+    },
+    {
+      "menuName": "Bullpup Rifle",
+      "weaponName": "WEAPON_BULLPUPRIFLE",
+      "data": {
+        "sub": 4
+      },
+      "ammo": true,
+      "weapon": true,
+      "submenu": [
+        {
+          "menuName": "Flashlight",
+          "data": {
+            "action": "COMPONENT_AT_AR_FLSH"
+          }
+        },
+        {
+          "menuName": "Suppressor",
+          "data": {
+            "action": "COMPONENT_AT_AR_SUPP_02"
+          }
+        },
+        {
+          "menuName": "Grip",
+          "data": {
+            "action": "COMPONENT_AT_AR_AFGRIP"
           }
         }
       ]
@@ -880,10 +1000,10 @@
       ]
     },
     {
-      "menuName": "Advanced Rifle",
-      "weaponName": "WEAPON_ADVANCEDRIFLE",
+      "menuName": "Compact Rifle",
+      "weaponName": "WEAPON_COMPACTRIFLE",
       "data": {
-        "sub": 2
+        "sub": 5
       },
       "ammo": true,
       "weapon": true,
@@ -891,31 +1011,13 @@
         {
           "menuName": "Extended Magazine",
           "data": {
-            "action": "COMPONENT_ADVANCEDRIFLE_CLIP_02"
+            "action": "COMPONENT_COMPACTRIFLE_CLIP_02"
           }
         },
         {
-          "menuName": "Scope",
+          "menuName": "Drum Magazine",
           "data": {
-            "action": "COMPONENT_AT_SCOPE_SMALL"
-          }
-        },
-        {
-          "menuName": "Suppressor",
-          "data": {
-            "action": "COMPONENT_AT_AR_SUPP"
-          }
-        },
-        {
-          "menuName": "Flashlight",
-          "data": {
-            "action": "COMPONENT_AT_AR_FLSH"
-          }
-        },
-        {
-          "menuName": "Gilded Gun Metal Finish",
-          "data": {
-            "action": "COMPONENT_ADVANCEDRIFLE_VARMOD_LUXE"
+            "action": "COMPONENT_COMPACTRIFLE_CLIP_03"
           }
         }
       ]
@@ -966,41 +1068,14 @@
           }
         }
       ]
-    },
+    }
+  ],
+  "Shotguns": [
     {
-      "menuName": "Bullpup Rifle",
-      "weaponName": "WEAPON_BULLPUPRIFLE",
+      "menuName": "Assault Shotgun",
+      "weaponName": "WEAPON_ASSAULTSHOTGUN",
       "data": {
-        "sub": 4
-      },
-      "ammo": true,
-      "weapon": true,
-      "submenu": [
-        {
-          "menuName": "Flashlight",
-          "data": {
-            "action": "COMPONENT_AT_AR_FLSH"
-          }
-        },
-        {
-          "menuName": "Suppressor",
-          "data": {
-            "action": "COMPONENT_AT_AR_SUPP_02"
-          }
-        },
-        {
-          "menuName": "Grip",
-          "data": {
-            "action": "COMPONENT_AT_AR_AFGRIP"
-          }
-        }
-      ]
-    },
-    {
-      "menuName": "Compact Rifle",
-      "weaponName": "WEAPON_COMPACTRIFLE",
-      "data": {
-        "sub": 5
+        "sub": 3
       },
       "ammo": true,
       "weapon": true,
@@ -1008,61 +1083,25 @@
         {
           "menuName": "Extended Magazine",
           "data": {
-            "action": "COMPONENT_COMPACTRIFLE_CLIP_02"
+            "action": "COMPONENT_ASSAULTSHOTGUN_CLIP_02"
           }
         },
         {
-          "menuName": "Drum Magazine",
-          "data": {
-            "action": "COMPONENT_COMPACTRIFLE_CLIP_03"
-          }
-        }
-      ]
-    }
-  ],
-  "Shotguns": [
-    {
-      "menuName": "Pump Shotgun",
-      "weaponName": "WEAPON_PUMPSHOTGUN",
-      "data": {
-        "sub": 0
-      },
-      "ammo": true,
-      "weapon": true,
-      "submenu": [
-        {
           "menuName": "Suppressor",
           "data": {
-            "action": "COMPONENT_AT_SR_SUPP"
+            "action": "COMPONENT_AT_AR_SUPP"
+          }
+        },
+        {
+          "menuName": "Grip",
+          "data": {
+            "action": "COMPONENT_AT_AR_AFGRIP"
           }
         },
         {
           "menuName": "Flashlight",
           "data": {
             "action": "COMPONENT_AT_AR_FLSH"
-          }
-        },
-        {
-          "menuName": "Yusuf Amir Luxury Finish",
-          "data": {
-            "action": "COMPONENT_PUMPSHOTGUN_VARMOD_LOWRIDER"
-          }
-        }
-      ]
-    },
-    {
-      "menuName": "Sawnoff Shotgun",
-      "weaponName": "WEAPON_SAWNOFFSHOTGUN",
-      "data": {
-        "sub": 1
-      },
-      "ammo": true,
-      "weapon": true,
-      "submenu": [
-        {
-          "menuName": "Gilded Gun Metal Finish",
-          "data": {
-            "action": "COMPONENT_SAWNOFFSHOTGUN_VARMOD_LUXE"
           }
         }
       ]
@@ -1115,45 +1154,10 @@
       ]
     },
     {
-      "menuName": "Assault Shotgun",
-      "weaponName": "WEAPON_ASSAULTSHOTGUN",
+      "menuName": "Double Barrel Shotgun",
+      "weaponName": "WEAPON_DBSHOTGUN",
       "data": {
-        "sub": 3
-      },
-      "ammo": true,
-      "weapon": true,
-      "submenu": [
-        {
-          "menuName": "Extended Magazine",
-          "data": {
-            "action": "COMPONENT_ASSAULTSHOTGUN_CLIP_02"
-          }
-        },
-        {
-          "menuName": "Suppressor",
-          "data": {
-            "action": "COMPONENT_AT_AR_SUPP"
-          }
-        },
-        {
-          "menuName": "Grip",
-          "data": {
-            "action": "COMPONENT_AT_AR_AFGRIP"
-          }
-        },
-        {
-          "menuName": "Flashlight",
-          "data": {
-            "action": "COMPONENT_AT_AR_FLSH"
-          }
-        }
-      ]
-    },
-    {
-      "menuName": "Musket",
-      "weaponName": "WEAPON_MUSKET",
-      "data": {
-        "sub": 4
+        "sub": 6
       },
       "ammo": true,
       "weapon": true,
@@ -1197,10 +1201,68 @@
       ]
     },
     {
-      "menuName": "Double Barrel Shotgun",
-      "weaponName": "WEAPON_DBSHOTGUN",
+      "menuName": "Musket",
+      "weaponName": "WEAPON_MUSKET",
       "data": {
-        "sub": 6
+        "sub": 4
+      },
+      "ammo": true,
+      "weapon": true,
+      "submenu": [
+        
+      ]
+    },
+    {
+      "menuName": "Pump Shotgun",
+      "weaponName": "WEAPON_PUMPSHOTGUN",
+      "data": {
+        "sub": 0
+      },
+      "ammo": true,
+      "weapon": true,
+      "submenu": [
+        {
+          "menuName": "Suppressor",
+          "data": {
+            "action": "COMPONENT_AT_SR_SUPP"
+          }
+        },
+        {
+          "menuName": "Flashlight",
+          "data": {
+            "action": "COMPONENT_AT_AR_FLSH"
+          }
+        },
+        {
+          "menuName": "Yusuf Amir Luxury Finish",
+          "data": {
+            "action": "COMPONENT_PUMPSHOTGUN_VARMOD_LOWRIDER"
+          }
+        }
+      ]
+    },
+    {
+      "menuName": "Sawnoff Shotgun",
+      "weaponName": "WEAPON_SAWNOFFSHOTGUN",
+      "data": {
+        "sub": 1
+      },
+      "ammo": true,
+      "weapon": true,
+      "submenu": [
+        {
+          "menuName": "Gilded Gun Metal Finish",
+          "data": {
+            "action": "COMPONENT_SAWNOFFSHOTGUN_VARMOD_LUXE"
+          }
+        }
+      ]
+    },
+    {
+      "menuName": "Sweeper Shotgun",
+      "weaponName": "WEAPON_AUTOSHOTGUN",
+      "data": {
+        "sub": 7
       },
       "ammo": true,
       "weapon": true,
@@ -1210,35 +1272,6 @@
     }
   ],
   "Snipers": [
-    {
-      "menuName": "Sniper Rifle",
-      "weaponName": "WEAPON_SNIPERRIFLE",
-      "data": {
-        "sub": 0
-      },
-      "ammo": true,
-      "weapon": true,
-      "submenu": [
-        {
-          "menuName": "Advanced Scope",
-          "data": {
-            "action": "COMPONENT_AT_SCOPE_MAX"
-          }
-        },
-        {
-          "menuName": "Suppressor",
-          "data": {
-            "action": "COMPONENT_AT_AR_SUPP_02"
-          }
-        },
-        {
-          "menuName": "Etched Wood Grip Finish",
-          "data": {
-            "action": "COMPONENT_SNIPERRIFLE_VARMOD_LUXE"
-          }
-        }
-      ]
-    },
     {
       "menuName": "Heavy Sniper",
       "weaponName": "WEAPON_HEAVYSNIPER",
@@ -1296,9 +1329,62 @@
           }
         }
       ]
+    },
+    {
+      "menuName": "Sniper Rifle",
+      "weaponName": "WEAPON_SNIPERRIFLE",
+      "data": {
+        "sub": 0
+      },
+      "ammo": true,
+      "weapon": true,
+      "submenu": [
+        {
+          "menuName": "Advanced Scope",
+          "data": {
+            "action": "COMPONENT_AT_SCOPE_MAX"
+          }
+        },
+        {
+          "menuName": "Suppressor",
+          "data": {
+            "action": "COMPONENT_AT_AR_SUPP_02"
+          }
+        },
+        {
+          "menuName": "Etched Wood Grip Finish",
+          "data": {
+            "action": "COMPONENT_SNIPERRIFLE_VARMOD_LUXE"
+          }
+        }
+      ]
     }
   ],
   "Heavy": [
+    {
+      "menuName": "Compact Grenade Launcher",
+      "weaponName": "WEAPON_COMPACTLAUNCHER",
+      "data": {
+        "sub": 8
+      },
+      "ammo": true,
+      "weapon": true,
+      "submenu": [
+        
+      ]
+    },
+    {
+      "menuName": "Firework Launcher",
+      "weaponName": "WEAPON_FIREWORK",
+      "data": {
+        "sub": 5
+      },
+      "ammo": true,
+      "weapon": true,
+      "submenu": [
+        
+      ]
+    },
     {
       "menuName": "Grenade Launcher",
       "weaponName": "WEAPON_GRENADELAUNCHER",
@@ -1358,6 +1444,42 @@
       ]
     },
     {
+      "menuName": "Homing Launcher",
+      "weaponName": "WEAPON_HOMINGLAUNCHER",
+      "data": {
+        "sub": 7
+      },
+      "ammo": true,
+      "weapon": true,
+      "submenu": [
+        
+      ]
+    },
+    {
+      "menuName": "Minigun",
+      "weaponName": "WEAPON_MINIGUN",
+      "data": {
+        "sub": 4
+      },
+      "ammo": true,
+      "weapon": true,
+      "submenu": [
+        
+      ]
+    },
+    {
+      "menuName": "Railgun",
+      "weaponName": "WEAPON_RAILGUN",
+      "data": {
+        "sub": 6
+      },
+      "ammo": true,
+      "weapon": true,
+      "submenu": [
+        
+      ]
+    },
+    {
       "menuName": "RPG",
       "weaponName": "WEAPON_RPG",
       "data": {
@@ -1380,122 +1502,14 @@
       "submenu": [
         
       ]
-    },
-    {
-      "menuName": "Minigun",
-      "weaponName": "WEAPON_MINIGUN",
-      "data": {
-        "sub": 4
-      },
-      "ammo": true,
-      "weapon": true,
-      "submenu": [
-        
-      ]
-    },
-    {
-      "menuName": "Firework Launcher",
-      "weaponName": "WEAPON_FIREWORK",
-      "data": {
-        "sub": 5
-      },
-      "ammo": true,
-      "weapon": true,
-      "submenu": [
-        
-      ]
-    },
-    {
-      "menuName": "Railgun",
-      "weaponName": "WEAPON_RAILGUN",
-      "data": {
-        "sub": 6
-      },
-      "ammo": true,
-      "weapon": true,
-      "submenu": [
-        
-      ]
-    },
-    {
-      "menuName": "Homing Launcher",
-      "weaponName": "WEAPON_HOMINGLAUNCHER",
-      "data": {
-        "sub": 7
-      },
-      "ammo": true,
-      "weapon": true,
-      "submenu": [
-        
-      ]
     }
   ],
   "Thrown": [
     {
-      "menuName": "Grenade",
-      "weaponName": "WEAPON_GRENADE",
+      "menuName": "Baseball",
+      "weaponName": "WEAPON_BALL",
       "data": {
-        "sub": 0
-      },
-      "ammo": true,
-      "weapon": true,
-      "submenu": [
-        
-      ]
-    },
-    {
-      "menuName": "Sticky Bomb",
-      "weaponName": "WEAPON_STICKYBOMB",
-      "data": {
-        "sub": 1
-      },
-      "ammo": true,
-      "weapon": true,
-      "submenu": [
-        
-      ]
-    },
-    {
-      "menuName": "Proximity Mine",
-      "weaponName": "WEAPON_PROXMINE",
-      "data": {
-        "sub": 2
-      },
-      "ammo": true,
-      "weapon": true,
-      "submenu": [
-        
-      ]
-    },
-    {
-      "menuName": "Tear Gas",
-      "weaponName": "WEAPON_BZGAS",
-      "data": {
-        "sub": 3
-      },
-      "ammo": true,
-      "weapon": true,
-      "submenu": [
-        
-      ]
-    },
-    {
-      "menuName": "Smoke Grenade",
-      "weaponName": "WEAPON_SMOKEGRENADE",
-      "data": {
-        "sub": 4
-      },
-      "ammo": true,
-      "weapon": true,
-      "submenu": [
-        
-      ]
-    },
-    {
-      "menuName": "Molotov",
-      "weaponName": "WEAPON_MOLOTOV",
-      "data": {
-        "sub": 5
+        "sub": 10
       },
       "ammo": true,
       "weapon": true,
@@ -1516,10 +1530,82 @@
       ]
     },
     {
+      "menuName": "Flare",
+      "weaponName": "WEAPON_FLARE",
+      "data": {
+        "sub": 9
+      },
+      "ammo": true,
+      "weapon": true,
+      "submenu": [
+        
+      ]
+    },
+    {
+      "menuName": "Grenade",
+      "weaponName": "WEAPON_GRENADE",
+      "data": {
+        "sub": 0
+      },
+      "ammo": true,
+      "weapon": true,
+      "submenu": [
+        
+      ]
+    },
+    {
       "menuName": "Jerry Can",
       "weaponName": "WEAPON_PETROLCAN",
       "data": {
         "sub": 7
+      },
+      "ammo": true,
+      "weapon": true,
+      "submenu": [
+        
+      ]
+    },
+    {
+      "menuName": "Molotov",
+      "weaponName": "WEAPON_MOLOTOV",
+      "data": {
+        "sub": 5
+      },
+      "ammo": true,
+      "weapon": true,
+      "submenu": [
+        
+      ]
+    },
+    {
+      "menuName": "Pipebomb",
+      "weaponName": "WEAPON_PIPEBOMB",
+      "data": {
+        "sub": 11
+      },
+      "ammo": true,
+      "weapon": true,
+      "submenu": [
+        
+      ]
+    },
+    {
+      "menuName": "Proximity Mine",
+      "weaponName": "WEAPON_PROXMINE",
+      "data": {
+        "sub": 2
+      },
+      "ammo": true,
+      "weapon": true,
+      "submenu": [
+        
+      ]
+    },
+    {
+      "menuName": "Smoke Grenade",
+      "weaponName": "WEAPON_SMOKEGRENADE",
+      "data": {
+        "sub": 4
       },
       "ammo": true,
       "weapon": true,
@@ -1540,10 +1626,10 @@
       ]
     },
     {
-      "menuName": "Flare",
-      "weaponName": "WEAPON_FLARE",
+      "menuName": "Sticky Bomb",
+      "weaponName": "WEAPON_STICKYBOMB",
       "data": {
-        "sub": 9
+        "sub": 1
       },
       "ammo": true,
       "weapon": true,
@@ -1552,10 +1638,10 @@
       ]
     },
     {
-      "menuName": "Baseball",
-      "weaponName": "WEAPON_BALL",
+      "menuName": "Tear Gas",
+      "weaponName": "WEAPON_BZGAS",
       "data": {
-        "sub": 10
+        "sub": 3
       },
       "ammo": true,
       "weapon": true,
@@ -1565,4 +1651,3 @@
     }
   ]
 }
-
