@@ -27,7 +27,7 @@ var MelloTrainerApp = angular.module("MelloTrainerApp", []);
 MelloTrainerApp.controller("JSONEditorController", function ($scope){
 	$scope.myinfo = []
 
-	var combinedJSON = $.getJSON("JSON/combined-cleaned.json", function( data ) {
+	var combinedJSON = $.getJSON("/JSON/combined-cleaned.json", function( data ) {
 		$.each( data, function(key, jsonObject){
 			
 			var JS = {
