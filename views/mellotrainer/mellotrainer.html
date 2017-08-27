@@ -44,7 +44,7 @@
 
     	</style>
     </head>
-    <body>
+    <body ng-app="MelloTrainerApp">
 
 
 	<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
@@ -75,13 +75,15 @@
 		</div>
 	</nav>
 
-
-
-
 	    <div class="container">
 			<h1>Mello Trainer JSON Info</h1>
 
-			<div id="jsoninfo">
+			<div id="accordion" role="tablist" aria-multiselectable="true" ng-controller="JSONEditorController">
+
+				<div class="card" ng-repeat="data in myinfo">
+					<div ng-include="'subTemplate.html'">
+				</div>
+
 			</div>
 		</div>
 
@@ -93,9 +95,73 @@
 
 
 
+<script type="text/ng-template" id="subTemplate.html">
+<div class="card">
+	<div class="card-header" role="tab">
+  		<h5 class="mb-0">
+    		<span data-toggle="collapse" href="#{{ (subdata.menuName || '')+data.menuName | underscoreme }}">
+      			{{data.menuName}}
+    		</span>
+  		</h5>
+	</div>
+
+	<div id="{{ (subdata.menuName || '')+data.menuName | underscoreme }}" class="collapse" role="tabpanel">
+  		<div class="card-block">
+  			<div ng-if="data.submenu.length">
+				{{data.subMenu}}
+				<div ng-repeat="subdata in data.submenu" ng-include="'subTemplate2.html'">
+
+				</div>
+			</div>
+
+			<div ng-if="data.submenu == undefined || data.submenu.length == 0">
+				<div ng-bind="data.menuName"></div>
+				<div ng-bind="data.data"></div>
+				<div ng-bind="data.weaponName"></div>
+				<div ng-bind="data.weapon"></div>
+			</div>
+  		</div>
+	</div>
+</div>
+</script>
+
+
+<script type="text/ng-template" id="subTemplate2.html">
+<div class="card">
+	<div class="card-header" role="tab">
+  		<h5 class="mb-0">
+    		<span data-toggle="collapse" href="#{{ data.menuName+subdata.menuName | underscoreme }}">
+      			{{subdata.menuName}}
+    		</span>
+  		</h5>
+	</div>
+
+	<div id="{{data.menuName+subdata.menuName | underscoreme }}" class="collapse" role="tabpanel">
+  		<div class="card-block">
+  			<div ng-if="subdata.submenu.length">
+				{{subdata.subMenu}}
+				<div ng-repeat="data in subdata.submenu" ng-include="'subTemplate.html'">
+
+				</div>
+			</div>
+
+			<div ng-if="subdata.submenu == undefined || subdata.submenu.length == 0">
+				<div ng-bind="subdata.menuName"></div>
+				<div ng-bind="subdata.data"></div>
+				<div ng-bind="subdata.weaponName"></div>
+				<div ng-bind="subdata.weapon"></div>
+			</div>
+  		</div>
+	</div>
+</div>
+</script>
+
+
+
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 
     <script src="/views/mellotrainer/main.js" type="text/javascript"></script>
 </html>
