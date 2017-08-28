@@ -1,0 +1,40 @@
+<div class="card">
+	<div class="card-header" role="tab">
+  		<h5 class="mb-0">
+
+  			<!-- Editable Portion -->
+  			<input ng-model="subdata.menuName" ng-if="subdata.editable !== false && showEditables"></input>
+  			<br ng-if="subdata.editable !== false && showEditables"/>
+
+    		<span data-toggle="collapse" href="#{{ data.menuName+subdata.menuName | underscoreme }}">
+      			{{subdata.menuName}}
+    		</span>
+  		</h5>
+	</div>
+
+	<div id="{{data.menuName+subdata.menuName | underscoreme }}" class="collapse" role="tabpanel">
+  		<div class="card-block">
+
+			<div ng-repeat="(key,value) in subdata">
+				<div ng-if="key != 'menuName' && key != 'submenu' && key != 'data' && key != 'editable'">
+					<td> {{key}} </td> <td> {{value}}</td>
+				</div>
+
+				<div ng-if="key == 'data'">
+
+					<div ng-repeat="(subkey,subvalue) in value">
+						<td> data-{{subkey}} </td> <td> {{subvalue}}</td>	
+					</div>
+				</div>
+			</div>
+
+
+  			<div ng-if="subdata.submenu.length">
+				{{subdata.subMenu}}
+				<div ng-repeat="data in subdata.submenu" ng-include="'subTemplate1.html'">
+
+				</div>
+			</div>
+  		</div>
+	</div>
+</div>
