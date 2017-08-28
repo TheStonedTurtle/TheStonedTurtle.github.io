@@ -26,6 +26,7 @@ var MelloTrainerApp = angular.module("MelloTrainerApp", []);
 
 MelloTrainerApp.controller("JSONEditorController", function ($scope){
 	$scope.myinfo = []
+	$scope.showEditables = false;
 
 	var combinedJSON = $.getJSON("/JSON/combined-cleaned.json", function( data ) {
 		$.each( data, function(key, jsonObject){
@@ -33,16 +34,37 @@ MelloTrainerApp.controller("JSONEditorController", function ($scope){
 			var JS = {
 				"menuName": key,
 				"submenu": jsonObject,
+				"editable": false
 			}
 			$scope.myinfo.push(JS)
 		})
 
 		$scope.$apply();
 	})
+
+
+	function downloadJSON(JSONString){
+		var data = "data:text/json;charset=utf-8,"+encodeURIComponent(JSONString);
+		var ele = $("#downloadEle")
+		if(!ele.length){
+			ele = $("<a id='downloadEle'></a>")
+		} 
+
+		ele.attr("href", data)
+		ele.attr("download","mellotrainer.json")
+		$("body").append(ele);
+		$("#downloadEle")[0].click();
+		ele.remove();
+	}
+
+	$scope.download = function(){
+		var JSONString = angular.toJson($scope.myinfo, 2)
+		downloadJSON(JSONString)
+	}
 })
 .filter('underscoreme', function() {
   return function(text) {
 
-    return String(text).replace(/\s/g, "_").replace(/[\(\)]/,"_");
+    return String(text).replace(/\s/g, "_").replace(/[\(\)]/g,"_");
   };
 });
