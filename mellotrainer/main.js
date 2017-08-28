@@ -61,6 +61,18 @@ MelloTrainerApp.controller("JSONEditorController", function ($scope){
 		var JSONString = angular.toJson($scope.myinfo, 2)
 		downloadJSON(JSONString)
 	}
+	
+	$scope.removeSubmenuElement = function(submenu, index){
+		submenu.splice(index, 1)
+	}
+
+	$scope.createNewSubmenuElement = function(submenu){
+		placeholderCount++
+		var newEle = {
+			"menuName": "Placeholder"+placeholderCount.toString()
+		}
+		submenu.push(newEle);
+	}
 })
 .filter('underscoreme', function() {
   return function(text) {

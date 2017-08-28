@@ -6,9 +6,14 @@
   			<input ng-model="subdata.menuName" ng-if="subdata.editable !== false && showEditables"></input>
   			<br ng-if="subdata.editable !== false && showEditables"/>
 
-    		<span data-toggle="collapse" href="#{{ data.menuName+subdata.menuName | underscoreme }}">
+    		<span class="align-middle" data-toggle="collapse" href="#{{ data.menuName+subdata.menuName | underscoreme }}">
       			{{subdata.menuName}}
     		</span>
+
+			<!-- Editable Portion -->
+    		<span ng-if="showEditables" class="btn btn-danger pull-right" ng-click="removeSubmenuElement(data.submenu,$index)">
+				Remove
+			</span>
   		</h5>
 	</div>
 
