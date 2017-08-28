@@ -2,6 +2,7 @@
   "skins": [
     {
       "menuName": "playerList",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Michael",
@@ -37,6 +38,7 @@
     },
     {
       "menuName": "AnimalList",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Boar",
@@ -204,6 +206,7 @@
     },
     {
       "menuName": "NPCList",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Abigail",
@@ -4135,6 +4138,7 @@
   "vehicles": [
     {
       "menuName" :"vehicle_supercars",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Annis RE-7B",
@@ -4320,6 +4324,7 @@
     },
     {
       "menuName": "vehicle_sports",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Albany Alpha",
@@ -4583,6 +4588,7 @@
     },
     {
       "menuName": "vehicle_sportsclassics",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Albany Manana",
@@ -4726,6 +4732,7 @@
     },
     {
       "menuName": "vehicle_muscle",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Albany Buccaneer",
@@ -4917,6 +4924,7 @@
     },
     {
       "menuName": "vehicle_lowriders",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Albany Buccaneer",
@@ -4994,6 +5002,7 @@
     },
     {
       "menuName": "vehicle_coupes",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Dewbauchee Exemplar",
@@ -5071,6 +5080,7 @@
     },
     {
       "menuName": "vehicle_sedans",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Albany Emperor",
@@ -5232,6 +5242,7 @@
     },
     {
       "menuName": "vehicle_compacts",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Benefactor Panto",
@@ -5285,6 +5296,7 @@
     },
     {
       "menuName": "vehicle_suvs",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Albany Cavalcade",
@@ -5416,6 +5428,7 @@
     },
     {
       "menuName": "vehicle_offroad",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Benefactor Dubsta 6x6",
@@ -5637,6 +5650,7 @@
     },
     {
       "menuName": "vehicle_vip",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Benefactor Schafter LWB",
@@ -5732,6 +5746,7 @@
     },
     {
       "menuName": "vehicle_pickups",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Bravado Bison",
@@ -5785,6 +5800,7 @@
     },
     {
       "menuName": "vehicle_vans",
+      "editable": false,
       "submenu": [
         {
           "menuName": "BF Surfer",
@@ -5934,6 +5950,7 @@
     },
     {
       "menuName": "vehicle_trucks",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Brute Armored Boxville",
@@ -6137,6 +6154,7 @@
     },
     {
       "menuName": "vehicle_service",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Airtug",
@@ -6286,6 +6304,7 @@
     },
     {
       "menuName": "vehicle_trailers",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Army Flatbed Trailer",
@@ -6441,6 +6460,7 @@
     },
     {
       "menuName": "vehicle_trains",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Container Car 1",
@@ -6488,6 +6508,7 @@
     },
     {
       "menuName": "vehicle_emergency",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Albany Police Roadcruiser (Snow)",
@@ -6637,6 +6658,7 @@
     },
     {
       "menuName": "vehicle_motorcycles",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Dinka Akuma",
@@ -6918,6 +6940,7 @@
     },
     {
       "menuName": "vehicle_planes",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Buckingham Cargo Plane (An-225)",
@@ -7037,6 +7060,7 @@
     },
     {
       "menuName": "vehicle_helicopters",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Blimp (Atomic)",
@@ -7162,6 +7186,7 @@
     },
     {
       "menuName": "vehicle_boats",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Buckingham Tug",
@@ -7263,6 +7288,7 @@
     },
     {
       "menuName": "vehicle_bicycles",
+      "editable": false,
       "submenu": [
         {
           "menuName": "BMX",
@@ -7312,6 +7338,7 @@
   "vehicleMods": [
     {
       "menuName": "vehiclehorns",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Stock Horn",
@@ -7533,6 +7560,7 @@
     },
     {
       "menuName": "wheel_sport",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Stock",
@@ -7688,6 +7716,7 @@
     },
     {
       "menuName": "wheel_suv",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Stock",
@@ -7813,6 +7842,7 @@
     },
     {
       "menuName": "wheel_offroad",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Stock",
@@ -7884,6 +7914,7 @@
     },
     {
       "menuName": "wheel_tuner",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Stock",
@@ -8039,6 +8070,7 @@
     },
     {
       "menuName": "wheel_highend",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Stock",
@@ -8170,6 +8202,7 @@
     },
     {
       "menuName": "wheel_lowrider",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Stock",
@@ -8271,6 +8304,7 @@
     },
     {
       "menuName": "wheel_muscle",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Stock",
@@ -8384,6 +8418,7 @@
     },
     {
       "menuName": "wheel_front",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Stock",
@@ -8473,6 +8508,7 @@
     },
     {
       "menuName": "wheel_back",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Stock",
@@ -8562,6 +8598,7 @@
     },
     {
       "menuName": "wheel_benny",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Stock",
@@ -8587,6 +8624,7 @@
   "vehiclePaints": [
     {
       "menuName": "primarymetallic",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Black",
@@ -9042,6 +9080,7 @@
     },
     {
       "menuName": "secondarymetallic",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Black",
@@ -9497,6 +9536,7 @@
     },
     {
       "menuName": "primarymatte",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Black",
@@ -9622,6 +9662,7 @@
     },
     {
       "menuName": "secondarymatte",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Black",
@@ -9747,6 +9788,7 @@
     },
     {
       "menuName": "primarymetal",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Brushed Steel",
@@ -9782,6 +9824,7 @@
     },
     {
       "menuName": "secondarymetal",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Brushed Steel",
@@ -9817,6 +9860,7 @@
     },
     {
       "menuName": "primaryclassic",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Black",
@@ -10272,6 +10316,7 @@
     },
     {
       "menuName": "secondaryclassic",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Black",
@@ -10727,6 +10772,7 @@
     },
     {
       "menuName": "primarychrome",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Chrome",
@@ -10738,6 +10784,7 @@
     },
     {
       "menuName": "secondarychrome",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Chrome",
@@ -10749,6 +10796,7 @@
     },
     {
       "menuName": "wheelcolors",
+      "editable": false,
       "submenu": [
         {
           "menuName": "Black",
@@ -11206,6 +11254,7 @@
   "vehicleRGB": [
     {
       "menuName": "smoke",
+      "editable": false,
       "submenu" : [
         {
           "menuName": "Default",
@@ -11625,6 +11674,7 @@
     },
     {
       "menuName": "neon",
+      "editable": false,
       "submenu": [
         {
           "menuName": "White",
