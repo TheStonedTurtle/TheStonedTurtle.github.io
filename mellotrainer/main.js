@@ -58,7 +58,13 @@ MelloTrainerApp.controller("JSONEditorController", function ($scope){
 	}
 
 	$scope.download = function(){
-		var JSONString = angular.toJson($scope.myinfo, 2)
+		var JSONObject = {}
+		for (var i = $scope.myinfo.length - 1; i >= 0; i--) {
+			var cur = $scope.myinfo[i]
+
+			JSONObject[cur.menuName] = cur.submenu
+		}
+		var JSONString = angular.toJson(JSONObject, 2)
 		downloadJSON(JSONString)
 	}
 	
