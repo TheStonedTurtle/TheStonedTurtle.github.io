@@ -155,7 +155,7 @@ MelloTrainerApp.controller("JSONEditorController", function ($scope){
 		$scope.myinfo = []
 		$scope.loadedStatus = false
 		$scope.loading = true
-		$scope.myinfo = graduallyLoadJSON(jsonInfo, "submenu", 0, 50, 
+		$scope.myinfo = graduallyLoadJSON(jsonInfo, "submenu", 0, 25, 
 			// Update callback
 			function(){ 
 				$scope.$digest();
