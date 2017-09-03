@@ -1,0 +1,85 @@
+<div class="card">
+	<div class="card-header" role="tab" data-toggle="collapse" href="#{{ (data.menuName || '')+subdata.menuName | underscoreme }}">
+  		<h5 class="mb-0">
+
+    		<span contenteditable="{{ showEditables && subdata.editable !== false }}" class="align-middle" ng-model="subdata.menuName" ng-class="{ outline: showEditables&&subdata.editable !== false }">
+      			{{subdata.menuName}}
+    		</span>
+
+
+
+    		<span ng-if="showEditables && subdata.editable !== false" class="btn btn-danger pull-right" ng-click="removeSubmenuElement(data.submenu,$index)">
+				<i class="fa fa-trash-o" aria-hidden="true"></i>
+			</span>
+
+			<span ng-if="showEditables && subdata.editable !== false && ($index !== (data.submenu.length - 1))" class="btn btn-info pull-right" ng-click="moveSubmenuElementDown(data.submenu,$index)">
+				<i class="fa fa-chevron-down" aria-hidden="true"></i>
+			</span>
+
+			<!-- Editable Portion -->
+    		<span ng-if="showEditables && subdata.editable !== false && $index !== 0" class="btn btn-info pull-right" ng-click="moveSubmenuElementUp(data.submenu,$index)">
+				<i class="fa fa-chevron-up" aria-hidden="true"></i>
+			</span>
+  		</h5>
+	</div>
+
+	<div id="{{(data.menuName || '')+subdata.menuName | underscoreme }}" class="collapse" role="tabpanel">
+  		<div class="card-block">
+
+			<table class="tablediv">
+				<tbody>
+					<tr ng-repeat="(key,value) in subdata">
+						<td ng-if="['menuName','submenu','data','editable'].indexOf(key) == -1" ng-model="key" contenteditable="{{ showEditables }}"></td>
+						<td ng-if="['menuName','submenu','data','editable'].indexOf(key) == -1" ng-model="value" contenteditable="{{ showEditables }}"></td>
+						<td ng-if="['menuName','submenu','data','editable'].indexOf(key) == -1 && showEditables"><span class="btn btn-danger" ng-click="removeAttribute(subdata, key)"><i class="fa fa-trash-o"></i></span></td>
+					</tr>
+				</tbody>
+			</table>
+
+			<div ng-if="subdata.data">
+				<span>Data Attributes:</span>
+				<table class="tablediv datadiv">
+					<tbody>
+						<tr>
+							<th>Key</th><th>Value</th>
+						</tr>
+						<tr ng-repeat="(subkey,subvalue) in subdata.data">
+							<td ng-model="subkey" contenteditable="{{ showEditables }}"></td>
+							<td ng-model="subvalue" contenteditable="{{ showEditables }}"></td>
+							<td ng-if="showEditables"><span class="btn btn-danger" ng-click="removeAttribute(subdata.data, subkey)"><i class="fa fa-trash-o"></i></span></td>
+						</tr>
+					</tbody>
+				</table>
+				<div ng-if="showEditables" class="btn btn-info" ng-click="createNewDataAttribute(subdata.data)">
+					<i class="fa fa-plus" aria-hidden="true"></i>
+				</div>
+			</div>
+
+  			<div ng-if="subdata.submenu !== undefined && subdata.weapon !== true">
+
+				<div ng-if="showEditables && subdata.submenu !== undefined && subdata.submenu[0].editable !== false">
+					<div class="btn btn-info" ng-click="createNewSubmenuElement(subdata.submenu, true)">
+					<i class="fa fa-plus" aria-hidden="true"></i>
+					</div>
+
+					<div class="btn btn-info" ng-click="alphabatizeSubmenu(subdata.submenu)">
+					Alphabatize
+					</div>
+
+					<div class="btn btn-info" ng-click="reverseAlphabatizeSubmenu(subdata.submenu)">
+					Reverse Alphabatize
+					</div>
+				</div>
+			
+				<div ng-repeat="newSubdata in subdata.submenu" >
+					<div ng-init="data = subdata;subdata = newSubdata" ng-include="'templates/subTemplate.html'"></div>
+				</div>
+
+		 		<div ng-if="showEditables && subdata.submenu[0].editable !== false" class="btn btn-info" ng-click="createNewSubmenuElement(subdata.submenu, false)">
+					<i class="fa fa-plus" aria-hidden="true"></i>
+				</div>
+
+			</div>
+  		</div>
+	</div>
+</div>

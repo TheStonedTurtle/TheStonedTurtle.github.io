@@ -4,7 +4,8 @@
 		<meta charset="UTF-8">
 		<title>Mello Trainer Example</title>
         <!-- (BootStrap) -->
-		<link rel="stylesheet" href="/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
 
     	<style>
 			/* Space out content a bit */
@@ -41,9 +42,34 @@
 			    text-align: center;
 			    font-size: 32px;
 			}
-			
 			.pull-right{
 				float: right;
+				margin-right: 3px;
+			}
+
+			.outline{
+				border: 3px solid green;
+				display: block;
+				float: left;
+				min-width: 25px;
+				min-height: 31px;
+				padding: 2px;
+			}
+
+			.loading{
+				background-image: url('css/redcircle.gif');
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: 100px 100px;
+				min-height: 250px;
+				min-width: 50px;
+			}
+
+			.datadiv{
+				margin-left: 20px;
+			}
+			.tablediv{
+				min-width: 355px;
 			}
 
     	</style>
@@ -80,21 +106,25 @@
 	</nav>
 
 	    <div class="container" ng-controller="JSONEditorController">
-			<h1>Mello Trainer JSON Info</h1>
+			<h1>Mello Trainer JSON Editor</h1>
 
 
-			<button class="btn btn-outline-success" ng-click="showEditables=!showEditables">Toggle Edit</button> <span>Currently: {{(showEditables && "ON") || "OFF"}}</span>
+			<button class="btn btn-primary" ng-click="showEditables=!showEditables">Toggle Edit</button> <span>Currently: {{(showEditables && "ON") || "OFF"}}</span>
 			<br/><br/>
 
-			<button class="btn btn-outline-success" ng-click="download()">Generate JSON</button>
+			<button class="btn btn-success" ng-click="download()">Generate JSON</button>
 			<br/><br/>
 
-			<div id="accordion" role="tablist" aria-multiselectable="true">
+			<button class="btn btn-danger" ng-click="reloadJSON()">Load JSON View</button>
+			<br/><br/>
 
-				<div class="card" ng-repeat="data in myinfo">
-					<div ng-include="'templates/subTemplate1.html'">
+			<div id="spinner" class="loading" ng-show="loading && !loadedStatus" ng-cloak>
+			</div>
+			<div id="accordion" role="tablist" aria-multiselectable="true" ng-show="loadedStatus">
+
+				<div class="card" ng-repeat="subdata in myinfo">
+					<div ng-include="'templates/subTemplate.html'">
 				</div>
-
 			</div>
 		</div>
 
@@ -108,8 +138,8 @@
 
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 
-    <script src="/mellotrainer/main.js" type="text/javascript"></script>
+    <script src="main.js" type="text/javascript"></script>
 </html>
