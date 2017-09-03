@@ -28,7 +28,7 @@ MelloTrainerApp.controller("JSONEditorController", function ($scope){
 
 
 	// Load JSON into memory as soon as possible.
-	$.getJSON("JSON/combined-cleaned.json", function( data ) {
+	$.getJSON("/JSON/combined-cleaned.json", function( data ) {
 		$.each( data, function(key, jsonObject){
 			
 			var JS = {
