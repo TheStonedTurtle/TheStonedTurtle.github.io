@@ -38,9 +38,9 @@
 					</tr>
 				</tbody>
 			</table>
-			<br/>
 
 			<div ng-if="subdata.data">
+				<br/>
 				<span>Data Attributes:</span>
 				<table class="tablediv datadiv">
 					<tbody>
@@ -59,7 +59,8 @@
 				</table>
 			</div>
 
-  			<div ng-if="subdata.submenu !== undefined && subdata.weapon !== true">
+  			<div ng-if="subdata.submenu !== undefined && ( (subdata.weapon == true && subdata.submenu.length > 0) or subdata.weapon !== true)">
+				<br/>
   				<span>Submenu(s):</span>
 
 				<div ng-if="showEditables && subdata.submenu !== undefined && subdata.submenu[0].editable !== false">
