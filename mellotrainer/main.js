@@ -164,6 +164,13 @@ MelloTrainerApp.controller("JSONEditorController", function ($scope){
 			function(){
 				$scope.loading = false
 				$scope.loadedStatus = true
+
+				//Prevent collapse if clicking on buttons/text when in edit mode
+				$(".btn,[contenteditable]").on('click', function(e){
+					if($scope.showEditables){
+						e.stopPropagation(); // Prevent event going to parent element
+					}
+				});
 			}
 		);
 		
