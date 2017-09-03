@@ -1,7 +1,7 @@
 {
-  "skins": [
+  "Skins": [
     {
-      "menuName": "playerList",
+      "menuName": "Player List",
       "editable": false,
       "submenu": [
         {
@@ -37,7 +37,7 @@
       ]
     },
     {
-      "menuName": "AnimalList",
+      "menuName": "Animal List",
       "editable": false,
       "submenu": [
         {
@@ -205,7 +205,7 @@
       ]
     },
     {
-      "menuName": "NPCList",
+      "menuName": "NPC List",
       "editable": false,
       "submenu": [
         {
@@ -4135,9 +4135,9 @@
       ]
     }
   ],
-  "vehicles": [
+  "Vehicles": [
     {
-      "menuName" :"vehicle_supercars",
+      "menuName" :"Supercars",
       "editable": false,
       "submenu": [
         {
@@ -4323,7 +4323,7 @@
       ]
     },
     {
-      "menuName": "vehicle_sports",
+      "menuName": "Sports",
       "editable": false,
       "submenu": [
         {
@@ -4587,7 +4587,7 @@
       ]
     },
     {
-      "menuName": "vehicle_sportsclassics",
+      "menuName": "Sports Classics",
       "editable": false,
       "submenu": [
         {
@@ -4731,7 +4731,7 @@
       ]
     },
     {
-      "menuName": "vehicle_muscle",
+      "menuName": "Muscle",
       "editable": false,
       "submenu": [
         {
@@ -4923,7 +4923,7 @@
       ]
     },
     {
-      "menuName": "vehicle_lowriders",
+      "menuName": "Lowriders",
       "editable": false,
       "submenu": [
         {
@@ -5001,7 +5001,7 @@
       ]
     },
     {
-      "menuName": "vehicle_coupes",
+      "menuName": "Coupes",
       "editable": false,
       "submenu": [
         {
@@ -5079,7 +5079,7 @@
       ]
     },
     {
-      "menuName": "vehicle_sedans",
+      "menuName": "Sedans",
       "editable": false,
       "submenu": [
         {
@@ -5241,7 +5241,7 @@
       ]
     },
     {
-      "menuName": "vehicle_compacts",
+      "menuName": "Compacts",
       "editable": false,
       "submenu": [
         {
@@ -5295,7 +5295,7 @@
       ]
     },
     {
-      "menuName": "vehicle_suvs",
+      "menuName": "SUVs",
       "editable": false,
       "submenu": [
         {
@@ -5427,7 +5427,7 @@
       ]
     },
     {
-      "menuName": "vehicle_offroad",
+      "menuName": "Offroad",
       "editable": false,
       "submenu": [
         {
@@ -5649,7 +5649,7 @@
       ]
     },
     {
-      "menuName": "vehicle_vip",
+      "menuName": "VIP",
       "editable": false,
       "submenu": [
         {
@@ -5745,7 +5745,7 @@
       ]
     },
     {
-      "menuName": "vehicle_pickups",
+      "menuName": "Pickups",
       "editable": false,
       "submenu": [
         {
@@ -5799,7 +5799,7 @@
       ]
     },
     {
-      "menuName": "vehicle_vans",
+      "menuName": "Vans",
       "editable": false,
       "submenu": [
         {
@@ -5949,7 +5949,7 @@
       ]
     },
     {
-      "menuName": "vehicle_trucks",
+      "menuName": "Trucks",
       "editable": false,
       "submenu": [
         {
@@ -6153,7 +6153,7 @@
       ]
     },
     {
-      "menuName": "vehicle_service",
+      "menuName": "Service",
       "editable": false,
       "submenu": [
         {
@@ -6303,7 +6303,7 @@
       ]
     },
     {
-      "menuName": "vehicle_trailers",
+      "menuName": "Trailers",
       "editable": false,
       "submenu": [
         {
@@ -6459,7 +6459,7 @@
       ]
     },
     {
-      "menuName": "vehicle_trains",
+      "menuName": "Trains",
       "editable": false,
       "submenu": [
         {
@@ -6507,7 +6507,7 @@
       ]
     },
     {
-      "menuName": "vehicle_emergency",
+      "menuName": "Emergency",
       "editable": false,
       "submenu": [
         {
@@ -6657,7 +6657,7 @@
       ]
     },
     {
-      "menuName": "vehicle_motorcycles",
+      "menuName": "Motorcycles",
       "editable": false,
       "submenu": [
         {
@@ -6939,7 +6939,7 @@
       ]
     },
     {
-      "menuName": "vehicle_planes",
+      "menuName": "Planes",
       "editable": false,
       "submenu": [
         {
@@ -7059,7 +7059,7 @@
       ]
     },
     {
-      "menuName": "vehicle_helicopters",
+      "menuName": "Helicopters",
       "editable": false,
       "submenu": [
         {
@@ -7185,7 +7185,7 @@
       ]
     },
     {
-      "menuName": "vehicle_boats",
+      "menuName": "Boats",
       "editable": false,
       "submenu": [
         {
@@ -7287,7 +7287,7 @@
       ]
     },
     {
-      "menuName": "vehicle_bicycles",
+      "menuName": "Bicycles",
       "editable": false,
       "submenu": [
         {
@@ -7335,9 +7335,9 @@
       ]
     }
   ],
-  "vehicleMods": [
+  "Vehicle Mods": [
     {
-      "menuName": "vehiclehorns",
+      "menuName": "Horns",
       "editable": false,
       "submenu": [
         {
@@ -7559,7 +7559,7 @@
       ]
     },
     {
-      "menuName": "wheel_sport",
+      "menuName": "Wheels Sport",
       "editable": false,
       "submenu": [
         {
@@ -7715,7 +7715,7 @@
       ]
     },
     {
-      "menuName": "wheel_suv",
+      "menuName": "Wheels SUV",
       "editable": false,
       "submenu": [
         {
@@ -7841,7 +7841,7 @@
       ]
     },
     {
-      "menuName": "wheel_offroad",
+      "menuName": "Wheels Offroad",
       "editable": false,
       "submenu": [
         {
@@ -7913,7 +7913,7 @@
       ]
     },
     {
-      "menuName": "wheel_tuner",
+      "menuName": "Wheels Tuner",
       "editable": false,
       "submenu": [
         {
@@ -8069,7 +8069,7 @@
       ]
     },
     {
-      "menuName": "wheel_highend",
+      "menuName": "Wheels Highend",
       "editable": false,
       "submenu": [
         {
@@ -8201,7 +8201,7 @@
       ]
     },
     {
-      "menuName": "wheel_lowrider",
+      "menuName": "Wheels Lowrider",
       "editable": false,
       "submenu": [
         {
@@ -8303,7 +8303,7 @@
       ]
     },
     {
-      "menuName": "wheel_muscle",
+      "menuName": "Wheels Muscle",
       "editable": false,
       "submenu": [
         {
@@ -8417,7 +8417,7 @@
       ]
     },
     {
-      "menuName": "wheel_front",
+      "menuName": "Wheels Front",
       "editable": false,
       "submenu": [
         {
@@ -8507,7 +8507,7 @@
       ]
     },
     {
-      "menuName": "wheel_back",
+      "menuName": "Wheels Back",
       "editable": false,
       "submenu": [
         {
@@ -8597,7 +8597,7 @@
       ]
     },
     {
-      "menuName": "wheel_benny",
+      "menuName": "Wheels Benny",
       "editable": false,
       "submenu": [
         {
@@ -8621,9 +8621,9 @@
       ]
     }
   ],
-  "vehiclePaints": [
+  "Vehicle Paints": [
     {
-      "menuName": "primarymetallic",
+      "menuName": "Primary Metallic",
       "editable": false,
       "submenu": [
         {
@@ -9079,7 +9079,7 @@
       ]
     },
     {
-      "menuName": "secondarymetallic",
+      "menuName": "Secondary Metallic",
       "editable": false,
       "submenu": [
         {
@@ -9535,7 +9535,7 @@
       ]
     },
     {
-      "menuName": "primarymatte",
+      "menuName": "Primary Matte",
       "editable": false,
       "submenu": [
         {
@@ -9661,7 +9661,7 @@
       ]
     },
     {
-      "menuName": "secondarymatte",
+      "menuName": "Secondary Matte",
       "editable": false,
       "submenu": [
         {
@@ -9787,7 +9787,7 @@
       ]
     },
     {
-      "menuName": "primarymetal",
+      "menuName": "Primary Metal",
       "editable": false,
       "submenu": [
         {
@@ -9823,7 +9823,7 @@
       ]
     },
     {
-      "menuName": "secondarymetal",
+      "menuName": "Secondary Metal",
       "editable": false,
       "submenu": [
         {
@@ -9859,7 +9859,7 @@
       ]
     },
     {
-      "menuName": "primaryclassic",
+      "menuName": "Primary Classic",
       "editable": false,
       "submenu": [
         {
@@ -10315,7 +10315,7 @@
       ]
     },
     {
-      "menuName": "secondaryclassic",
+      "menuName": "Secondary Classic",
       "editable": false,
       "submenu": [
         {
@@ -10771,7 +10771,7 @@
       ]
     },
     {
-      "menuName": "primarychrome",
+      "menuName": "Primary Chrome",
       "editable": false,
       "submenu": [
         {
@@ -10783,7 +10783,7 @@
       ]
     },
     {
-      "menuName": "secondarychrome",
+      "menuName": "Secondary Chrome",
       "editable": false,
       "submenu": [
         {
@@ -10795,7 +10795,7 @@
       ]
     },
     {
-      "menuName": "wheelcolors",
+      "menuName": "Wheels Colors",
       "editable": false,
       "submenu": [
         {
@@ -11251,9 +11251,9 @@
       ]
     }
   ],
-  "vehicleRGB": [
+  "Vehicle RGBs": [
     {
-      "menuName": "smoke",
+      "menuName": "Smoke Colors",
       "editable": false,
       "submenu" : [
         {
@@ -11673,7 +11673,7 @@
       ]
     },
     {
-      "menuName": "neon",
+      "menuName": "Neon Colors",
       "editable": false,
       "submenu": [
         {
@@ -11913,7 +11913,7 @@
       ]
     }
   ],
-  "weapons": [
+  "Weapons": [
     {
       "menuName": "Melee",
       "submenu": [
