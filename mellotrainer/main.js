@@ -93,7 +93,7 @@ MelloTrainerApp.controller("JSONEditorController", function ($scope){
 	}
 
 	// Data Attributes
-	$scope.createNewDataAttribute = function(dataobj){
+	$scope.createNewAttribute = function(dataobj){
 		var keys = Object.keys(dataobj)
 		var newKey = "key"
 		var count = 0

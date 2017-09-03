@@ -7,7 +7,6 @@
     		</span>
 
 
-
     		<span ng-if="showEditables && subdata.editable !== false" class="btn btn-danger pull-right" ng-click="removeSubmenuElement(data.submenu,$index)">
 				<i class="fa fa-trash-o" aria-hidden="true"></i>
 			</span>
@@ -33,8 +32,13 @@
 						<td ng-if="['menuName','submenu','data','editable'].indexOf(key) == -1" ng-model="value" contenteditable="{{ showEditables }}"></td>
 						<td ng-if="['menuName','submenu','data','editable'].indexOf(key) == -1 && showEditables"><span class="btn btn-danger" ng-click="removeAttribute(subdata, key)"><i class="fa fa-trash-o"></i></span></td>
 					</tr>
+
+					<tr ng-if="showEditables && subdata.editable !== false">
+						<td><span class="btn btn-info" ng-click="createNewAttribute(subdata)"><i class="fa fa-plus" aria-hidden="true"></i></span></td>
+					</tr>
 				</tbody>
 			</table>
+			<br/>
 
 			<div ng-if="subdata.data">
 				<span>Data Attributes:</span>
@@ -48,14 +52,15 @@
 							<td ng-model="subvalue" contenteditable="{{ showEditables }}"></td>
 							<td ng-if="showEditables"><span class="btn btn-danger" ng-click="removeAttribute(subdata.data, subkey)"><i class="fa fa-trash-o"></i></span></td>
 						</tr>
+						<tr ng-if="showEditables">
+							<td><span class="btn btn-info" ng-click="createNewAttribute(subdata.data)"><i class="fa fa-plus" aria-hidden="true"></i></span></td>
+						</tr>
 					</tbody>
 				</table>
-				<div ng-if="showEditables" class="btn btn-info" ng-click="createNewDataAttribute(subdata.data)">
-					<i class="fa fa-plus" aria-hidden="true"></i>
-				</div>
 			</div>
 
   			<div ng-if="subdata.submenu !== undefined && subdata.weapon !== true">
+  				<span>Submenu(s):</span>
 
 				<div ng-if="showEditables && subdata.submenu !== undefined && subdata.submenu[0].editable !== false">
 					<div class="btn btn-info" ng-click="createNewSubmenuElement(subdata.submenu, true)">
