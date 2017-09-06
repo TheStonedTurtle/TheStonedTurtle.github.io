@@ -28,8 +28,8 @@
 			<table class="tablediv">
 				<tbody>
 					<tr ng-repeat="(key,value) in subdata">
-						<td ng-if="['menuName','submenu','data','editable'].indexOf(key) == -1" ng-model="key" contenteditable="{{ showEditables }}"></td>
-						<td ng-if="['menuName','submenu','data','editable'].indexOf(key) == -1" ng-model="value" contenteditable="{{ showEditables }}"></td>
+						<td ng-if="['menuName','submenu','data','editable'].indexOf(key) == -1" ng-bind="key"></td>
+						<td ng-if="['menuName','submenu','data','editable'].indexOf(key) == -1" ng-model="subdata[key]" contenteditable="{{ showEditables }}"></td>
 						<td ng-if="['menuName','submenu','data','editable'].indexOf(key) == -1 && showEditables"><span class="btn btn-danger" ng-click="removeAttribute(subdata, key)"><i class="fa fa-trash-o"></i></span></td>
 					</tr>
 
@@ -40,7 +40,6 @@
 			</table>
 
 			<div ng-if="subdata.data">
-				<br/>
 				<span>Data Attributes:</span>
 				<table class="tablediv datadiv">
 					<tbody>
@@ -48,8 +47,8 @@
 							<th>Key</th><th>Value</th>
 						</tr>
 						<tr ng-repeat="(subkey,subvalue) in subdata.data">
-							<td ng-model="subkey" contenteditable="{{ showEditables }}"></td>
-							<td ng-model="subvalue" contenteditable="{{ showEditables }}"></td>
+							<td ng-bind="subkey"></td>
+							<td ng-model="subdata.data[subkey]" contenteditable="{{ showEditables }}"></td>
 							<td ng-if="showEditables"><span class="btn btn-danger" ng-click="removeAttribute(subdata.data, subkey)"><i class="fa fa-trash-o"></i></span></td>
 						</tr>
 						<tr ng-if="showEditables">

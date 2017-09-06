@@ -47,6 +47,10 @@ MelloTrainerApp.controller("JSONEditorController", function ($scope){
 
 	// Add/Remove elements
 	$scope.createNewSubmenuElement = function(submenu,forwardToggle){
+		var result = prompt("Enter the attribute name","");
+		if(!result){
+			return
+		}
 		placeholderCount++
 		var newEle = {
 			"menuName": "Placeholder "+placeholderCount.toString()
