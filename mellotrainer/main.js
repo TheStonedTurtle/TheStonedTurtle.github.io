@@ -47,10 +47,6 @@ MelloTrainerApp.controller("JSONEditorController", function ($scope){
 
 	// Add/Remove elements
 	$scope.createNewSubmenuElement = function(submenu,forwardToggle){
-		var result = prompt("Enter the attribute name","");
-		if(!result){
-			return
-		}
 		placeholderCount++
 		var newEle = {
 			"menuName": "Placeholder "+placeholderCount.toString()
@@ -98,12 +94,14 @@ MelloTrainerApp.controller("JSONEditorController", function ($scope){
 
 	// Data Attributes
 	$scope.createNewAttribute = function(dataobj){
+		var result = prompt("Enter the attribute name","").trim();
+		if(!result){
+			return
+		}
 		var keys = Object.keys(dataobj)
-		var newKey = "key"
-		var count = 0
-		while(keys.indexOf(newKey) > -1){
-			count++
-			newKey = "key " + count
+		if(keys.indexOf(result) > -1){
+			alert("This attribute already exists!")
+			return
 		}
 		dataobj[newKey] = "value"
 	}
