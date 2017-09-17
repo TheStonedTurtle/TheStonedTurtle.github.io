@@ -28,12 +28,21 @@ MelloTrainerApp.controller("JSONEditorController", function ($scope){
 
 
 	// Load JSON into memory as soon as possible.
-	$.getJSON("/JSON/combined-cleaned.json", function( data ) {
+	$.getJSON("/JSON/mellotrainer.json", function( data ) {
 		$.each( data, function(key, jsonObject){
-			
+
+			var customSubmenu = []
+			$.each(jsonObject(function(subkey,value){
+				customSubmenu.push({
+					"menuname": subkey,
+					"submenu": value,
+					"editable": false
+				})
+			}))
+
 			var JS = {
 				"menuName": key,
-				"submenu": jsonObject,
+				"submenu": customSubmenu,
 				"editable": false
 			}
 			jsonInfo.push(JS)
