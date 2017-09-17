@@ -112,7 +112,11 @@ MelloTrainerApp.controller("JSONEditorController", function ($scope){
 			alert("This attribute already exists!")
 			return
 		}
-		dataobj[result] = "value"
+		if(result == "data"){
+			dataobj[result] = {}
+		} else {
+			dataobj[result] = "value"
+		}
 	}
 
 	$scope.removeAttribute = function(dataobj, key){
