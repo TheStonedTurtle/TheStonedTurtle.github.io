@@ -34,7 +34,7 @@ MelloTrainerApp.controller("JSONEditorController", function ($scope){
 			var customSubmenu = []
 			$.each(jsonObject,function(subkey,value){
 				customSubmenu.push({
-					"menuname": subkey,
+					"menuName": subkey,
 					"submenu": value,
 					"editable": false
 				})
