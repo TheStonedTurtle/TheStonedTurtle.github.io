@@ -113,7 +113,7 @@ MelloTrainerApp.controller("JSONEditorController", function ($scope){
 			return
 		}
 		if(result == "data"){
-			dataobj[result] = {}
+			dataobj[result] = {"key":"value"}
 		} else {
 			dataobj[result] = "value"
 		}
